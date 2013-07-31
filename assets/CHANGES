@@ -1,0 +1,32 @@
+Version 2.2
+  *)Fix UI problems
+  *)Make some optimization on system process
+  
+Version 2.1
+  *)Fixed some problems
+  
+Version 2.0
+  *)Make some optimization on UI 
+  *)Make some optimization resource
+  *)Update some environment
+
+Version 1.1
+  *)Compile&Run button
+  *)Change some environment
+  *)Make some optimization on layout
+  *)Make some optimization on re-opening
+
+Version 1.0
+  *)Fix compiler problems
+  *)Make some optimization on layout
+  *)Change tcc to 0.9.25(some bugs to deal)
+  *)Change some environment
+  *)Online help is available
+
+Version beta 1.1
+  *)Remove root required,install is unnecessary
+
+Version beta 1.0
+  *)Add new icon,new logo activity
+  *)Remove useless unit,add online help
+  *)Fast to run,more enjoyable

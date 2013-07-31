@@ -1,0 +1,19 @@
+#!/system/bin/sh
+cd $1
+if [ -a "$1/springhack" ]
+then
+busybox clear
+busybox echo "Make by SpringHack"
+cd /
+else
+busybox clear
+busybox mkdir home
+busybox unzip compiler.zip
+busybox chmod -R 777 ../bin/
+busybox echo springhack>$1/springhack
+busybox echo "Install finished!"
+fi
+busybox echo "Android OIDE 2.2"
+busybox echo "Make by SpringHack"
+#Write your init code here!
+
