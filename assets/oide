@@ -1,19 +1,15 @@
 #!/system/bin/sh
 cd $1
-if [ -a "$1/springhack" ]
-then
+busybox mkdir home >> /dev/zero
 busybox clear
-busybox echo "Make by SpringHack"
-cd /
-else
+for tar in /sdcard/*.tar.gz
+do
+busybox tar -C $OI/.. -xvf $tar
+rm $tar
+done
 busybox clear
-busybox mkdir home
-busybox unzip compiler.zip
-busybox chmod -R 777 ../bin/
-busybox echo springhack>$1/springhack
-busybox echo "Install finished!"
-fi
-busybox echo "Android OIDE 2.2"
-busybox echo "Make by SpringHack"
 #Write your init code here!
+busybox echo "Android OIDE 2.3.2"
+busybox echo "Make by SpringHack"
+
 

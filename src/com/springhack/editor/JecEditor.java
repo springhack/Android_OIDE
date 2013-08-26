@@ -509,6 +509,7 @@ public class JecEditor extends Activity
 				@Override
 				public void onClick(View v)
 				{
+					save();
 					int i = mEditText.getPath().lastIndexOf(".");
 					String tp = mEditText.getPath().substring(i + 1);
 					if (tp.equals("pas")) {
@@ -536,6 +537,7 @@ public class JecEditor extends Activity
 				@Override
 				public void onClick(View v)
 				{
+					save();
 					int i = mEditText.getPath().lastIndexOf(".");
 					String tp = mEditText.getPath().substring(i + 1);
 					if (tp.equals("pas")) {
@@ -551,13 +553,13 @@ public class JecEditor extends Activity
 						mSession.write("\r");
 					}
 					else if (tp.equals("cpp")) {
-						mSession.write("g++ -o $OI/temp -g '" + mEditText.getPath() + "'");
+						mSession.write("g++ -o $OI/temp -gdwarf-2 '" + mEditText.getPath() + "'");
 						mSession.write("\r");
 						mSession.write("$OI/temp");
 						mSession.write("\r");
 					}
 					else if (tp.equals("c")) {
-						mSession.write("gcc -o $OI/temp -g '" + mEditText.getPath() + "'");
+						mSession.write("gcc -o $OI/temp -gdwarf-2 '" + mEditText.getPath() + "'");
 						mSession.write("\r");
 						mSession.write("$OI/temp");
 						mSession.write("\r");
@@ -2093,7 +2095,7 @@ public class JecEditor extends Activity
         String dataDir = getDataDir(this);
         File binDir = new File(dataDir, "bin");
 		File binary = new File(binDir, "execpty");
-		File compiler = new File(binDir, "compiler.zip");
+		//File compiler = new File(binDir, "compiler.tar.gz");
 		File oide = new File(binDir, "oide");
 		File busybox = new File(binDir, "busybox");
 		File gdb = new File(binDir, "execgdb");
@@ -2116,9 +2118,11 @@ public class JecEditor extends Activity
             copyStream(dst, src);
 			
 			
-			InputStream csrc = getAssets().open("compiler.zip");
+			/**
+			InputStream csrc = getAssets().open("compiler.tar.gz");
             FileOutputStream cdst = new FileOutputStream(compiler);
             copyStream(cdst, csrc);
+			*/
 			
 			
 			InputStream osrc = getAssets().open("oide");
