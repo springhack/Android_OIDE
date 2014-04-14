@@ -1,0 +1,3 @@
+#!/system/bin/sh
+$@
+busybox echo "Process exited with status $?."

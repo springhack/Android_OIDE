@@ -14,10 +14,11 @@
  */
 
 package com.springhack.editor;
- 
+
 
 import android.content.Context;
 import android.content.pm.PackageManager;
+import android.view.inputmethod.InputMethodManager;
 
 import java.io.BufferedReader;
 import java.io.File;
@@ -81,8 +82,11 @@ import android.util.DisplayMetrics;
 import android.view.KeyEvent;
 import android.view.Menu;
 import android.view.View;
+import android.text.InputFilter;
+import android.text.Spanned;
 import android.view.View.OnClickListener;
 import android.view.WindowManager;
+import android.view.MotionEvent;
 import android.view.inputmethod.EditorInfo;
 import android.content.ComponentName;
 import android.content.DialogInterface;
@@ -97,6 +101,10 @@ import android.graphics.drawable.Drawable;
  
 import jackpal.androidterm.emulatorview.EmulatorView;
 import jackpal.androidterm.emulatorview.TermSession;
+import android.renderscript.*;
+import android.view.View.*;
+import jackpal.androidterm.emulatorview.*;
+import android.view.GestureDetector.*;
 
 public class JecEditor extends Activity
 {
@@ -109,16 +117,45 @@ public class JecEditor extends Activity
     private final static String SYNTAX_SIGN = "25";
     public static String version = "";
     public static String TEMP_PATH = "";
+	public String ttt;
     private JecEditText mEditText;
     // SL4A
     private static final String EXTRA_SCRIPT_PATH = "com.googlecode.android_scripting.extra.SCRIPT_PATH";
     private static final String EXTRA_SCRIPT_CONTENT = "com.googlecode.android_scripting.extra.SCRIPT_CONTENT";
     private static final String ACTION_EDIT_SCRIPT = "com.googlecode.android_scripting.action.EDIT_SCRIPT";
+	
+	public static final int WHITE               = 0xffffffff;
+    public static final int BLACK               = 0xff000000;
+    public static final int BLUE                = 0xff344ebd;
+    public static final int GREEN               = 0xff00ff00;
+    public static final int AMBER               = 0xffffb651;
+    public static final int RED                 = 0xffff0113;
+    public static final int HOLO_BLUE           = 0xff33b5e5;
+    public static final int SOLARIZED_FG        = 0xff657b83;
+    public static final int SOLARIZED_BG        = 0xfffdf6e3;
+    public static final int SOLARIZED_DARK_FG   = 0xff839496;
+    public static final int SOLARIZED_DARK_BG   = 0xff002b36;
+    public static final int LINUX_CONSOLE_WHITE = 0xffaaaaaa;
+
+    // foreground color, background color
+    public static final int[][] COLOR_SCHEMES = {
+        {BLACK,             WHITE},
+        {WHITE,             BLACK},
+        {WHITE,             BLUE},
+        {GREEN,             BLACK},
+        {AMBER,             BLACK},
+        {RED,               BLACK},
+        {HOLO_BLUE,         BLACK},
+        {SOLARIZED_FG,      SOLARIZED_BG},
+        {SOLARIZED_DARK_FG, SOLARIZED_DARK_BG},
+        {LINUX_CONSOLE_WHITE, BLACK}
+    };
     
     public int MAX_HIGHLIGHT_FILESIZE = 400;
     //private int org_textcontent_md5 = 0;
     private boolean back_button_exit = true; // 按返回键退出程序
     private boolean autosave = false; // 是否自动保存
+	private boolean imeEdit = true;
     // end
 
     public static boolean isLoading = false; // 是否正在加载文件
@@ -127,6 +164,7 @@ public class JecEditor extends Activity
     public static boolean isRoot = false;
     public static boolean isFinish = false; //是否在退出APP状态
 	public int uimode = 0;
+	public int lineX = 0, lineY =0;
 
     // button
     private ImageButton undoBtn;
@@ -143,12 +181,22 @@ public class JecEditor extends Activity
     private TabHost mTabHost;
 	
 	//TermPart
-	private EditText mEntry;
     private EmulatorView mEmulatorView;
     private TermSession mSession;
 	private LinearLayout ln;
 	private LinearLayout termLayout;
 	private LinearLayout mainLayout;
+	private TextView txtlabel;
+	private TextView txtime;
+	private TextView txtline;
+	
+	private Handler setTimer = new Handler( );
+	private Runnable runTimer = new Runnable( ) {
+		public void run ( ) {
+			updateUI();
+			setTimer.postDelayed(this,200);
+		}
+	};
 
     // 打开文件浏览器后的回调操作
     private Runnable fileBrowserCallbackRunnable = new Runnable() {
@@ -166,12 +214,13 @@ public class JecEditor extends Activity
     private Drawable redo_no_drawable;
     private ImageButton last_edit_back;
     private ImageButton last_edit_forward;
+	private ImageButton mode_btn;
     private Drawable last_edit_back_d;
     private Drawable last_edit_back_s;
     private Drawable last_edit_forward_d;
     private Drawable last_edit_forward_s;
     private JecMenu mMenu;
-    private ArrayList<String> mLastFiles = new ArrayList<String>();
+    public ArrayList<String> mLastFiles = new ArrayList<String>();
 	
 	
 	//private ImageButton compile_btn;
@@ -182,6 +231,7 @@ public class JecEditor extends Activity
     {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main);
+		ttt = android.os.Environment.getExternalStorageDirectory().getAbsolutePath() + "/.OIDE";
 		setupBinDir();
 		
 		//LoadTerminal
@@ -189,7 +239,9 @@ public class JecEditor extends Activity
 		 also send input (whether from a hardware device or soft keyboard)
 		 directly to the EmulatorView. */
 		ln = (LinearLayout) findViewById(R.id.ln);
-		
+		txtlabel = (TextView) findViewById(R.id.txtlabel);
+		txtline = (TextView) findViewById(R.id.txtLine);
+		//txtime = (TextView) findViewById(R.id.txtime);
 		if (this.getResources().getConfiguration().orientation == Configuration.ORIENTATION_LANDSCAPE) {
 			//ln = (LinearLayout) findViewById(R.id.ln);
 			ln.setOrientation(0);
@@ -198,7 +250,9 @@ public class JecEditor extends Activity
 			ln.setOrientation(1);
 		}
 		
-        mEntry = (EditText) findViewById(R.id.term_entry);
+		
+		
+        /**mEntry = (EditText) findViewById(R.id.term_entry);
         mEntry.setOnEditorActionListener(new TextView.OnEditorActionListener() {
 				public boolean onEditorAction(TextView v, int action, KeyEvent ev) {
 					// Ignore enter-key-up events
@@ -220,8 +274,6 @@ public class JecEditor extends Activity
 				}
 			});
 
-        /* Sends the content of the text entry box to the terminal, without
-		 sending a carriage return afterwards */
         Button sendButton = (Button) findViewById(R.id.term_entry_send);
         sendButton.setOnClickListener(new View.OnClickListener() {
 				public void onClick(View v) {
@@ -235,7 +287,7 @@ public class JecEditor extends Activity
 					session.write("\r");
 					TextKeyListener.clear(e);
 				}
-			});
+			});**/
 			
 			
 		/**Start Compile
@@ -267,11 +319,14 @@ public class JecEditor extends Activity
          */
         EmulatorView view = (EmulatorView) findViewById(R.id.emulatorView);
         mEmulatorView = view;
+		
+		
 
         /* Let the EmulatorView know the screen's density. */
         DisplayMetrics metrics = new DisplayMetrics();
         getWindowManager().getDefaultDisplay().getMetrics(metrics);
         view.setDensity(metrics);
+		//view.setExtGestureListener(new EmulatorViewGestureListener(view));
 
         /* Create a TermSession. */
         //Intent myIntent = getIntent();
@@ -283,6 +338,10 @@ public class JecEditor extends Activity
 
 
 		mSession = session;
+		session.setDefaultUTF8Mode(true);
+		session.setColorScheme(new ColorScheme(COLOR_SCHEMES[2]));
+		//mEmulatorView.setBackgroundColor(WHITE);
+		File DoskSDK = new File("/data/app", "com.springhack.doskjdk-1.apk");
 		String pathDir = getDataDir(this) + "/bin";
 		session.write("export PATH=" + pathDir + "/arm-linux-androideabi/bin:" + pathDir + "/bin:" + pathDir + ":$PATH");
 		session.write("\r");
@@ -290,11 +349,20 @@ public class JecEditor extends Activity
 		session.write("\r");
         session.write("export C_INCLUDE_PATH=" + pathDir + "/arm-linux-androideabi/include");
 		session.write("\r");
-		session.write("export HOME=/sdcard");
+		session.write("export HOME=" + ttt);
 		session.write("\r");
 		session.write("export OI=" + pathDir + "/home");
 		session.write("\r");
-		session.write("cd /sdcard");
+		session.write("cd $HOME");
+		session.write("\r");
+		if (DoskSDK.exists())
+			session.write("export CLASSPATH=/data/app/com.springhack.doskjdk-1.apk");
+		else
+			session.write("export CLASSPATH=/data/app/com.springhack.doskjdk-2.apk");
+		session.write("\n");
+		session.write("export USER=SpringHack");
+		session.write("\r");
+		session.write("export HOSTNAME=OIDE");
 		session.write("\r");
 		session.write("sh " + pathDir + "/oide " + pathDir);
 		session.write("\r");
@@ -357,6 +425,28 @@ public class JecEditor extends Activity
          *  Android 3.1.x   12  HONEYCOMB_MR1
          *  Android 3.0.x   11
          */
+		 
+		txtlabel.setOnTouchListener(new OnTouchListener() {
+				public boolean onTouch(View v, MotionEvent event) {
+					setInput();
+					mEmulatorView.requestFocus();
+					return true;
+				}
+			});
+		
+		
+		
+		/**txtime.setOnTouchListener(new OnTouchListener() {
+				public boolean onTouch(View v, MotionEvent event) {
+					if (imeEdit)
+						setEdit(false);
+					else 
+					    setEdit(true);
+					return true;
+				}
+			});**/
+		
+		
         mMenu = new JecMenu(JecEditor.this);
         mMenu.setOnMenuItemSelectedListener(mOnMenuItemSelectedListener);
         //尽量在平板电脑上才显示菜单按钮
@@ -490,6 +580,8 @@ public class JecEditor extends Activity
         mainLayout = (LinearLayout) findViewById(R.id.mainLayout);
 		termLayout = (LinearLayout) findViewById(R.id.termLayout);
 		
+		setTerm();
+		//setInput();
 		
         ImageButton symbolButton = (ImageButton) findViewById(R.id.symbol);
         symbolButton.setOnClickListener(new OnClickListener() {
@@ -503,43 +595,57 @@ public class JecEditor extends Activity
 		
 		
 		
-		ImageButton compile_btn = (ImageButton) findViewById(R.id.btn_compile);
+		ImageButton compile_btn = (ImageButton) findViewById(R.id.btn_ccrun);
         compile_btn.setOnClickListener(new OnClickListener() {
 
 				@Override
 				public void onClick(View v)
 				{
 					save();
+					uimode = 0;
+					setTerm();
+					String pDir = getDataDir(JecEditor.this) + "/bin/home";
 					int i = mEditText.getPath().lastIndexOf(".");
 					String tp = mEditText.getPath().substring(i + 1);
 					if (tp.equals("pas")) {
-						mSession.write("fpc '" + mEditText.getPath() + "'");
-						mSession.write("\r");
+						runProgram(pDir + "/temp");
 					}
 					else if (tp.equals("cpp")) {
-						mSession.write("g++ '" + mEditText.getPath() + "'");
-						mSession.write("\r");
+						runProgram(pDir + "/temp");
 					}
 					else if (tp.equals("c")) {
-						mSession.write("gcc '" + mEditText.getPath() + "'");
-						mSession.write("\r");
+						runProgram(pDir + "/temp");
+					}
+					else if (tp.equals("java")) {
+						int j = mEditText.getPath().lastIndexOf("/");
+						String fna = mEditText.getPath().substring(j + 1);
+						String fn = fna.substring(0, fna.length() - 5);
+						runProgram(getDataDir(JecEditor.this) + "/bin/bin/java -jar " + pDir + "/" + fn + ".jar " + fn);
 					}
 					else {
-						Toast.makeText(JecEditor.this, "File unsave or file type undefined!", Toast.LENGTH_LONG).show();
+						Toast.makeText(JecEditor.this, "文件未保存或类型不支持！", Toast.LENGTH_LONG).show();
 					}
 				}
 			});
 			
 		
-		ImageButton ccrun_btn = (ImageButton) findViewById(R.id.btn_ccrun);
+		ImageButton ccrun_btn = (ImageButton) findViewById(R.id.btn_compile);
         ccrun_btn.setOnClickListener(new OnClickListener() {
 
 				@Override
 				public void onClick(View v)
 				{
 					save();
+					uimode = 1;
+					setTerm();
 					int i = mEditText.getPath().lastIndexOf(".");
 					String tp = mEditText.getPath().substring(i + 1);
+					SharedPreferences sp = JecEditor.this.getSharedPreferences("Compile", MODE_PRIVATE);
+					String cx = sp.getString("cx_ag", "-g -lm");
+					mSession.write("busybox rm $OI/temp");
+					mSession.write("\r");
+					mSession.write("busybox clear");
+					mSession.write("\r");
 					if (tp.equals("pas")) {
 						mSession.write("busybox cp '" + mEditText.getPath() + "' $HOME/temp.pas");
 						mSession.write("\r");
@@ -549,23 +655,29 @@ public class JecEditor extends Activity
 						mSession.write("\r");
 						mSession.write("busybox chmod 777 $OI/temp");
 						mSession.write("\r");
-						mSession.write("$OI/temp");
-						mSession.write("\r");
 					}
 					else if (tp.equals("cpp")) {
-						mSession.write("g++ -o $OI/temp -gdwarf-2 '" + mEditText.getPath() + "'");
-						mSession.write("\r");
-						mSession.write("$OI/temp");
+						mSession.write("g++ -o $OI/temp " + cx + " '" + mEditText.getPath() + "'");
 						mSession.write("\r");
 					}
 					else if (tp.equals("c")) {
-						mSession.write("gcc -o $OI/temp -gdwarf-2 '" + mEditText.getPath() + "'");
+						mSession.write("gcc -o $OI/temp " + cx + " '" + mEditText.getPath() + "'");
 						mSession.write("\r");
-						mSession.write("$OI/temp");
+						
+					}
+					else if (tp.equals("java")) {
+						int j = mEditText.getPath().lastIndexOf("/");
+						String fna = mEditText.getPath().substring(j + 1);
+						String fn = fna.substring(0, fna.length() - 5);
+						mSession.write("busybox cp '" + mEditText.getPath() + "' $OI/" + fn + ".java");
+						mSession.write("\r");
+						mSession.write("javac $OI/" + fn + ".java");
+						mSession.write("\r");
+						mSession.write("dx --dex --output=$OI/" + fn + ".jar $OI/" + fn + ".class");
 						mSession.write("\r");
 					}
 					else {
-						Toast.makeText(JecEditor.this, "File unsave or file type undefined!", Toast.LENGTH_LONG).show();
+						Toast.makeText(JecEditor.this, "文件未保存或类型不支持！", Toast.LENGTH_LONG).show();
 					}
 				}
 			});
@@ -577,6 +689,8 @@ public class JecEditor extends Activity
 				@Override
 				public void onClick(View v)
 				{
+					uimode = 0;
+					setTerm();
 					Intent intent = new Intent();
 					intent.setClass(JecEditor.this, TermActivity.class);
 					startActivity(intent);
@@ -584,33 +698,20 @@ public class JecEditor extends Activity
 			});
 			
 			
-		ImageButton mode_btn = (ImageButton) findViewById(R.id.btn_mode);
-        mode_btn.setOnClickListener(new OnClickListener() {
-
+		mode_btn = (ImageButton) findViewById(R.id.btn_mode);
+		mode_btn.setOnClickListener(new OnClickListener() {
 				@Override
 				public void onClick(View v)
 				{
-					uimode = uimode + 1;
-					if (uimode > 1){
-						uimode = 0;
-					}
-					if (uimode == 0){
-						mEditText.setVisibility(0);
-						termLayout.setVisibility(0);
-					} else if (uimode == 1){
-						mEditText.setVisibility(0);
-						termLayout.setVisibility(8);
-					}
-					
-					Toast.makeText(JecEditor.this, "UI layout has changed!", Toast.LENGTH_LONG).show();
+					setTerm();
 				}
 			});
-			
-			
-		
+
 		
         // bind event
         bindEvent();
+		
+		setTimer.postDelayed(runTimer,200);
         
         //显示新版本更新日志
         String prefVer=mPref.getString("version", "-1");
@@ -717,7 +818,7 @@ public class JecEditor extends Activity
                             mLastFiles.add((String)val);
                         }
                     }
-                    loadLastOpenFiles();
+					loadLastOpenFiles();
                 }
             }
         }
@@ -744,10 +845,10 @@ public class JecEditor extends Activity
         {
             if(Environment.MEDIA_MOUNTED.equals(Environment.getExternalStorageState()))
             {
-                TEMP_PATH = android.os.Environment.getExternalStorageDirectory().getAbsolutePath() + "/.920TextEditor";
+                TEMP_PATH = android.os.Environment.getExternalStorageDirectory().getAbsolutePath() + "/.OIDE";
             }else
             {
-                TEMP_PATH = getFilesDir().getAbsolutePath() + "/.920TextEditor";
+                TEMP_PATH = getFilesDir().getAbsolutePath() + "/.OIDE";
             }
 
             File temp = new File(TEMP_PATH);
@@ -830,7 +931,7 @@ public class JecEditor extends Activity
 		 on screen. */
         mEmulatorView.onResume();
 
-        mEntry.requestFocus();
+        //mEntry.requestFocus();
 		
 		
         load_options(); //旋转时会调用 onResume但是不会调用 onCreate
@@ -911,6 +1012,7 @@ public class JecEditor extends Activity
         }
         mTabHost.setCurrentTab(count-1);
         mTabHost.iterCloseTab(TabWidget.MENU_ACTION_CLOSE_ALL, 0, count);
+		
     }
     
     /**
@@ -1446,7 +1548,7 @@ public class JecEditor extends Activity
         {
             if("".equals(mEditText.getPath()))
             {
-                openFileBrowser(FILE_BROWSER_SAVEAS_CODE, "Untitled.txt");
+                openFileBrowser(FILE_BROWSER_SAVEAS_CODE, "未命名源码");
                 return;
             }
             save();
@@ -2099,6 +2201,12 @@ public class JecEditor extends Activity
 		File oide = new File(binDir, "oide");
 		File busybox = new File(binDir, "busybox");
 		File gdb = new File(binDir, "execgdb");
+		File rst = new File(binDir, "execrst");
+		File kst = new File(binDir, "plugs");
+		File tst = new File(binDir, "status");
+		File inject = new File(binDir, "inject");
+		
+		
         String arch = getArch();
         if (!binDir.exists()) {
             try {
@@ -2125,11 +2233,6 @@ public class JecEditor extends Activity
 			*/
 			
 			
-			InputStream osrc = getAssets().open("oide");
-            FileOutputStream odst = new FileOutputStream(oide);
-            copyStream(odst, osrc);
-			
-			
 			InputStream bsrc = getAssets().open("busybox");
 			FileOutputStream bdst = new FileOutputStream(busybox);
 			copyStream(bdst, bsrc);
@@ -2140,12 +2243,66 @@ public class JecEditor extends Activity
 			copyStream(gdst, gsrc);
 			
 			
-            chmod("755", binary.getAbsolutePath());
+			InputStream osrc = getAssets().open("oide");
+			FileOutputStream odst = new FileOutputStream(oide);
+			copyStream(odst, osrc);
+			
+			
+			InputStream rsrc = getAssets().open("execrst");
+			FileOutputStream rdst = new FileOutputStream(rst);
+			copyStream(rdst, rsrc);
+			
+			
+			InputStream ksrc = getAssets().open("plugs");
+			FileOutputStream kdst = new FileOutputStream(kst);
+			copyStream(kdst, ksrc);
+			
+			
+			InputStream tsrc = getAssets().open("status");
+			FileOutputStream tdst = new FileOutputStream(tst);
+			copyStream(tdst, tsrc);
+			
+			InputStream inj = getAssets().open("inject");
+			FileOutputStream ind = new FileOutputStream(inject);
+			copyStream(ind, inj);
+			
+			
+			chmod("755", inject.getAbsolutePath());
 			chmod("755", oide.getAbsolutePath());
+            chmod("755", binary.getAbsolutePath());
 			chmod("755", busybox.getAbsolutePath());
 			chmod("755", gdb.getAbsolutePath());
+			chmod("755", rst.getAbsolutePath());
+			chmod("755", kst.getAbsolutePath());
+			chmod("755", tst.getAbsolutePath());
         } catch (Exception e) {
-        }}
+        }} else {
+			try {
+				InputStream osrc = getAssets().open("oide");
+				FileOutputStream odst = new FileOutputStream(oide);
+				copyStream(odst, osrc);
+				InputStream ksrc = getAssets().open("plugs");
+				FileOutputStream kdst = new FileOutputStream(kst);
+				copyStream(kdst, ksrc);
+				InputStream rsrc = getAssets().open("execrst");
+				FileOutputStream rdst = new FileOutputStream(rst);
+				copyStream(rdst, rsrc);
+				InputStream tsrc = getAssets().open("status");
+				FileOutputStream tdst = new FileOutputStream(tst);
+				copyStream(tdst, tsrc);
+				InputStream inj = getAssets().open("inject");
+				FileOutputStream ind = new FileOutputStream(inject);
+				copyStream(ind, inj);
+				
+				chmod("755", inject.getAbsolutePath());
+				chmod("755", oide.getAbsolutePath());
+				chmod("755", rst.getAbsolutePath());
+				chmod("755", kst.getAbsolutePath());
+				chmod("755", tst.getAbsolutePath());
+			} catch (Exception e) {
+
+			}
+		}
     }
 
     private String getArch() {
@@ -2180,18 +2337,121 @@ public class JecEditor extends Activity
 
     private void chmod(String... args) throws IOException {
         String[] cmdline = new String[args.length + 1];
-        cmdline[0] = "/system/bin/chmod";
+		File ch = new File("/system/bin", "chmod");
+        if (ch.exists()) {
+			cmdline[0] = "/system/bin/chmod";
+			Log.e("dd","::::::bin");
+		} else {
+			cmdline[0] = "/system/xbin/chmod";
+			Log.e("dd","::::::xbin");
+		}
         System.arraycopy(args, 0, cmdline, 1, args.length);
         new ProcessBuilder(cmdline).start();
     }
 	
-	private void runCommand(String... cmdline) throws IOException {
+	static void runCommand(String... cmdline) throws IOException {
         new ProcessBuilder(cmdline).start();
     }
 	
+	private void runProgram(String cmd) {
+		Intent intent = new Intent();
+		intent.setClass(JecEditor.this, ResultActivity.class);
+		intent.putExtra("cmd", getDataDir(JecEditor.this) + "/bin/status " + cmd);
+		startActivity(intent);
+	}
 	
+	private void openHistories() {
+		new HistoryList(JecEditor.this);
+	}
 	
+	private void setTerm() {
+		uimode = uimode + 1;
+		if (uimode > 1){
+			uimode = 0;
+		}
+		if (uimode == 0){
+			mEditText.setVisibility(0);
+			termLayout.setVisibility(0);
+		} else if (uimode == 1){
+			mEditText.setVisibility(0);
+			termLayout.setVisibility(8);
+		}
+		ln.requestFocus();
+		Toast.makeText(JecEditor.this, "页面布局已经改变", Toast.LENGTH_LONG).show();
+	}
 	
-	
+	private void setInput() {
+		InputMethodManager imm = (InputMethodManager) getApplicationContext().getSystemService(Context.INPUT_METHOD_SERVICE); 
+		imm.showSoftInput(mEmulatorView, 0);
+	}
 
+	private void setEdit(boolean x) {
+		if(mEditText != null)
+        {
+            lockUnlock(mEditText, x);
+        }
+		imeEdit = x;
+		if(imeEdit)
+			txtime.setText("当前为编辑模式，点击切换");
+		else
+		    txtime.setText("当前为预览模式，点击切换");
+	}
+	
+	
+	private void lockUnlock(JecEditText v, boolean value) {   
+        if (value) {   
+            v.setFilters(new InputFilter[] { new InputFilter() {   
+										@Override  
+										public CharSequence filter(CharSequence source, int start,   
+																   int end, Spanned dest, int dstart, int dend) {   
+											return source.length() < 1 ? dest.subSequence(dstart, dend)   
+												: "";   
+										}   
+									} });
+			v.showIME(value);
+        } else {   
+            v.setFilters(new InputFilter[] { new InputFilter() {   
+										@Override  
+										public CharSequence filter(CharSequence source, int start,   
+																   int end, Spanned dest, int dstart, int dend) {   
+											return null;   
+										}   
+									} });
+			v.showIME(value);
+        }   
+    }   
+	
+	private void updateUI() {
+		int start = mEditText.getSelectionStart();
+        int end = mEditText.getSelectionEnd();
+		int str = mEditText.getText().toString().length();
+		String sel, ftype;
+		ftype = "Untype";
+		int i = mEditText.getPath().lastIndexOf(".");
+		String tp = mEditText.getPath().substring(i + 1);
+		queryPosition();
+		if (start == end) {
+			sel = "0~0";
+		} else {
+			sel = "" + start + "~" + end;
+		}
+		if (tp.equals("pas")) ftype = "Pascal";
+		if (tp.equals("cpp")) ftype = "C++";
+		if (tp.equals("c")) ftype = "C";
+		if (tp.equals("java")) ftype = "Java";
+		txtline.setText("Lang:" + ftype + " | Len:" + str + " | Pos:(" + lineX + ", " + lineY + ") | Sel:" + sel);
+	}
+	
+	private void queryPosition() {
+		int count = 0, line = 1, previous = 0, strlen = mEditText.getSelectionStart();
+		while (count<strlen) {
+			if (mEditText.getText().charAt(count) == '\n') {
+				previous = count;
+				line++;
+			}
+			count++;
+		}
+		lineX = line;
+		lineY = (line == 1)?(strlen - previous):(strlen - previous -1);
+	}
 }

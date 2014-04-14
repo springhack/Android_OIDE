@@ -1,0 +1,10 @@
+#!/system/bin/sh
+
+export PATH=/data/data/com.springhack.editor/bin/arm-linux-androideabi/bin:/data/data/com.springhack.editor/bin/bin:/data/data/com.springhack.editor/bin:$PATH
+export DESDIR=/data/data/com.springhack.editor/bin
+export USER=SpringHack
+export HOSTNAME=OIDE
+
+busybox tar -C $DESDIR -xvf $1
+
+busybox echo "Android OIDE 插件安装完毕!"

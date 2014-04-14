@@ -21,7 +21,7 @@
     <string name="save_changes">Save changes?</string>
     <string name="save">Save</string>
     <string name="filename_is_empty">File name must not be empty!</string>
-    <string name="new_filename">New Tab</string>
+    <string name="new_filename">New Source</string>
     <string name="highlight">Highlighting And Color Scheme</string>
     <string name="search_replace">Search/Replace</string>
     <string name="options">Options</string>

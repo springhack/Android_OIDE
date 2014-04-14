@@ -1,15 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.springhack.editor"
-    android:versionCode="5"
+    android:versionCode="17"
     android:installLocation="auto"
-    android:versionName="2.3" >
+    android:versionName="2.6.0" >
 	
 	
 	<uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT" />
+	<permission android:name="android.permission.ACCESS_DOWNLOAD_MANAGER"/>
     <!-- <uses-permission android:name="com.google.android.gm.permission.READ_GMAIL" /> -->
 <!--     <uses-permission android:name="com.google.android.providers.gmail.permission.READ_GMAIL"/>
  --> <uses-sdk
@@ -32,8 +33,24 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
 		
+		
+		<activity
+            android:name=".Editor"
+            android:label="New UI" >
+            <!--<intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>-->
+        </activity>
+		
+
+		<activity
+			android:icon="@drawable/icon"
+            android:name=".WebActivity"
+            android:label="插件市场" >
+        </activity>
 
         <activity
 			android:name="LaunchActivity"
@@ -44,10 +61,25 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>-->
         </activity>
-        <activity android:name="TermActivity"
-                  android:label="Android Debugger"
-                  android:configChanges="keyboard|keyboardHidden|orientation"
-                  android:windowSoftInputMode="adjustResize" />
+        <activity 
+			android:name="TermActivity"
+            android:label="Android Debugger"
+            android:configChanges="keyboard|keyboardHidden|orientation"
+            android:windowSoftInputMode="adjustResize" />
+			  
+
+		<activity 
+			android:name=".ResultActivity"
+			android:label="Android OIDE Result"
+			android:configChanges="keyboard|keyboardHidden|orientation"
+			android:windowSoftInputMode="adjustResize"
+			android:theme="@android:style/Theme.Dialog" >
+			<intent-filter>
+                <action android:name="com.springhack.INJECT" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+		</activity>
 
 
 
@@ -109,6 +141,8 @@
         <activity android:name="About" 	>
         </activity>
         <activity android:name="Donate"	>
+		</activity>
+		<activity android:name="ProjectActivity" >
         </activity>
         <activity
 			android:configChanges="orientation|keyboardHidden"

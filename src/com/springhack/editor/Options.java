@@ -37,6 +37,10 @@ import android.widget.Toast;
 import com.springhack.colorschemes.ColorScheme;
 import com.springhack.util.ColorPicker;
 import com.springhack.util.TimeUtil;
+import java.util.*;
+import android.widget.*;
+import android.app.*;
+import android.content.*;
 
 public class Options extends PreferenceActivity
 {
@@ -146,11 +150,18 @@ public class Options extends PreferenceActivity
 
         ListPreference csPref = (ListPreference) findPreference("hl_colorscheme");
         String[] csNames = ColorScheme.getSchemeNames();
-        if(csNames == null)
+        if(csNames == null) {
             csNames = new String[]{ "Default" };
-        csPref.setEntries(csNames);
-        csPref.setEntryValues(csNames);
-
+			csPref.setEntries(csNames);
+			csPref.setEntryValues(csNames);
+		}else {
+			String[] def_arr, cc = { "Default" };
+			def_arr = new String[csNames.length + 1];
+			System.arraycopy(csNames, 0, def_arr, 0, csNames.length);
+			System.arraycopy(cc, 0, def_arr, csNames.length, 1);
+			csPref.setEntries(def_arr);
+			csPref.setEntryValues(def_arr);
+		}
     }
 
     private void setHighlightEvent(final String key, final String def)
@@ -266,6 +277,28 @@ public class Options extends PreferenceActivity
                 return true;
             }
         });
+		
+		findPreference("compile_argument").setOnPreferenceClickListener(new OnPreferenceClickListener() {
+
+				@Override
+				public boolean onPreferenceClick(Preference arg0)
+				{
+					final EditText is = new EditText(Options.this);
+					SharedPreferences sp = Options.this.getSharedPreferences("Compile", MODE_PRIVATE);
+					SharedPreferences.Editor et =sp.edit();
+					String cx = sp.getString("cx_ag", "-g -lm");
+					is.setText(cx);
+					AlertDialog.Builder builder = new AlertDialog.Builder(Options.this);
+					builder.setTitle("请输入参数").setIcon(android.R.drawable.ic_dialog_info).setView(is).setPositiveButton("OK", new DialogInterface.OnClickListener(){
+						public void onClick(DialogInterface dialog, int which)
+						{
+							putS(is.getText().toString());
+						}
+					});
+					builder.show();
+					return true;
+				}
+			});
 
         findPreference("clear_history").setOnPreferenceClickListener(new OnPreferenceClickListener() {
 
@@ -299,5 +332,13 @@ public class Options extends PreferenceActivity
             return true;
         }
     };
+	
+	public void putS(String ccc)
+	{
+		SharedPreferences sp = Options.this.getSharedPreferences("Compile", MODE_PRIVATE);
+		SharedPreferences.Editor et =sp.edit();
+		et.putString("cx_ag", ccc.toString());
+		et.commit();
+	}
 
 }

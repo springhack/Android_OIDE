@@ -6,8 +6,15 @@
 #include <sys/stat.h>
 #include <sys/select.h>
 #include <sys/wait.h>
+#include <sys/ioctl.h>
 #include <fcntl.h>
 #include <errno.h>
+#include <termios.h>
+#include <signal.h>
+
+
+
+
 
 #define BUFSIZE 4096
 char buf[BUFSIZE];
@@ -46,6 +53,7 @@ static int do_exec(char **argv, char **envp);
 int main(int argc, char **argv, char **envp) {
 	int stdin_fd = 0, stdout_fd = 1, ptmx_fd;
 	fd_set readfds;
+	int fd = ptmx_fd;
 
 	if (argc < 2) {
 		fprintf(stderr, "execpty: no arguments given\r\n");
@@ -56,6 +64,8 @@ int main(int argc, char **argv, char **envp) {
 	if ((ptmx_fd = do_exec(argv+1, envp)) == -1) {
 		return 1;
 	}
+	
+	
 
 	/**
 	 * Loop waiting for either the master device or standard input to
@@ -94,7 +104,7 @@ int main(int argc, char **argv, char **envp) {
 static int do_exec(char **argv, char **envp) {
 	int ptmx_fd;
 	char *slave_pty;
-
+	struct termios tios;
 	/* Open the master device. */
 	ptmx_fd = open("/dev/ptmx", O_RDWR);
 
@@ -114,7 +124,15 @@ static int do_exec(char **argv, char **envp) {
 	if (grantpt(ptmx_fd) || unlockpt(ptmx_fd)) {
 		return -1;
 	}
-
+	
+	
+	//UTF8 Setting
+    tcgetattr(ptmx_fd, &tios);
+    tios.c_iflag |= IUTF8;
+    tcsetattr(ptmx_fd, TCSANOW, &tios);
+	//End
+	
+	
 	/* Get the path to the slave pty device.  See ptsname(2) documentation
 	   for details. */
 	slave_pty = ptsname(ptmx_fd);
@@ -180,7 +198,9 @@ static int do_exec(char **argv, char **envp) {
 			exit(1);
 		}
 	}
-
+	
+	
+	
 	/* Only the parent process will run this code. */
 	return ptmx_fd;
 }

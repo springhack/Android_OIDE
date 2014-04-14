@@ -4,7 +4,12 @@
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:layout_weight="1"
-        android:orientation="vertical" > 
+        android:orientation="vertical" >
+<LinearLayout
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:layout_weight="1"
+	android:orientation="vertical" >
 <RelativeLayout
     android:id="@+id/MmainLayout"
     android:layout_width="fill_parent"
@@ -329,8 +334,11 @@
             android:scrollbars="vertical"
             android:textSize="18dip" >
         </com.jecelyin.widget.JecEditText>
-        -->
-
+        
+-->
+		
+		
+		
     </LinearLayout>
 
     <com.springhack.widget.SymbolGrid
@@ -345,13 +353,31 @@
         android:focusableInTouchMode="true"
         android:visibility="invisible" >
     </com.springhack.widget.SymbolGrid>
-    
 
 </RelativeLayout>
 
 
 
+	<LinearLayout
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:background="#444444"
+		android:layout_weight="0" 
+		android:orientation="vertical">
 
+		<TextView
+			android:id="@+id/txtLine"
+			android:text="↓编译器输出，点击弹出键盘↓"
+			android:layout_width="fill_parent"
+			android:layout_height="22dp"
+			android:gravity="center"
+			android:textColor="#0000ff"
+			android:background="@drawable/bar_back"
+			android:layout_weight="0" />
+
+	</LinearLayout>
+</LinearLayout>
+	
 
 
 <LinearLayout
@@ -359,7 +385,26 @@
      android:layout_width="fill_parent"
      android:layout_height="fill_parent"
 	 android:orientation="vertical"
-	 android:layout_weight="1" >
+	 android:layout_weight="2"
+	 android:background="#444444" >
+	 
+	<LinearLayout
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_weight="0" 
+		android:orientation="vertical">
+
+		<TextView
+			android:id="@+id/txtlabel"
+			android:text="↓编译器输出，点击弹出键盘↓"
+			android:layout_width="fill_parent"
+			android:layout_height="22dp"
+			android:gravity="center"
+			android:textColor="#333333"
+			android:background="@drawable/bar_back"
+			android:layout_weight="0" />
+
+	</LinearLayout>
 
     <jackpal.androidterm.emulatorview.EmulatorView
         android:id="@+id/emulatorView"
@@ -368,58 +413,6 @@
         android:layout_weight="1"
         android:focusable="true"
         android:focusableInTouchMode="true" />
-<!--
-	<LinearLayout
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:layout_weight="0"
-        android:orientation="horizontal" >
-		
-		<Button
-            android:id="@+id/ButtonA"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="Run" />
-		<Button
-            android:id="@+id/ButtonB"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="Compile" />
-		<Button
-            android:id="@+id/ButtonC"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="Export" />
-		
-	</LinearLayout> -->
-		
-    <LinearLayout
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:layout_weight="0"
-        android:orientation="horizontal" >
-		
-
-        <EditText
-            android:id="@+id/term_entry"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:singleLine="true"
-            android:imeOptions="actionNone|flagNoExtractUi"
-            android:inputType="text|textImeMultiLine" />
-
-        <Button
-            android:id="@+id/term_entry_send"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="0"
-            android:text="@string/entry_send" />
-
-    </LinearLayout>
-
-</LinearLayout>
+	
+	</LinearLayout>
 </LinearLayout>

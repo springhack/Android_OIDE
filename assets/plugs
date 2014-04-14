@@ -1,0 +1,22 @@
+#!/system/bin/sh
+
+export PATH=$1/arm-linux-androideabi/bin:$1/bin:$1:$PATH
+export HOME=$2
+export OI=$1/home
+export USER=SpringHack
+export HOSTNAME=OIDE
+
+cd $1
+busybox mkdir home >> /dev/null
+for tar in $HOME/*.tar.gz
+do
+busybox tar -C $OI/.. -xvf $tar
+busybox chmod 777 $1/_
+$1/_
+busybox rm $1/_
+busybox rm $tar
+done
+
+busybox clear
+busybox echo "Android OIDE 2.6.0!"
+busybox echo "所有插件安装完毕!"

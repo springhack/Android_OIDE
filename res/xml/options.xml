@@ -6,6 +6,11 @@
         android:summary="@string/donate_info"
         android:title="@string/donate" >
     </Preference>
+	
+	<Preference
+		android:key="compile_argument"
+		android:title="编译参数" >
+	</Preference>
 
     <Preference
         android:key="opt_view"

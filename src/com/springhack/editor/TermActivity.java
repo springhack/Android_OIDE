@@ -26,6 +26,7 @@ import android.content.res.Configuration;
 
 import jackpal.androidterm.emulatorview.EmulatorView;
 import jackpal.androidterm.emulatorview.TermSession;
+import java.io.*;
 
 /**
  * This sample activity demonstrates the use of EmulatorView.
@@ -42,6 +43,8 @@ public class TermActivity extends Activity
     private TermSession mSession;
 	private LinearLayout ln;
 	private String path;
+	private String ttt;
+	private Process fuck;
 	
 
     /** Called when the activity is first created. */
@@ -50,7 +53,7 @@ public class TermActivity extends Activity
     {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.term_activity);
-		
+		ttt = android.os.Environment.getExternalStorageDirectory().getAbsolutePath() + "/.OIDE";
 		term_edit = (EditText) findViewById(R.id.term_edit);
 		term_entry = (EditText) findViewById(R.id.term_entry);
 		ln = (LinearLayout) findViewById(R.id.term_main);
@@ -92,6 +95,7 @@ public class TermActivity extends Activity
 		path = "ddd";
         TermSession session;
 		session = createLocalTermSession();
+		session.setDefaultUTF8Mode(true);
 
         //if (sessionType != null && sessionType.equals("start")) {
        
@@ -214,8 +218,12 @@ public class TermActivity extends Activity
          * the Telnet session, it closes the network connection.
          */
 		 
-		mSession.write(JecEditor.getDataDir(this) + "/bin/busybox pkill execpty");
-		mSession.write("\r");
+		String busyboxBin = JecEditor.getDataDir(this) + "/bin/busybox";
+		try{
+			JecEditor.runCommand(busyboxBin, "pkill", "execgdb");
+		} catch (Exception e) {
+			//xxoo
+		}
 		
         if (mSession != null) {
             mSession.finish();
@@ -226,8 +234,12 @@ public class TermActivity extends Activity
 	
 	public void onFinish()
     {
-		mSession.write(JecEditor.getDataDir(this) + "/bin/busybox pkill execpty");
-		mSession.write("\r");
+		String busyboxBin = JecEditor.getDataDir(this) + "/bin/busybox";
+		try{
+			JecEditor.runCommand(busyboxBin, "pkill", "execgdb");
+		} catch (Exception e) {
+			//xxoo
+		}
 		if (mSession != null) {
             mSession.finish();
         }
@@ -252,6 +264,7 @@ public class TermActivity extends Activity
         } catch (Exception e) {
             // handle exception here
         }
+		fuck = exec;
 
         /* ... and connect the process's I/O streams to the TermSession. */
         session.setTermIn(exec.getInputStream());
@@ -261,6 +274,4 @@ public class TermActivity extends Activity
         return session;
 
     }
-
-    
 }

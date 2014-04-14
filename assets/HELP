@@ -4,7 +4,7 @@ Shortcuts:
   3. Search: open the Find window.
 
 Custom syntax highlighting(recommended to submit your work to us(jecelyin@gmail.com) update it in the next version) : 
-  Editor default in the work directory "/sdcard/.920TextEditor" read the rules of syntax highlighting; file definitions: 
+  Editor default in the work directory "/sdcard/.OIDE" read the rules of syntax highlighting; file definitions: 
      lang.conf: 
         1): format: [name : the rules of syntax file path : extensions]; extension use spaces to separate 
          Such as: HTML / XML: syntax / html.conf: the html htm shtml xhtml xml the tpl;

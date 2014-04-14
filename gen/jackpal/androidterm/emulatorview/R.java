@@ -5564,112 +5564,113 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         public static final int back_edit_location_d2=0x7f020006;
         public static final int back_edit_location_pressed2=0x7f020007;
         public static final int back_edit_location_s2=0x7f020008;
-        public static final int bg_white=0x7f020009;
-        public static final int big_icon=0x7f02000a;
-        public static final int btn_bg=0x7f02000b;
-        public static final int btn_bg_normal=0x7f02000c;
-        public static final int btn_bg_pressed=0x7f02000d;
-        public static final int btn_default_normal=0x7f02000e;
-        public static final int btn_default_normal_disable=0x7f02000f;
-        public static final int btn_default_normal_disable_focused=0x7f020010;
-        public static final int btn_default_pressed=0x7f020011;
-        public static final int btn_default_selected=0x7f020012;
-        public static final int ccrun2=0x7f020013;
-        public static final int ccrun_pressed2=0x7f020014;
-        public static final int ccrun_sel2=0x7f020015;
-        public static final int close=0x7f020016;
-        public static final int compile2=0x7f020017;
-        public static final int compile_pressed2=0x7f020018;
-        public static final int compile_sel2=0x7f020019;
-        public static final int dialog_close=0x7f02001a;
-        public static final int file=0x7f02001b;
-        public static final int find_back=0x7f02001c;
-        public static final int find_forward=0x7f02001d;
-        public static final int folder=0x7f02001e;
-        public static final int folder_search=0x7f02001f;
-        public static final int folder_search_pressed=0x7f020020;
-        public static final int folder_search_sel2=0x7f020021;
-        public static final int forward_edit_location2=0x7f020022;
-        public static final int forward_edit_location_d2=0x7f020023;
-        public static final int forward_edit_location_pressed2=0x7f020024;
-        public static final int forward_edit_location_s2=0x7f020025;
-        public static final int gdb2=0x7f020026;
-        public static final int gdb_pressed2=0x7f020027;
-        public static final int gdb_sel2=0x7f020028;
-        public static final int hidescrollbar=0x7f020029;
-        public static final int icon=0x7f02002a;
-        public static final int image=0x7f02002b;
-        public static final int indicator_input_error=0x7f02002c;
-        public static final int list_selector_pressed=0x7f02002d;
-        public static final int main_menu_bg=0x7f02002e;
-        public static final int main_menu_item_click=0x7f02002f;
-        public static final int main_menu_selector=0x7f020030;
-        public static final int main_menu_text_color=0x7f020031;
-        public static final int menu=0x7f020032;
-        public static final int menu_bg_down=0x7f020033;
-        public static final int menu_bg_left=0x7f020034;
-        public static final int menu_bg_right=0x7f020035;
-        public static final int menu_encoding=0x7f020036;
-        public static final int menu_exit=0x7f020037;
-        public static final int menu_highlight=0x7f020038;
-        public static final int menu_open=0x7f020039;
-        public static final int menu_openwith=0x7f02003a;
-        public static final int menu_saveas=0x7f02003b;
-        public static final int menu_search=0x7f02003c;
-        public static final int menu_selector=0x7f02003d;
-        public static final int menu_setting=0x7f02003e;
-        public static final int menu_submenu_background=0x7f02003f;
-        public static final int menu_triangle=0x7f020040;
-        public static final int mode2=0x7f020041;
-        public static final int mode_pressed2=0x7f020042;
-        public static final int mode_sel2=0x7f020043;
-        public static final int open_file2=0x7f020044;
-        public static final int open_file_pressed2=0x7f020045;
-        public static final int open_file_sel2=0x7f020046;
-        public static final int overscroll_edge=0x7f020047;
-        public static final int pop_menu_icon_line=0x7f020048;
-        public static final int preview2=0x7f020049;
-        public static final int preview_pressed2=0x7f02004a;
-        public static final int preview_sel2=0x7f02004b;
-        public static final int redo2=0x7f02004c;
-        public static final int redo_no2=0x7f02004d;
-        public static final int redo_s2=0x7f02004e;
-        public static final int redo_sel2=0x7f02004f;
-        public static final int save2=0x7f020050;
-        public static final int save_pressed2=0x7f020051;
-        public static final int save_sel2=0x7f020052;
-        public static final int scrollbar_handle_accelerated_anim2=0x7f020053;
-        public static final int search=0x7f020054;
-        public static final int search_button=0x7f020055;
-        public static final int search_normal=0x7f020056;
-        public static final int search_pressed=0x7f020057;
-        public static final int searchbar=0x7f020058;
-        public static final int symbol2=0x7f020059;
-        public static final int symbol_bg=0x7f02005a;
-        public static final int symbol_pressed2=0x7f02005b;
-        public static final int symbol_s2=0x7f02005c;
-        public static final int tab_bg=0x7f02005d;
-        public static final int tab_indicator=0x7f02005e;
-        public static final int tab_indicator_current=0x7f02005f;
-        public static final int tab_menu_closeall=0x7f020060;
-        public static final int tab_menu_closeothers=0x7f020061;
-        public static final int tab_menu_closeright=0x7f020062;
-        public static final int tab_new_win_btn=0x7f020063;
-        public static final int tab_new_window=0x7f020064;
-        public static final int tab_new_window_press=0x7f020065;
-        public static final int tab_press=0x7f020066;
-        public static final int tab_selected=0x7f020067;
-        public static final int tab_unselected=0x7f020068;
-        public static final int tool_color2=0x7f020069;
-        public static final int tool_color_s2=0x7f02006a;
-        public static final int tool_color_sel2=0x7f02006b;
-        public static final int toolbar_bg=0x7f02006c;
-        public static final int undo2=0x7f02006d;
-        public static final int undo_no2=0x7f02006e;
-        public static final int undo_s2=0x7f02006f;
-        public static final int undo_sel2=0x7f020070;
-        public static final int video=0x7f020071;
-        public static final int welcome=0x7f020072;
+        public static final int bar_back=0x7f020009;
+        public static final int bg_white=0x7f02000a;
+        public static final int big_icon=0x7f02000b;
+        public static final int btn_bg=0x7f02000c;
+        public static final int btn_bg_normal=0x7f02000d;
+        public static final int btn_bg_pressed=0x7f02000e;
+        public static final int btn_default_normal=0x7f02000f;
+        public static final int btn_default_normal_disable=0x7f020010;
+        public static final int btn_default_normal_disable_focused=0x7f020011;
+        public static final int btn_default_pressed=0x7f020012;
+        public static final int btn_default_selected=0x7f020013;
+        public static final int ccrun2=0x7f020014;
+        public static final int ccrun_pressed2=0x7f020015;
+        public static final int ccrun_sel2=0x7f020016;
+        public static final int close=0x7f020017;
+        public static final int compile2=0x7f020018;
+        public static final int compile_pressed2=0x7f020019;
+        public static final int compile_sel2=0x7f02001a;
+        public static final int dialog_close=0x7f02001b;
+        public static final int file=0x7f02001c;
+        public static final int find_back=0x7f02001d;
+        public static final int find_forward=0x7f02001e;
+        public static final int folder=0x7f02001f;
+        public static final int folder_search=0x7f020020;
+        public static final int folder_search_pressed=0x7f020021;
+        public static final int folder_search_sel2=0x7f020022;
+        public static final int forward_edit_location2=0x7f020023;
+        public static final int forward_edit_location_d2=0x7f020024;
+        public static final int forward_edit_location_pressed2=0x7f020025;
+        public static final int forward_edit_location_s2=0x7f020026;
+        public static final int gdb2=0x7f020027;
+        public static final int gdb_pressed2=0x7f020028;
+        public static final int gdb_sel2=0x7f020029;
+        public static final int hidescrollbar=0x7f02002a;
+        public static final int icon=0x7f02002b;
+        public static final int image=0x7f02002c;
+        public static final int indicator_input_error=0x7f02002d;
+        public static final int list_selector_pressed=0x7f02002e;
+        public static final int main_menu_bg=0x7f02002f;
+        public static final int main_menu_item_click=0x7f020030;
+        public static final int main_menu_selector=0x7f020031;
+        public static final int main_menu_text_color=0x7f020032;
+        public static final int menu=0x7f020033;
+        public static final int menu_bg_down=0x7f020034;
+        public static final int menu_bg_left=0x7f020035;
+        public static final int menu_bg_right=0x7f020036;
+        public static final int menu_encoding=0x7f020037;
+        public static final int menu_exit=0x7f020038;
+        public static final int menu_highlight=0x7f020039;
+        public static final int menu_open=0x7f02003a;
+        public static final int menu_openwith=0x7f02003b;
+        public static final int menu_saveas=0x7f02003c;
+        public static final int menu_search=0x7f02003d;
+        public static final int menu_selector=0x7f02003e;
+        public static final int menu_setting=0x7f02003f;
+        public static final int menu_submenu_background=0x7f020040;
+        public static final int menu_triangle=0x7f020041;
+        public static final int mode2=0x7f020042;
+        public static final int mode_pressed2=0x7f020043;
+        public static final int mode_sel2=0x7f020044;
+        public static final int open_file2=0x7f020045;
+        public static final int open_file_pressed2=0x7f020046;
+        public static final int open_file_sel2=0x7f020047;
+        public static final int overscroll_edge=0x7f020048;
+        public static final int pop_menu_icon_line=0x7f020049;
+        public static final int preview2=0x7f02004a;
+        public static final int preview_pressed2=0x7f02004b;
+        public static final int preview_sel2=0x7f02004c;
+        public static final int redo2=0x7f02004d;
+        public static final int redo_no2=0x7f02004e;
+        public static final int redo_s2=0x7f02004f;
+        public static final int redo_sel2=0x7f020050;
+        public static final int save2=0x7f020051;
+        public static final int save_pressed2=0x7f020052;
+        public static final int save_sel2=0x7f020053;
+        public static final int scrollbar_handle_accelerated_anim2=0x7f020054;
+        public static final int search=0x7f020055;
+        public static final int search_button=0x7f020056;
+        public static final int search_normal=0x7f020057;
+        public static final int search_pressed=0x7f020058;
+        public static final int searchbar=0x7f020059;
+        public static final int symbol2=0x7f02005a;
+        public static final int symbol_bg=0x7f02005b;
+        public static final int symbol_pressed2=0x7f02005c;
+        public static final int symbol_s2=0x7f02005d;
+        public static final int tab_bg=0x7f02005e;
+        public static final int tab_indicator=0x7f02005f;
+        public static final int tab_indicator_current=0x7f020060;
+        public static final int tab_menu_closeall=0x7f020061;
+        public static final int tab_menu_closeothers=0x7f020062;
+        public static final int tab_menu_closeright=0x7f020063;
+        public static final int tab_new_win_btn=0x7f020064;
+        public static final int tab_new_window=0x7f020065;
+        public static final int tab_new_window_press=0x7f020066;
+        public static final int tab_press=0x7f020067;
+        public static final int tab_selected=0x7f020068;
+        public static final int tab_unselected=0x7f020069;
+        public static final int tool_color2=0x7f02006a;
+        public static final int tool_color_s2=0x7f02006b;
+        public static final int tool_color_sel2=0x7f02006c;
+        public static final int toolbar_bg=0x7f02006d;
+        public static final int undo2=0x7f02006e;
+        public static final int undo_no2=0x7f02006f;
+        public static final int undo_s2=0x7f020070;
+        public static final int undo_sel2=0x7f020071;
+        public static final int video=0x7f020072;
+        public static final int welcome=0x7f020073;
     }
     public static final class id {
         public static final int KEYCODE_0=0x7f060052;
@@ -5764,8 +5765,8 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         public static final int KEYCODE_X=0x7f06007f;
         public static final int KEYCODE_Y=0x7f060080;
         public static final int KEYCODE_Z=0x7f060081;
-        public static final int MmainLayout=0x7f060137;
-        public static final int RelativeLayout_Item=0x7f06016b;
+        public static final int MmainLayout=0x7f060138;
+        public static final int RelativeLayout_Item=0x7f060170;
         public static final int actionDone=0x7f060035;
         public static final int actionGo=0x7f060031;
         public static final int actionNext=0x7f060034;
@@ -5773,7 +5774,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         public static final int actionSearch=0x7f060032;
         public static final int actionSend=0x7f060033;
         public static final int actionUnspecified=0x7f06002f;
-        public static final int add_new_tab_btn=0x7f06013c;
+        public static final int add_new_tab_btn=0x7f06013d;
         public static final int adjustPan=0x7f060008;
         public static final int adjustResize=0x7f060007;
         public static final int adjustUnspecified=0x7f060006;
@@ -5783,6 +5784,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         public static final int alternative=0x7f0600ed;
         public static final int alwaysScroll=0x7f0600b9;
         public static final int animation=0x7f0600b1;
+        public static final int apk=0x7f06018a;
         public static final int auto=0x7f0600ae;
         public static final int auto_fit=0x7f0600bd;
         public static final int beforeDescendants=0x7f0600b3;
@@ -5790,15 +5792,15 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         public static final int bold=0x7f06000d;
         public static final int bottom=0x7f06003a;
         public static final int bottom_to_top=0x7f0600e7;
-        public static final int browse=0x7f06012b;
-        public static final int btnOK=0x7f060124;
-        public static final int btnSave=0x7f06011c;
-        public static final int btn_ccrun=0x7f060142;
-        public static final int btn_compile=0x7f060141;
-        public static final int btn_gdb=0x7f060143;
-        public static final int btn_mode=0x7f060144;
-        public static final int btn_open=0x7f06013f;
-        public static final int btn_save=0x7f060140;
+        public static final int browse=0x7f06012c;
+        public static final int btnOK=0x7f060125;
+        public static final int btnSave=0x7f06011d;
+        public static final int btn_ccrun=0x7f060143;
+        public static final int btn_compile=0x7f060142;
+        public static final int btn_gdb=0x7f060144;
+        public static final int btn_mode=0x7f060145;
+        public static final int btn_open=0x7f060140;
+        public static final int btn_save=0x7f060141;
         public static final int cancel=0x7f060115;
         public static final int center=0x7f060041;
         public static final int centerCrop=0x7f0600c3;
@@ -5809,15 +5811,15 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         public static final int clamp=0x7f0600de;
         public static final int clip_horizontal=0x7f060044;
         public static final int clip_vertical=0x7f060043;
-        public static final int code=0x7f060166;
+        public static final int code=0x7f06016b;
         public static final int collapsing=0x7f0600d3;
-        public static final int color=0x7f06014c;
+        public static final int color=0x7f06014d;
         public static final int color_picker_view=0x7f060112;
         public static final int color_text=0x7f060113;
         public static final int column=0x7f0600e8;
         public static final int columnWidth=0x7f0600bb;
         public static final int container=0x7f0600ea;
-        public static final int ctrlLayout=0x7f06017a;
+        public static final int ctrlLayout=0x7f06017f;
         public static final int cycle=0x7f0600c8;
         public static final int date=0x7f06002d;
         public static final int datetime=0x7f06002c;
@@ -5825,35 +5827,36 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         public static final int disabled=0x7f0600b8;
         public static final int doc_stat=0x7f060105;
         public static final int donateWebView=0x7f060116;
-        public static final int drag=0x7f060168;
+        public static final int drag=0x7f06016d;
         public static final int duplicate_line=0x7f060104;
-        public static final int editTextFilename=0x7f06011b;
+        public static final int ed=0x7f060118;
+        public static final int editTextFilename=0x7f06011c;
         public static final int editable=0x7f0600ca;
-        public static final int editorBodyLinearLayout=0x7f060138;
+        public static final int editorBodyLinearLayout=0x7f060139;
         public static final int email=0x7f060046;
-        public static final int emulatorView=0x7f06015a;
-        public static final int encoding=0x7f060186;
-        public static final int encodingLinearLayout=0x7f06011d;
-        public static final int encoding_list=0x7f06011f;
-        public static final int encodingtxt=0x7f06011e;
+        public static final int emulatorView=0x7f06015d;
+        public static final int encoding=0x7f06018d;
+        public static final int encodingLinearLayout=0x7f06011e;
+        public static final int encoding_list=0x7f060120;
+        public static final int encodingtxt=0x7f06011f;
         public static final int end=0x7f060012;
-        public static final int exit=0x7f060189;
-        public static final int f_icon=0x7f060125;
-        public static final int f_text=0x7f060127;
-        public static final int f_title=0x7f060126;
+        public static final int exit=0x7f060190;
+        public static final int f_icon=0x7f060126;
+        public static final int f_text=0x7f060128;
+        public static final int f_title=0x7f060127;
         public static final int field_app_name=0x7f060109;
         public static final int field_version=0x7f06010a;
-        public static final int file=0x7f060165;
-        public static final int filelists=0x7f060130;
-        public static final int filenameLinearLayout=0x7f06011a;
+        public static final int file=0x7f06016a;
+        public static final int filelists=0x7f060131;
+        public static final int filenameLinearLayout=0x7f06011b;
         public static final int fill=0x7f060042;
         public static final int fill_horizontal=0x7f060040;
         public static final int fill_parent=0x7f0600b6;
         public static final int fill_vertical=0x7f06003e;
-        public static final int find_back_imageButton=0x7f060151;
-        public static final int find_editText=0x7f06014f;
-        public static final int find_next_imageButton=0x7f060150;
-        public static final int findlinearLayout=0x7f06014e;
+        public static final int find_back_imageButton=0x7f060152;
+        public static final int find_editText=0x7f060150;
+        public static final int find_next_imageButton=0x7f060151;
+        public static final int findlinearLayout=0x7f06014f;
         public static final int fitCenter=0x7f0600c1;
         public static final int fitEnd=0x7f0600c2;
         public static final int fitStart=0x7f0600c0;
@@ -5861,26 +5864,26 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         public static final int flagNoAccessoryAction=0x7f060037;
         public static final int flagNoEnterAction=0x7f060038;
         public static final int flagNoExtractUi=0x7f060036;
-        public static final int folder_search=0x7f06014b;
+        public static final int folder_search=0x7f06014c;
         public static final int go_to_begin=0x7f0600f9;
         public static final int go_to_end=0x7f0600f8;
         public static final int gone=0x7f0600a9;
         public static final int goto_line=0x7f0600f6;
-        public static final int gridLayout=0x7f060167;
-        public static final int gridview=0x7f06016a;
-        public static final int help=0x7f060131;
+        public static final int gridLayout=0x7f06016c;
+        public static final int gridview=0x7f06016f;
+        public static final int help=0x7f060132;
         public static final int hide_ime=0x7f0600fa;
         public static final int high=0x7f0600b0;
-        public static final int highlight=0x7f060185;
+        public static final int highlight=0x7f06018c;
         public static final int home_notification=0x7f0600f7;
         public static final int horizontal=0x7f060049;
-        public static final int horizontalScrollView1=0x7f060118;
-        public static final int hostLabel=0x7f060133;
-        public static final int hostname=0x7f060134;
-        public static final int ignore_case=0x7f06012d;
+        public static final int horizontalScrollView1=0x7f060119;
+        public static final int hostLabel=0x7f060134;
+        public static final int hostname=0x7f060135;
+        public static final int ignore_case=0x7f06012e;
         public static final int imageView1=0x7f060107;
-        public static final int imageView3=0x7f060175;
-        public static final int imageView4=0x7f060178;
+        public static final int imageView3=0x7f06017a;
+        public static final int imageView4=0x7f06017d;
         public static final int infinite=0x7f0600e0;
         public static final int insert_datetime=0x7f060103;
         public static final int insideInset=0x7f0600ab;
@@ -5888,51 +5891,51 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         public static final int integer=0x7f0600cb;
         public static final int invisible=0x7f0600a8;
         public static final int italic=0x7f06000e;
-        public static final int iv_close=0x7f060169;
-        public static final int keyword=0x7f060128;
-        public static final int last_edit_back=0x7f060149;
-        public static final int last_edit_forward=0x7f06014a;
-        public static final int launchLocal=0x7f060132;
-        public static final int launchTelnet=0x7f060135;
+        public static final int iv_close=0x7f06016e;
+        public static final int keyword=0x7f060129;
+        public static final int last_edit_back=0x7f06014a;
+        public static final int last_edit_forward=0x7f06014b;
+        public static final int launchLocal=0x7f060133;
+        public static final int launchTelnet=0x7f060136;
         public static final int left=0x7f06003b;
-        public static final int left_line=0x7f06016f;
+        public static final int left_line=0x7f060174;
         public static final int left_to_right=0x7f0600e4;
         public static final int line=0x7f0600d9;
         public static final int linear=0x7f0600db;
         public static final int linearLayout1=0x7f060106;
         public static final int linearLayout2=0x7f060108;
         public static final int linearLayout3=0x7f06010b;
-        public static final int linearLayout4=0x7f060176;
-        public static final int linearLayout_closeall=0x7f060177;
-        public static final int linearLayout_closeothers=0x7f060173;
-        public static final int linearLayout_closeright=0x7f060174;
-        public static final int linebreakLinearLayout=0x7f060120;
-        public static final int linebreak_list=0x7f060122;
-        public static final int linebreakchar=0x7f060121;
-        public static final int ln=0x7f060136;
+        public static final int linearLayout4=0x7f06017b;
+        public static final int linearLayout_closeall=0x7f06017c;
+        public static final int linearLayout_closeothers=0x7f060178;
+        public static final int linearLayout_closeright=0x7f060179;
+        public static final int linebreakLinearLayout=0x7f060121;
+        public static final int linebreak_list=0x7f060123;
+        public static final int linebreakchar=0x7f060122;
+        public static final int ln=0x7f060137;
         public static final int low=0x7f0600af;
-        public static final int mainLayout=0x7f060157;
-        public static final int main_menu=0x7f06015d;
-        public static final int main_menu_icon=0x7f060163;
-        public static final int main_menu_text=0x7f060164;
+        public static final int mainLayout=0x7f060158;
+        public static final int main_menu=0x7f06015e;
+        public static final int main_menu_icon=0x7f060164;
+        public static final int main_menu_text=0x7f060165;
         public static final int map=0x7f060047;
         public static final int marquee=0x7f060013;
         public static final int marquee_forever=0x7f0600d1;
-        public static final int match_whole_word=0x7f06012f;
+        public static final int match_whole_word=0x7f060130;
         public static final int matrix=0x7f0600be;
-        public static final int menu=0x7f06014d;
+        public static final int menu=0x7f06014e;
         public static final int menu_encoding=0x7f0600ff;
         public static final int menu_exit=0x7f060102;
-        public static final int menu_grid=0x7f060161;
+        public static final int menu_grid=0x7f060162;
         public static final int menu_highlight=0x7f0600fe;
-        public static final int menu_layout=0x7f060160;
+        public static final int menu_layout=0x7f060161;
         public static final int menu_pipe=0x7f0600fc;
         public static final int menu_preferences=0x7f060101;
         public static final int menu_reopen=0x7f0600fb;
         public static final int menu_saveas=0x7f0600fd;
         public static final int menu_search_replace=0x7f060100;
-        public static final int menu_version=0x7f06015f;
-        public static final int menuparent=0x7f060172;
+        public static final int menu_version=0x7f060160;
+        public static final int menuparent=0x7f060177;
         public static final int middle=0x7f060011;
         public static final int mirror=0x7f0600df;
         public static final int monospace=0x7f06000c;
@@ -5946,45 +5949,49 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         public static final int numberDecimal=0x7f06002a;
         public static final int numberSigned=0x7f060029;
         public static final int ok=0x7f060114;
-        public static final int okLinearLayout=0x7f060123;
+        public static final int okLinearLayout=0x7f060124;
         public static final int oneLine=0x7f0600d2;
         public static final int outsideInset=0x7f0600ad;
         public static final int outsideOverlay=0x7f0600ac;
         public static final int oval=0x7f0600d8;
-        public static final int path=0x7f06012a;
-        public static final int pathButtons=0x7f060119;
+        public static final int path=0x7f06012b;
+        public static final int pathButtons=0x7f06011a;
         public static final int phone=0x7f06002b;
-        public static final int preferences=0x7f060188;
-        public static final int preview=0x7f060147;
+        public static final int preferences=0x7f06018f;
+        public static final int preview=0x7f060148;
         public static final int radial=0x7f0600dc;
         public static final int random=0x7f0600e3;
         public static final int rectangle=0x7f0600d7;
-        public static final int recurse=0x7f06012c;
-        public static final int redo=0x7f060146;
-        public static final int reopen=0x7f060184;
+        public static final int recurse=0x7f06012d;
+        public static final int redo=0x7f060147;
+        public static final int reopen=0x7f06018b;
         public static final int repeat=0x7f0600c7;
-        public static final int replace_all_button=0x7f060156;
-        public static final int replace_button=0x7f060155;
-        public static final int replace_editText=0x7f060154;
-        public static final int replace_linearLayout=0x7f060153;
+        public static final int replace_all_button=0x7f060157;
+        public static final int replace_button=0x7f060156;
+        public static final int replace_editText=0x7f060155;
+        public static final int replace_linearLayout=0x7f060154;
         public static final int restart=0x7f0600e1;
+        public static final int result_entry=0x7f060168;
+        public static final int result_finish=0x7f060167;
+        public static final int result_send=0x7f060169;
+        public static final int result_view=0x7f060166;
         public static final int reverse=0x7f0600e2;
         public static final int right=0x7f06003c;
-        public static final int right_line=0x7f060170;
+        public static final int right_line=0x7f060175;
         public static final int right_to_left=0x7f0600e5;
         public static final int ring=0x7f0600da;
         public static final int ringtone=0x7f0600ee;
-        public static final int rlMenuItem=0x7f060162;
+        public static final int rlMenuItem=0x7f060163;
         public static final int row=0x7f0600e9;
         public static final int sans=0x7f06000a;
         public static final int scrolling=0x7f0600b2;
-        public static final int search=0x7f060129;
-        public static final int search_replace=0x7f060187;
+        public static final int search=0x7f06012a;
+        public static final int search_replace=0x7f06018e;
         public static final int secondary=0x7f0600ec;
         public static final int sentences=0x7f0600ce;
         public static final int serif=0x7f06000b;
         public static final int show_ime=0x7f0600f3;
-        public static final int show_replace_button=0x7f060152;
+        public static final int show_replace_button=0x7f060153;
         public static final int signed=0x7f0600cc;
         public static final int single=0x7f0600d5;
         public static final int singleChoice=0x7f0600c5;
@@ -5999,27 +6006,26 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         public static final int stateUnspecified=0x7f060000;
         public static final int stateVisible=0x7f060004;
         public static final int sweep=0x7f0600dd;
-        public static final int symbol=0x7f060148;
-        public static final int symbolGrid1=0x7f060158;
-        public static final int symbol_iv=0x7f06016c;
+        public static final int symbol=0x7f060149;
+        public static final int symbolGrid1=0x7f060159;
+        public static final int symbol_iv=0x7f060171;
         public static final int system=0x7f0600eb;
-        public static final int tabScroller=0x7f06013a;
-        public static final int tabWidgets=0x7f06013b;
-        public static final int tab_indicator_layout=0x7f06016d;
-        public static final int tabs=0x7f060139;
-        public static final int termLayout=0x7f060159;
-        public static final int term_break=0x7f060180;
-        public static final int term_continue=0x7f06017e;
-        public static final int term_delete=0x7f060181;
-        public static final int term_edit=0x7f060182;
-        public static final int term_entry=0x7f06015b;
-        public static final int term_entry_send=0x7f06015c;
-        public static final int term_main=0x7f060179;
-        public static final int term_next=0x7f06017d;
-        public static final int term_print=0x7f06017f;
-        public static final int term_run=0x7f06017b;
-        public static final int term_send=0x7f060183;
-        public static final int term_step=0x7f06017c;
+        public static final int tabScroller=0x7f06013b;
+        public static final int tabWidgets=0x7f06013c;
+        public static final int tab_indicator_layout=0x7f060172;
+        public static final int tabs=0x7f06013a;
+        public static final int termLayout=0x7f06015b;
+        public static final int term_break=0x7f060186;
+        public static final int term_continue=0x7f060183;
+        public static final int term_delete=0x7f060187;
+        public static final int term_edit=0x7f060188;
+        public static final int term_entry=0x7f060184;
+        public static final int term_main=0x7f06017e;
+        public static final int term_next=0x7f060182;
+        public static final int term_print=0x7f060185;
+        public static final int term_run=0x7f060180;
+        public static final int term_send=0x7f060189;
+        public static final int term_step=0x7f060181;
         public static final int text=0x7f060014;
         public static final int textAutoComplete=0x7f060019;
         public static final int textAutoCorrect=0x7f060018;
@@ -6048,18 +6054,20 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         public static final int textWebEditText=0x7f060025;
         public static final int text_content=0x7f060117;
         public static final int time=0x7f06002e;
-        public static final int tips_content_layout=0x7f060171;
-        public static final int title=0x7f06016e;
+        public static final int tips_content_layout=0x7f060176;
+        public static final int title=0x7f060173;
         public static final int to_lower=0x7f0600f4;
         public static final int to_upper=0x7f0600f5;
-        public static final int toolbar=0x7f06013d;
-        public static final int toolbarLinearLayout=0x7f06013e;
+        public static final int toolbar=0x7f06013e;
+        public static final int toolbarLinearLayout=0x7f06013f;
         public static final int top=0x7f060039;
-        public static final int top_layout=0x7f06015e;
+        public static final int top_layout=0x7f06015f;
         public static final int top_to_bottom=0x7f0600e6;
         public static final int twoLine=0x7f0600d4;
-        public static final int undo=0x7f060145;
-        public static final int use_regex=0x7f06012e;
+        public static final int txtLine=0x7f06015a;
+        public static final int txtlabel=0x7f06015c;
+        public static final int undo=0x7f060146;
+        public static final int use_regex=0x7f06012f;
         public static final int vertical=0x7f06004a;
         public static final int visible=0x7f0600a7;
         public static final int voice=0x7f0600f1;
@@ -6073,20 +6081,23 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         public static final int dialog_list_row=0x7f030002;
         public static final int donate=0x7f030003;
         public static final int edit_text=0x7f030004;
-        public static final int file_bowsers=0x7f030005;
-        public static final int file_list=0x7f030006;
-        public static final int folder_search=0x7f030007;
-        public static final int launch_activity=0x7f030008;
-        public static final int main=0x7f030009;
-        public static final int main_menu=0x7f03000a;
-        public static final int main_menu_item=0x7f03000b;
-        public static final int search_list=0x7f03000c;
-        public static final int start=0x7f03000d;
-        public static final int symbol_grid=0x7f03000e;
-        public static final int symbol_item=0x7f03000f;
-        public static final int tab_indicators=0x7f030010;
-        public static final int tab_menu=0x7f030011;
-        public static final int term_activity=0x7f030012;
+        public static final int editor=0x7f030005;
+        public static final int file_bowsers=0x7f030006;
+        public static final int file_list=0x7f030007;
+        public static final int folder_search=0x7f030008;
+        public static final int launch_activity=0x7f030009;
+        public static final int main=0x7f03000a;
+        public static final int main_menu=0x7f03000b;
+        public static final int main_menu_item=0x7f03000c;
+        public static final int result_activity=0x7f03000d;
+        public static final int search_list=0x7f03000e;
+        public static final int start=0x7f03000f;
+        public static final int symbol_grid=0x7f030010;
+        public static final int symbol_item=0x7f030011;
+        public static final int tab_indicators=0x7f030012;
+        public static final int tab_menu=0x7f030013;
+        public static final int term_activity=0x7f030014;
+        public static final int web=0x7f030015;
     }
     public static final class menu {
         public static final int main=0x7f0a0000;
@@ -6358,7 +6369,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:cacheColorHint
+          @attr name com.springhack.editor:cacheColorHint
         */
         public static final int AbsListView_cacheColorHint = 6;
         /**
@@ -6376,7 +6387,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:drawSelectorOnTop
+          @attr name com.springhack.editor:drawSelectorOnTop
         */
         public static final int AbsListView_drawSelectorOnTop = 1;
         /**
@@ -6393,7 +6404,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:fastScrollEnabled
+          @attr name com.springhack.editor:fastScrollEnabled
         */
         public static final int AbsListView_fastScrollEnabled = 7;
         /**
@@ -6407,7 +6418,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
           <p>This is a private symbol.
-          @attr name android:listSelector
+          @attr name com.springhack.editor:listSelector
         */
         public static final int AbsListView_listSelector = 0;
         /**
@@ -6425,7 +6436,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:scrollingCache
+          @attr name com.springhack.editor:scrollingCache
         */
         public static final int AbsListView_scrollingCache = 3;
         /**
@@ -6448,7 +6459,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:smoothScrollbar
+          @attr name com.springhack.editor:smoothScrollbar
         */
         public static final int AbsListView_smoothScrollbar = 8;
         /**
@@ -6464,7 +6475,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:stackFromBottom
+          @attr name com.springhack.editor:stackFromBottom
         */
         public static final int AbsListView_stackFromBottom = 2;
         /**
@@ -6481,7 +6492,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:textFilterEnabled
+          @attr name com.springhack.editor:textFilterEnabled
         */
         public static final int AbsListView_textFilterEnabled = 4;
         /**
@@ -6505,7 +6516,7 @@ containing a value of this type.
                  are currently visible. </td></tr>
 </table>
           <p>This is a private symbol.
-          @attr name android:transcriptMode
+          @attr name com.springhack.editor:transcriptMode
         */
         public static final int AbsListView_transcriptMode = 5;
         /** Attributes that can be used with a AbsSpinner.
@@ -6531,7 +6542,7 @@ containing a value of this type.
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name android:entries
+          @attr name com.springhack.editor:entries
         */
         public static final int AbsSpinner_entries = 0;
         /** Attributes that can be used with a AbsoluteLayout_Layout.
@@ -6562,7 +6573,7 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android:layout_x
+          @attr name com.springhack.editor:layout_x
         */
         public static final int AbsoluteLayout_Layout_layout_x = 0;
         /**
@@ -6578,7 +6589,7 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android:layout_y
+          @attr name com.springhack.editor:layout_y
         */
         public static final int AbsoluteLayout_Layout_layout_y = 1;
         /** Attributes that can be used with a AccelerateInterpolator.
@@ -6607,7 +6618,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:factor
+          @attr name com.springhack.editor:factor
         */
         public static final int AccelerateInterpolator_factor = 0;
         /**  The set of attributes that describe a AlertDialog's theme. 
@@ -6652,7 +6663,7 @@ containing a value of this type.
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name android:bottomBright
+          @attr name com.springhack.editor:bottomBright
         */
         public static final int AlertDialog_bottomBright = 7;
         /**
@@ -6664,7 +6675,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name android:bottomDark
+          @attr name com.springhack.editor:bottomDark
         */
         public static final int AlertDialog_bottomDark = 3;
         /**
@@ -6676,7 +6687,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name android:bottomMedium
+          @attr name com.springhack.editor:bottomMedium
         */
         public static final int AlertDialog_bottomMedium = 8;
         /**
@@ -6688,7 +6699,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name android:centerBright
+          @attr name com.springhack.editor:centerBright
         */
         public static final int AlertDialog_centerBright = 6;
         /**
@@ -6700,7 +6711,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name android:centerDark
+          @attr name com.springhack.editor:centerDark
         */
         public static final int AlertDialog_centerDark = 2;
         /**
@@ -6712,7 +6723,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name android:centerMedium
+          @attr name com.springhack.editor:centerMedium
         */
         public static final int AlertDialog_centerMedium = 9;
         /**
@@ -6724,7 +6735,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name android:fullBright
+          @attr name com.springhack.editor:fullBright
         */
         public static final int AlertDialog_fullBright = 4;
         /**
@@ -6736,7 +6747,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name android:fullDark
+          @attr name com.springhack.editor:fullDark
         */
         public static final int AlertDialog_fullDark = 0;
         /**
@@ -6748,7 +6759,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name android:topBright
+          @attr name com.springhack.editor:topBright
         */
         public static final int AlertDialog_topBright = 5;
         /**
@@ -6760,7 +6771,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name android:topDark
+          @attr name com.springhack.editor:topDark
         */
         public static final int AlertDialog_topDark = 1;
         /** Attributes that can be used with a AlphaAnimation.
@@ -6789,7 +6800,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android:fromAlpha
+          @attr name com.springhack.editor:fromAlpha
         */
         public static final int AlphaAnimation_fromAlpha = 0;
         /**
@@ -6803,7 +6814,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android:toAlpha
+          @attr name com.springhack.editor:toAlpha
         */
         public static final int AlphaAnimation_toAlpha = 1;
         /** Attributes that can be used with a AnalogClock.
@@ -6830,7 +6841,7 @@ containing a value of this type.
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name android:dial
+          @attr name com.springhack.editor:dial
         */
         public static final int AnalogClock_dial = 0;
         /**
@@ -6840,7 +6851,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name android:hand_hour
+          @attr name com.springhack.editor:hand_hour
         */
         public static final int AnalogClock_hand_hour = 1;
         /**
@@ -6850,7 +6861,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name android:hand_minute
+          @attr name com.springhack.editor:hand_minute
         */
         public static final int AnalogClock_hand_minute = 2;
         /** Attributes that can be used with a AnimatedRotateDrawable.
@@ -6888,7 +6899,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name android:drawable
+          @attr name com.springhack.editor:drawable
         */
         public static final int AnimatedRotateDrawable_drawable = 1;
         /**
@@ -6902,7 +6913,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android:frameDuration
+          @attr name com.springhack.editor:frameDuration
         */
         public static final int AnimatedRotateDrawable_frameDuration = 4;
         /**
@@ -6916,7 +6927,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android:framesCount
+          @attr name com.springhack.editor:framesCount
         */
         public static final int AnimatedRotateDrawable_framesCount = 5;
         /**
@@ -6933,7 +6944,7 @@ some parent container.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android:pivotX
+          @attr name com.springhack.editor:pivotX
         */
         public static final int AnimatedRotateDrawable_pivotX = 2;
         /**
@@ -6950,7 +6961,7 @@ some parent container.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android:pivotY
+          @attr name com.springhack.editor:pivotY
         */
         public static final int AnimatedRotateDrawable_pivotY = 3;
         /**
@@ -6968,7 +6979,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:visible
+          @attr name com.springhack.editor:visible
         */
         public static final int AnimatedRotateDrawable_visible = 0;
         /** Attributes that can be used with a Animation.
@@ -7019,7 +7030,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:duration
+          @attr name com.springhack.editor:duration
         */
         public static final int Animation_duration = 1;
         /**
@@ -7037,7 +7048,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:fillAfter
+          @attr name com.springhack.editor:fillAfter
         */
         public static final int Animation_fillAfter = 4;
         /**
@@ -7055,7 +7066,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:fillBefore
+          @attr name com.springhack.editor:fillBefore
         */
         public static final int Animation_fillBefore = 3;
         /**
@@ -7071,7 +7082,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:fillEnabled
+          @attr name com.springhack.editor:fillEnabled
         */
         public static final int Animation_fillEnabled = 2;
         /**
@@ -7083,7 +7094,7 @@ containing a value of this type.
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name android:interpolator
+          @attr name com.springhack.editor:interpolator
         */
         public static final int Animation_interpolator = 0;
         /**
@@ -7107,7 +7118,7 @@ containing a value of this type.
 <tr><td><code>infinite</code></td><td>-1</td><td></td></tr>
 </table>
           <p>This is a private symbol.
-          @attr name android:repeatCount
+          @attr name com.springhack.editor:repeatCount
         */
         public static final int Animation_repeatCount = 6;
         /**
@@ -7127,7 +7138,7 @@ containing a value of this type.
 <tr><td><code>reverse</code></td><td>2</td><td> The animation plays backward. </td></tr>
 </table>
           <p>This is a private symbol.
-          @attr name android:repeatMode
+          @attr name com.springhack.editor:repeatMode
         */
         public static final int Animation_repeatMode = 7;
         /**
@@ -7143,7 +7154,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:startOffset
+          @attr name com.springhack.editor:startOffset
         */
         public static final int Animation_startOffset = 5;
         /**
@@ -7166,7 +7177,7 @@ containing a value of this type.
                  content for the duration of the animation. </td></tr>
 </table>
           <p>This is a private symbol.
-          @attr name android:zAdjustment
+          @attr name com.springhack.editor:zAdjustment
         */
         public static final int Animation_zAdjustment = 8;
         /** Attributes that can be used with a AnimationDrawable.
@@ -7204,7 +7215,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:oneshot
+          @attr name com.springhack.editor:oneshot
         */
         public static final int AnimationDrawable_oneshot = 2;
         /**
@@ -7225,7 +7236,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:variablePadding
+          @attr name com.springhack.editor:variablePadding
         */
         public static final int AnimationDrawable_variablePadding = 1;
         /**
@@ -7243,7 +7254,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:visible
+          @attr name com.springhack.editor:visible
         */
         public static final int AnimationDrawable_visible = 0;
         /** Attributes that can be used with a AnimationDrawableItem.
@@ -7271,7 +7282,7 @@ containing a value of this type.
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name android:drawable
+          @attr name com.springhack.editor:drawable
         */
         public static final int AnimationDrawableItem_drawable = 1;
         /**
@@ -7287,7 +7298,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:duration
+          @attr name com.springhack.editor:duration
         */
         public static final int AnimationDrawableItem_duration = 0;
         /** Attributes that can be used with a AnimationSet.
@@ -7314,7 +7325,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android:shareInterpolator
+          @attr name com.springhack.editor:shareInterpolator
         */
         public static final int AnimationSet_shareInterpolator = 0;
         /** Attributes that can be used with a AnticipateInterpolator.
@@ -7343,7 +7354,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:tension
+          @attr name com.springhack.editor:tension
         */
         public static final int AnticipateInterpolator_tension = 0;
         /** Attributes that can be used with a AnticipateOvershootInterpolator.
@@ -7374,7 +7385,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:extraTension
+          @attr name com.springhack.editor:extraTension
         */
         public static final int AnticipateOvershootInterpolator_extraTension = 1;
         /**
@@ -7390,7 +7401,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:tension
+          @attr name com.springhack.editor:tension
         */
         public static final int AnticipateOvershootInterpolator_tension = 0;
         /**  =============================== 
@@ -7435,7 +7446,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:configure
+          @attr name com.springhack.editor:configure
         */
         public static final int AppWidgetProviderInfo_configure = 4;
         /**
@@ -7447,7 +7458,7 @@ containing a value of this type.
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name android:initialLayout
+          @attr name com.springhack.editor:initialLayout
         */
         public static final int AppWidgetProviderInfo_initialLayout = 3;
         /**
@@ -7465,7 +7476,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:minHeight
+          @attr name com.springhack.editor:minHeight
         */
         public static final int AppWidgetProviderInfo_minHeight = 1;
         /**
@@ -7483,7 +7494,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:minWidth
+          @attr name com.springhack.editor:minWidth
         */
         public static final int AppWidgetProviderInfo_minWidth = 0;
         /**
@@ -7499,7 +7510,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:updatePeriodMillis
+          @attr name com.springhack.editor:updatePeriodMillis
         */
         public static final int AppWidgetProviderInfo_updatePeriodMillis = 2;
         /** Attributes that can be used with a AutoCompleteTextView.
@@ -7550,7 +7561,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:completionHint
+          @attr name com.springhack.editor:completionHint
         */
         public static final int AutoCompleteTextView_completionHint = 1;
         /**
@@ -7562,7 +7573,7 @@ containing a value of this type.
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name android:completionHintView
+          @attr name com.springhack.editor:completionHintView
         */
         public static final int AutoCompleteTextView_completionHintView = 2;
         /**
@@ -7579,7 +7590,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:completionThreshold
+          @attr name com.springhack.editor:completionThreshold
         */
         public static final int AutoCompleteTextView_completionThreshold = 3;
         /**
@@ -7592,7 +7603,7 @@ containing a value of this type.
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name android:dropDownAnchor
+          @attr name com.springhack.editor:dropDownAnchor
         */
         public static final int AutoCompleteTextView_dropDownAnchor = 7;
         /**
@@ -7622,7 +7633,7 @@ containing a value of this type.
 <tr><td><code>wrap_content</code></td><td>-2</td><td> The dropdown should fit the width of its anchor. </td></tr>
 </table>
           <p>This is a private symbol.
-          @attr name android:dropDownHeight
+          @attr name com.springhack.editor:dropDownHeight
         */
         public static final int AutoCompleteTextView_dropDownHeight = 9;
         /**
@@ -7640,7 +7651,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:dropDownHorizontalOffset
+          @attr name com.springhack.editor:dropDownHorizontalOffset
         */
         public static final int AutoCompleteTextView_dropDownHorizontalOffset = 6;
         /**
@@ -7654,7 +7665,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
           <p>This is a private symbol.
-          @attr name android:dropDownSelector
+          @attr name com.springhack.editor:dropDownSelector
         */
         public static final int AutoCompleteTextView_dropDownSelector = 4;
         /**
@@ -7672,7 +7683,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:dropDownVerticalOffset
+          @attr name com.springhack.editor:dropDownVerticalOffset
         */
         public static final int AutoCompleteTextView_dropDownVerticalOffset = 5;
         /**
@@ -7702,7 +7713,7 @@ containing a value of this type.
 <tr><td><code>wrap_content</code></td><td>-2</td><td> The dropdown should fit the width of its anchor. </td></tr>
 </table>
           <p>This is a private symbol.
-          @attr name android:dropDownWidth
+          @attr name com.springhack.editor:dropDownWidth
         */
         public static final int AutoCompleteTextView_dropDownWidth = 8;
         /**
@@ -7811,7 +7822,7 @@ containing a value of this type.
              {@link android.text.InputType#TYPE_DATETIME_VARIATION_TIME}. </td></tr>
 </table>
           <p>This is a private symbol.
-          @attr name android:inputType
+          @attr name com.springhack.editor:inputType
         */
         public static final int AutoCompleteTextView_inputType = 0;
         /**  Drawable used to draw bitmaps. 
@@ -7853,7 +7864,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:antialias
+          @attr name com.springhack.editor:antialias
         */
         public static final int BitmapDrawable_antialias = 2;
         /**
@@ -7871,7 +7882,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:dither
+          @attr name com.springhack.editor:dither
         */
         public static final int BitmapDrawable_dither = 4;
         /**
@@ -7888,7 +7899,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:filter
+          @attr name com.springhack.editor:filter
         */
         public static final int BitmapDrawable_filter = 3;
         /**
@@ -7924,7 +7935,7 @@ containing a value of this type.
              edge, a right gravity will clip the left edge, and neither will clip both edges. </td></tr>
 </table>
           <p>This is a private symbol.
-          @attr name android:gravity
+          @attr name com.springhack.editor:gravity
         */
         public static final int BitmapDrawable_gravity = 0;
         /**
@@ -7938,7 +7949,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
           <p>This is a private symbol.
-          @attr name android:src
+          @attr name com.springhack.editor:src
         */
         public static final int BitmapDrawable_src = 1;
         /**
@@ -7961,7 +7972,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
                  mirror images so that adjacent images always seam. </td></tr>
 </table>
           <p>This is a private symbol.
-          @attr name android:tileMode
+          @attr name com.springhack.editor:tileMode
         */
         public static final int BitmapDrawable_tileMode = 5;
         /** Attributes that can be used with a Button.
@@ -8002,7 +8013,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:disableDependentsState
+          @attr name com.springhack.editor:disableDependentsState
         */
         public static final int CheckBoxPreference_disableDependentsState = 2;
         /**
@@ -8020,7 +8031,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:summaryOff
+          @attr name com.springhack.editor:summaryOff
         */
         public static final int CheckBoxPreference_summaryOff = 1;
         /**
@@ -8038,7 +8049,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:summaryOn
+          @attr name com.springhack.editor:summaryOn
         */
         public static final int CheckBoxPreference_summaryOn = 0;
         /** Attributes that can be used with a CheckedTextView.
@@ -8065,7 +8076,7 @@ containing a value of this type.
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name android:checkMark
+          @attr name com.springhack.editor:checkMark
         */
         public static final int CheckedTextView_checkMark = 1;
         /**
@@ -8081,7 +8092,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:checked
+          @attr name com.springhack.editor:checked
         */
         public static final int CheckedTextView_checked = 0;
         /** Attributes that can be used with a Chronometer.
@@ -8116,7 +8127,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:format
+          @attr name com.springhack.editor:format
         */
         public static final int Chronometer_format = 0;
         /** Attributes that can be used with a ClipDrawable.
@@ -8152,7 +8163,7 @@ containing a value of this type.
 <tr><td><code>vertical</code></td><td>2</td><td> Clip the drawable vertically. </td></tr>
 </table>
           <p>This is a private symbol.
-          @attr name android:clipOrientation
+          @attr name com.springhack.editor:clipOrientation
         */
         public static final int ClipDrawable_clipOrientation = 2;
         /**
@@ -8164,7 +8175,7 @@ containing a value of this type.
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name android:drawable
+          @attr name com.springhack.editor:drawable
         */
         public static final int ClipDrawable_drawable = 1;
         /**
@@ -8200,7 +8211,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
              edge, a right gravity will clip the left edge, and neither will clip both edges. </td></tr>
 </table>
           <p>This is a private symbol.
-          @attr name android:gravity
+          @attr name com.springhack.editor:gravity
         */
         public static final int ClipDrawable_gravity = 0;
         /**  Drawable used to draw a single color. 
@@ -8230,7 +8241,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:color
+          @attr name com.springhack.editor:color
         */
         public static final int ColorDrawable_color = 0;
         /** Attributes that can be used with a CompoundButton.
@@ -8257,7 +8268,7 @@ containing a value of this type.
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name android:button
+          @attr name com.springhack.editor:button
         */
         public static final int CompoundButton_button = 1;
         /**
@@ -8273,7 +8284,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:checked
+          @attr name com.springhack.editor:checked
         */
         public static final int CompoundButton_checked = 0;
         /** Attributes that can be used with a CycleInterpolator.
@@ -8300,7 +8311,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android:cycles
+          @attr name com.springhack.editor:cycles
         */
         public static final int CycleInterpolator_cycles = 0;
         /** Attributes that can be used with a DatePicker.
@@ -8331,7 +8342,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:endYear
+          @attr name com.springhack.editor:endYear
         */
         public static final int DatePicker_endYear = 1;
         /**
@@ -8347,7 +8358,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:startYear
+          @attr name com.springhack.editor:startYear
         */
         public static final int DatePicker_startYear = 0;
         /** Attributes that can be used with a DecelerateInterpolator.
@@ -8376,7 +8387,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:factor
+          @attr name com.springhack.editor:factor
         */
         public static final int DecelerateInterpolator_factor = 0;
         /**  Base attributes available to DialogPreference. 
@@ -8412,7 +8423,7 @@ containing a value of this type.
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name android:dialogIcon
+          @attr name com.springhack.editor:dialogIcon
         */
         public static final int DialogPreference_dialogIcon = 2;
         /**
@@ -8426,7 +8437,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name android:dialogLayout
+          @attr name com.springhack.editor:dialogLayout
         */
         public static final int DialogPreference_dialogLayout = 5;
         /**
@@ -8443,7 +8454,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:dialogMessage
+          @attr name com.springhack.editor:dialogMessage
         */
         public static final int DialogPreference_dialogMessage = 1;
         /**
@@ -8459,7 +8470,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:dialogTitle
+          @attr name com.springhack.editor:dialogTitle
         */
         public static final int DialogPreference_dialogTitle = 0;
         /**
@@ -8475,7 +8486,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:negativeButtonText
+          @attr name com.springhack.editor:negativeButtonText
         */
         public static final int DialogPreference_negativeButtonText = 4;
         /**
@@ -8491,7 +8502,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:positiveButtonText
+          @attr name com.springhack.editor:positiveButtonText
         */
         public static final int DialogPreference_positiveButtonText = 3;
         /**  Base attributes that are available to all Drawable objects. 
@@ -8523,7 +8534,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:visible
+          @attr name com.springhack.editor:visible
         */
         public static final int Drawable_visible = 0;
         /** Attributes that can be used with a DrawableCorners.
@@ -8561,7 +8572,7 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android:bottomLeftRadius
+          @attr name com.springhack.editor:bottomLeftRadius
         */
         public static final int DrawableCorners_bottomLeftRadius = 3;
         /**
@@ -8577,7 +8588,7 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android:bottomRightRadius
+          @attr name com.springhack.editor:bottomRightRadius
         */
         public static final int DrawableCorners_bottomRightRadius = 4;
         /**
@@ -8593,7 +8604,7 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android:radius
+          @attr name com.springhack.editor:radius
         */
         public static final int DrawableCorners_radius = 0;
         /**
@@ -8609,7 +8620,7 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android:topLeftRadius
+          @attr name com.springhack.editor:topLeftRadius
         */
         public static final int DrawableCorners_topLeftRadius = 1;
         /**
@@ -8625,7 +8636,7 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android:topRightRadius
+          @attr name com.springhack.editor:topRightRadius
         */
         public static final int DrawableCorners_topRightRadius = 2;
         /**  Drawable states.
@@ -8700,7 +8711,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:state_active
+          @attr name com.springhack.editor:state_active
         */
         public static final int DrawableStates_state_active = 6;
         /**
@@ -8718,7 +8729,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:state_checkable
+          @attr name com.springhack.editor:state_checkable
         */
         public static final int DrawableStates_state_checkable = 3;
         /**
@@ -8737,7 +8748,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:state_checked
+          @attr name com.springhack.editor:state_checked
         */
         public static final int DrawableStates_state_checked = 4;
         /**
@@ -8753,7 +8764,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:state_enabled
+          @attr name com.springhack.editor:state_enabled
         */
         public static final int DrawableStates_state_enabled = 2;
         /**
@@ -8769,7 +8780,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:state_first
+          @attr name com.springhack.editor:state_first
         */
         public static final int DrawableStates_state_first = 8;
         /**
@@ -8785,7 +8796,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:state_focused
+          @attr name com.springhack.editor:state_focused
         */
         public static final int DrawableStates_state_focused = 0;
         /**
@@ -8801,7 +8812,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:state_last
+          @attr name com.springhack.editor:state_last
         */
         public static final int DrawableStates_state_last = 10;
         /**
@@ -8817,7 +8828,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:state_middle
+          @attr name com.springhack.editor:state_middle
         */
         public static final int DrawableStates_state_middle = 9;
         /**
@@ -8833,7 +8844,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:state_pressed
+          @attr name com.springhack.editor:state_pressed
         */
         public static final int DrawableStates_state_pressed = 11;
         /**
@@ -8849,7 +8860,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:state_selected
+          @attr name com.springhack.editor:state_selected
         */
         public static final int DrawableStates_state_selected = 5;
         /**
@@ -8865,7 +8876,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:state_single
+          @attr name com.springhack.editor:state_single
         */
         public static final int DrawableStates_state_single = 7;
         /**
@@ -8881,7 +8892,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:state_window_focused
+          @attr name com.springhack.editor:state_window_focused
         */
         public static final int DrawableStates_state_window_focused = 1;
         /** Attributes that can be used with a EditText.
@@ -8915,7 +8926,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:state_last
+          @attr name com.springhack.editor:state_last
         */
         public static final int ExpandableListChildIndicatorState_state_last = 0;
         /**  State array representing an expandable list group's indicator. 
@@ -8946,7 +8957,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:state_empty
+          @attr name com.springhack.editor:state_empty
         */
         public static final int ExpandableListGroupIndicatorState_state_empty = 1;
         /**
@@ -8962,7 +8973,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:state_expanded
+          @attr name com.springhack.editor:state_expanded
         */
         public static final int ExpandableListGroupIndicatorState_state_expanded = 0;
         /** Attributes that can be used with a ExpandableListView.
@@ -9004,7 +9015,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
           <p>This is a private symbol.
-          @attr name android:childDivider
+          @attr name com.springhack.editor:childDivider
         */
         public static final int ExpandableListView_childDivider = 6;
         /**
@@ -9016,7 +9027,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name android:childIndicator
+          @attr name com.springhack.editor:childIndicator
         */
         public static final int ExpandableListView_childIndicator = 1;
         /**
@@ -9034,7 +9045,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:childIndicatorLeft
+          @attr name com.springhack.editor:childIndicatorLeft
         */
         public static final int ExpandableListView_childIndicatorLeft = 4;
         /**
@@ -9052,7 +9063,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:childIndicatorRight
+          @attr name com.springhack.editor:childIndicatorRight
         */
         public static final int ExpandableListView_childIndicatorRight = 5;
         /**
@@ -9064,7 +9075,7 @@ containing a value of this type.
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name android:groupIndicator
+          @attr name com.springhack.editor:groupIndicator
         */
         public static final int ExpandableListView_groupIndicator = 0;
         /**
@@ -9083,7 +9094,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:indicatorLeft
+          @attr name com.springhack.editor:indicatorLeft
         */
         public static final int ExpandableListView_indicatorLeft = 2;
         /**
@@ -9102,7 +9113,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:indicatorRight
+          @attr name com.springhack.editor:indicatorRight
         */
         public static final int ExpandableListView_indicatorRight = 3;
         /** Attributes that can be used with a FrameLayout.
@@ -9138,7 +9149,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
           <p>This is a private symbol.
-          @attr name android:foreground
+          @attr name com.springhack.editor:foreground
         */
         public static final int FrameLayout_foreground = 0;
         /**
@@ -9174,7 +9185,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
                  edge, a right gravity will clip the left edge, and neither will clip both edges. </td></tr>
 </table>
           <p>This is a private symbol.
-          @attr name android:foregroundGravity
+          @attr name com.springhack.editor:foregroundGravity
         */
         public static final int FrameLayout_foregroundGravity = 1;
         /**
@@ -9191,7 +9202,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:foregroundInsidePadding
+          @attr name com.springhack.editor:foregroundInsidePadding
         */
         public static final int FrameLayout_foregroundInsidePadding = 2;
         /**
@@ -9208,7 +9219,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:measureAllChildren
+          @attr name com.springhack.editor:measureAllChildren
         */
         public static final int FrameLayout_measureAllChildren = 3;
         /** Attributes that can be used with a FrameLayout_Layout.
@@ -9257,7 +9268,7 @@ containing a value of this type.
              edge, a right gravity will clip the left edge, and neither will clip both edges. </td></tr>
 </table>
           <p>This is a private symbol.
-          @attr name android:layout_gravity
+          @attr name com.springhack.editor:layout_gravity
         */
         public static final int FrameLayout_Layout_layout_gravity = 0;
         /** Attributes that can be used with a Gallery.
@@ -9295,7 +9306,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:animationDuration
+          @attr name com.springhack.editor:animationDuration
         */
         public static final int Gallery_animationDuration = 1;
         /**
@@ -9331,7 +9342,7 @@ containing a value of this type.
              edge, a right gravity will clip the left edge, and neither will clip both edges. </td></tr>
 </table>
           <p>This is a private symbol.
-          @attr name android:gravity
+          @attr name com.springhack.editor:gravity
         */
         public static final int Gallery_gravity = 0;
         /**
@@ -9347,7 +9358,7 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android:spacing
+          @attr name com.springhack.editor:spacing
         */
         public static final int Gallery_spacing = 2;
         /**
@@ -9363,7 +9374,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:unselectedAlpha
+          @attr name com.springhack.editor:unselectedAlpha
         */
         public static final int Gallery_unselectedAlpha = 3;
         /**  GestureOverlayView specific attributes. These attributes are used to configure
@@ -9422,7 +9433,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:eventsInterceptionEnabled
+          @attr name com.springhack.editor:eventsInterceptionEnabled
         */
         public static final int GestureOverlayView_eventsInterceptionEnabled = 10;
         /**
@@ -9439,7 +9450,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:fadeDuration
+          @attr name com.springhack.editor:fadeDuration
         */
         public static final int GestureOverlayView_fadeDuration = 5;
         /**
@@ -9455,7 +9466,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:fadeEnabled
+          @attr name com.springhack.editor:fadeEnabled
         */
         public static final int GestureOverlayView_fadeEnabled = 11;
         /**
@@ -9472,7 +9483,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:fadeOffset
+          @attr name com.springhack.editor:fadeOffset
         */
         public static final int GestureOverlayView_fadeOffset = 4;
         /**
@@ -9489,7 +9500,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:gestureColor
+          @attr name com.springhack.editor:gestureColor
         */
         public static final int GestureOverlayView_gestureColor = 2;
         /**
@@ -9505,7 +9516,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:gestureStrokeAngleThreshold
+          @attr name com.springhack.editor:gestureStrokeAngleThreshold
         */
         public static final int GestureOverlayView_gestureStrokeAngleThreshold = 9;
         /**
@@ -9521,7 +9532,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:gestureStrokeLengthThreshold
+          @attr name com.springhack.editor:gestureStrokeLengthThreshold
         */
         public static final int GestureOverlayView_gestureStrokeLengthThreshold = 7;
         /**
@@ -9537,7 +9548,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:gestureStrokeSquarenessThreshold
+          @attr name com.springhack.editor:gestureStrokeSquarenessThreshold
         */
         public static final int GestureOverlayView_gestureStrokeSquarenessThreshold = 8;
         /**
@@ -9556,7 +9567,7 @@ containing a value of this type.
 <tr><td><code>multiple</code></td><td>1</td><td> A gesture is made of multiple strokes. </td></tr>
 </table>
           <p>This is a private symbol.
-          @attr name android:gestureStrokeType
+          @attr name com.springhack.editor:gestureStrokeType
         */
         public static final int GestureOverlayView_gestureStrokeType = 6;
         /**
@@ -9572,7 +9583,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:gestureStrokeWidth
+          @attr name com.springhack.editor:gestureStrokeWidth
         */
         public static final int GestureOverlayView_gestureStrokeWidth = 1;
         /**
@@ -9592,7 +9603,7 @@ containing a value of this type.
 <tr><td><code>vertical</code></td><td>1</td><td> Defines a vertical widget. </td></tr>
 </table>
           <p>This is a private symbol.
-          @attr name android:orientation
+          @attr name com.springhack.editor:orientation
         */
         public static final int GestureOverlayView_orientation = 0;
         /**
@@ -9609,7 +9620,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:uncertainGestureColor
+          @attr name com.springhack.editor:uncertainGestureColor
         */
         public static final int GestureOverlayView_uncertainGestureColor = 3;
         /** Attributes that can be used with a GradientDrawable.
@@ -9654,7 +9665,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:innerRadius
+          @attr name com.springhack.editor:innerRadius
         */
         public static final int GradientDrawable_innerRadius = 4;
         /**
@@ -9672,7 +9683,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:innerRadiusRatio
+          @attr name com.springhack.editor:innerRadiusRatio
         */
         public static final int GradientDrawable_innerRadiusRatio = 2;
         /**
@@ -9691,7 +9702,7 @@ containing a value of this type.
 <tr><td><code>line</code></td><td>2</td><td></td></tr>
 <tr><td><code>ring</code></td><td>3</td><td></td></tr>
 </table>
-          @attr name android:shape
+          @attr name com.springhack.editor:shape
         */
         public static final int GradientDrawable_shape = 1;
         /**
@@ -9709,7 +9720,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:thickness
+          @attr name com.springhack.editor:thickness
         */
         public static final int GradientDrawable_thickness = 5;
         /**
@@ -9727,7 +9738,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:thicknessRatio
+          @attr name com.springhack.editor:thicknessRatio
         */
         public static final int GradientDrawable_thicknessRatio = 3;
         /**
@@ -9741,7 +9752,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android:useLevel
+          @attr name com.springhack.editor:useLevel
         */
         public static final int GradientDrawable_useLevel = 6;
         /**
@@ -9759,7 +9770,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:visible
+          @attr name com.springhack.editor:visible
         */
         public static final int GradientDrawable_visible = 0;
         /** Attributes that can be used with a GradientDrawableGradient.
@@ -9804,7 +9815,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android:angle
+          @attr name com.springhack.editor:angle
         */
         public static final int GradientDrawableGradient_angle = 4;
         /**
@@ -9821,7 +9832,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:centerColor
+          @attr name com.springhack.editor:centerColor
         */
         public static final int GradientDrawableGradient_centerColor = 1;
         /**
@@ -9838,7 +9849,7 @@ some parent container.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android:centerX
+          @attr name com.springhack.editor:centerX
         */
         public static final int GradientDrawableGradient_centerX = 6;
         /**
@@ -9855,7 +9866,7 @@ some parent container.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android:centerY
+          @attr name com.springhack.editor:centerY
         */
         public static final int GradientDrawableGradient_centerY = 7;
         /**
@@ -9870,7 +9881,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android:endColor
+          @attr name com.springhack.editor:endColor
         */
         public static final int GradientDrawableGradient_endColor = 2;
         /**
@@ -9887,7 +9898,7 @@ some parent container.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android:gradientRadius
+          @attr name com.springhack.editor:gradientRadius
         */
         public static final int GradientDrawableGradient_gradientRadius = 8;
         /**
@@ -9902,7 +9913,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android:startColor
+          @attr name com.springhack.editor:startColor
         */
         public static final int GradientDrawableGradient_startColor = 0;
         /**
@@ -9920,7 +9931,7 @@ containing a value of this type.
 <tr><td><code>radial</code></td><td>1</td><td></td></tr>
 <tr><td><code>sweep</code></td><td>2</td><td></td></tr>
 </table>
-          @attr name android:type
+          @attr name com.springhack.editor:type
         */
         public static final int GradientDrawableGradient_type = 5;
         /**
@@ -9934,7 +9945,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android:useLevel
+          @attr name com.springhack.editor:useLevel
         */
         public static final int GradientDrawableGradient_useLevel = 3;
         /** Attributes that can be used with a GradientDrawablePadding.
@@ -9969,7 +9980,7 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android:bottom
+          @attr name com.springhack.editor:bottom
         */
         public static final int GradientDrawablePadding_bottom = 3;
         /**
@@ -9985,7 +9996,7 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android:left
+          @attr name com.springhack.editor:left
         */
         public static final int GradientDrawablePadding_left = 0;
         /**
@@ -10001,7 +10012,7 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android:right
+          @attr name com.springhack.editor:right
         */
         public static final int GradientDrawablePadding_right = 2;
         /**
@@ -10017,7 +10028,7 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android:top
+          @attr name com.springhack.editor:top
         */
         public static final int GradientDrawablePadding_top = 1;
         /** Attributes that can be used with a GradientDrawableSize.
@@ -10052,7 +10063,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:height
+          @attr name com.springhack.editor:height
         */
         public static final int GradientDrawableSize_height = 0;
         /**
@@ -10072,7 +10083,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:width
+          @attr name com.springhack.editor:width
         */
         public static final int GradientDrawableSize_width = 1;
         /** Attributes that can be used with a GradientDrawableSolid.
@@ -10100,7 +10111,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android:color
+          @attr name com.springhack.editor:color
         */
         public static final int GradientDrawableSolid_color = 0;
         /** Attributes that can be used with a GradientDrawableStroke.
@@ -10134,7 +10145,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android:color
+          @attr name com.springhack.editor:color
         */
         public static final int GradientDrawableStroke_color = 1;
         /**
@@ -10150,7 +10161,7 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android:dashGap
+          @attr name com.springhack.editor:dashGap
         */
         public static final int GradientDrawableStroke_dashGap = 3;
         /**
@@ -10166,7 +10177,7 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android:dashWidth
+          @attr name com.springhack.editor:dashWidth
         */
         public static final int GradientDrawableStroke_dashWidth = 2;
         /**
@@ -10186,7 +10197,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:width
+          @attr name com.springhack.editor:width
         */
         public static final int GradientDrawableStroke_width = 0;
         /** Attributes that can be used with a GridLayoutAnimation.
@@ -10227,7 +10238,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:columnDelay
+          @attr name com.springhack.editor:columnDelay
         */
         public static final int GridLayoutAnimation_columnDelay = 0;
         /**
@@ -10248,7 +10259,7 @@ containing a value of this type.
 <tr><td><code>bottom_to_top</code></td><td>0x2</td><td> Animates rows from bottom to top. </td></tr>
 </table>
           <p>This is a private symbol.
-          @attr name android:direction
+          @attr name com.springhack.editor:direction
         */
         public static final int GridLayoutAnimation_direction = 2;
         /**
@@ -10271,7 +10282,7 @@ containing a value of this type.
 <tr><td><code>row</code></td><td>2</td><td> Rows are animated first. </td></tr>
 </table>
           <p>This is a private symbol.
-          @attr name android:directionPriority
+          @attr name com.springhack.editor:directionPriority
         */
         public static final int GridLayoutAnimation_directionPriority = 3;
         /**
@@ -10291,7 +10302,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:rowDelay
+          @attr name com.springhack.editor:rowDelay
         */
         public static final int GridLayoutAnimation_rowDelay = 1;
         /** Attributes that can be used with a GridView.
@@ -10332,7 +10343,7 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android:columnWidth
+          @attr name com.springhack.editor:columnWidth
         */
         public static final int GridView_columnWidth = 4;
         /**
@@ -10368,7 +10379,7 @@ containing a value of this type.
              edge, a right gravity will clip the left edge, and neither will clip both edges. </td></tr>
 </table>
           <p>This is a private symbol.
-          @attr name android:gravity
+          @attr name com.springhack.editor:gravity
         */
         public static final int GridView_gravity = 0;
         /**
@@ -10384,7 +10395,7 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android:horizontalSpacing
+          @attr name com.springhack.editor:horizontalSpacing
         */
         public static final int GridView_horizontalSpacing = 1;
         /**
@@ -10406,7 +10417,7 @@ containing a value of this type.
 <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
 <tr><td><code>auto_fit</code></td><td>-1</td><td></td></tr>
 </table>
-          @attr name android:numColumns
+          @attr name com.springhack.editor:numColumns
         */
         public static final int GridView_numColumns = 5;
         /**
@@ -10425,7 +10436,7 @@ containing a value of this type.
 <tr><td><code>columnWidth</code></td><td>2</td><td></td></tr>
 <tr><td><code>spacingWidthUniform</code></td><td>3</td><td></td></tr>
 </table>
-          @attr name android:stretchMode
+          @attr name com.springhack.editor:stretchMode
         */
         public static final int GridView_stretchMode = 3;
         /**
@@ -10441,7 +10452,7 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android:verticalSpacing
+          @attr name com.springhack.editor:verticalSpacing
         */
         public static final int GridView_verticalSpacing = 2;
         /** Attributes that can be used with a HorizontalScrollView.
@@ -10470,7 +10481,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:fillViewport
+          @attr name com.springhack.editor:fillViewport
         */
         public static final int HorizontalScrollView_fillViewport = 0;
         /** Attributes that can be used with a IconMenuView.
@@ -10508,7 +10519,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:maxItems
+          @attr name com.springhack.editor:maxItems
         */
         public static final int IconMenuView_maxItems = 3;
         /**
@@ -10524,7 +10535,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:maxItemsPerRow
+          @attr name com.springhack.editor:maxItemsPerRow
         */
         public static final int IconMenuView_maxItemsPerRow = 2;
         /**
@@ -10540,7 +10551,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:maxRows
+          @attr name com.springhack.editor:maxRows
         */
         public static final int IconMenuView_maxRows = 1;
         /**
@@ -10552,7 +10563,7 @@ containing a value of this type.
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name android:moreIcon
+          @attr name com.springhack.editor:moreIcon
         */
         public static final int IconMenuView_moreIcon = 4;
         /**
@@ -10570,7 +10581,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:rowHeight
+          @attr name com.springhack.editor:rowHeight
         */
         public static final int IconMenuView_rowHeight = 0;
         /** Attributes that can be used with a ImageSwitcher.
@@ -10623,7 +10634,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:adjustViewBounds
+          @attr name com.springhack.editor:adjustViewBounds
         */
         public static final int ImageView_adjustViewBounds = 2;
         /**
@@ -10640,7 +10651,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:baselineAlignBottom
+          @attr name com.springhack.editor:baselineAlignBottom
         */
         public static final int ImageView_baselineAlignBottom = 6;
         /**
@@ -10656,7 +10667,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:cropToPadding
+          @attr name com.springhack.editor:cropToPadding
         */
         public static final int ImageView_cropToPadding = 7;
         /**
@@ -10675,7 +10686,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:maxHeight
+          @attr name com.springhack.editor:maxHeight
         */
         public static final int ImageView_maxHeight = 4;
         /**
@@ -10694,7 +10705,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:maxWidth
+          @attr name com.springhack.editor:maxWidth
         */
         public static final int ImageView_maxWidth = 3;
         /**
@@ -10720,7 +10731,7 @@ containing a value of this type.
 <tr><td><code>centerInside</code></td><td>7</td><td></td></tr>
 </table>
           <p>This is a private symbol.
-          @attr name android:scaleType
+          @attr name com.springhack.editor:scaleType
         */
         public static final int ImageView_scaleType = 1;
         /**
@@ -10734,7 +10745,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
           <p>This is a private symbol.
-          @attr name android:src
+          @attr name com.springhack.editor:src
         */
         public static final int ImageView_src = 0;
         /**
@@ -10751,7 +10762,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:tint
+          @attr name com.springhack.editor:tint
         */
         public static final int ImageView_tint = 5;
         /**  An <code>input-extras</code> is a container for extra data to supply to
@@ -10798,7 +10809,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:isDefault
+          @attr name com.springhack.editor:isDefault
         */
         public static final int InputMethod_isDefault = 1;
         /**
@@ -10815,7 +10826,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:settingsActivity
+          @attr name com.springhack.editor:settingsActivity
         */
         public static final int InputMethod_settingsActivity = 0;
         /** Attributes that can be used with a InputMethodService.
@@ -10849,7 +10860,7 @@ containing a value of this type.
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name android:imeExtractEnterAnimation
+          @attr name com.springhack.editor:imeExtractEnterAnimation
         */
         public static final int InputMethodService_imeExtractEnterAnimation = 1;
         /**
@@ -10862,7 +10873,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name android:imeExtractExitAnimation
+          @attr name com.springhack.editor:imeExtractExitAnimation
         */
         public static final int InputMethodService_imeExtractExitAnimation = 2;
         /**
@@ -10881,7 +10892,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
           <p>This is a private symbol.
-          @attr name android:imeFullscreenBackground
+          @attr name com.springhack.editor:imeFullscreenBackground
         */
         public static final int InputMethodService_imeFullscreenBackground = 0;
         /** Attributes that can be used with a InsetDrawable.
@@ -10919,7 +10930,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name android:drawable
+          @attr name com.springhack.editor:drawable
         */
         public static final int InsetDrawable_drawable = 1;
         /**
@@ -10935,7 +10946,7 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android:insetBottom
+          @attr name com.springhack.editor:insetBottom
         */
         public static final int InsetDrawable_insetBottom = 5;
         /**
@@ -10951,7 +10962,7 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android:insetLeft
+          @attr name com.springhack.editor:insetLeft
         */
         public static final int InsetDrawable_insetLeft = 2;
         /**
@@ -10967,7 +10978,7 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android:insetRight
+          @attr name com.springhack.editor:insetRight
         */
         public static final int InsetDrawable_insetRight = 3;
         /**
@@ -10983,7 +10994,7 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android:insetTop
+          @attr name com.springhack.editor:insetTop
         */
         public static final int InsetDrawable_insetTop = 4;
         /**
@@ -11001,7 +11012,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:visible
+          @attr name com.springhack.editor:visible
         */
         public static final int InsetDrawable_visible = 0;
         /** Attributes that can be used with a Keyboard.
@@ -11041,7 +11052,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:horizontalGap
+          @attr name com.springhack.editor:horizontalGap
         */
         public static final int Keyboard_horizontalGap = 2;
         /**
@@ -11062,7 +11073,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:keyHeight
+          @attr name com.springhack.editor:keyHeight
         */
         public static final int Keyboard_keyHeight = 1;
         /**
@@ -11083,7 +11094,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:keyWidth
+          @attr name com.springhack.editor:keyWidth
         */
         public static final int Keyboard_keyWidth = 0;
         /**
@@ -11104,7 +11115,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:verticalGap
+          @attr name com.springhack.editor:verticalGap
         */
         public static final int Keyboard_verticalGap = 3;
         /** Attributes that can be used with a KeyboardView.
@@ -11155,7 +11166,7 @@ containing a value of this type.
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name android:keyBackground
+          @attr name com.springhack.editor:keyBackground
         */
         public static final int KeyboardView_keyBackground = 3;
         /**
@@ -11173,7 +11184,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:keyPreviewHeight
+          @attr name com.springhack.editor:keyPreviewHeight
         */
         public static final int KeyboardView_keyPreviewHeight = 9;
         /**
@@ -11185,7 +11196,7 @@ containing a value of this type.
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name android:keyPreviewLayout
+          @attr name com.springhack.editor:keyPreviewLayout
         */
         public static final int KeyboardView_keyPreviewLayout = 7;
         /**
@@ -11203,7 +11214,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:keyPreviewOffset
+          @attr name com.springhack.editor:keyPreviewOffset
         */
         public static final int KeyboardView_keyPreviewOffset = 8;
         /**
@@ -11220,7 +11231,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:keyTextColor
+          @attr name com.springhack.editor:keyTextColor
         */
         public static final int KeyboardView_keyTextColor = 6;
         /**
@@ -11238,7 +11249,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:keyTextSize
+          @attr name com.springhack.editor:keyTextSize
         */
         public static final int KeyboardView_keyTextSize = 4;
         /**
@@ -11250,7 +11261,7 @@ containing a value of this type.
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name android:keyboardViewStyle
+          @attr name com.springhack.editor:keyboardViewStyle
         */
         public static final int KeyboardView_keyboardViewStyle = 2;
         /**
@@ -11268,7 +11279,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:labelTextSize
+          @attr name com.springhack.editor:labelTextSize
         */
         public static final int KeyboardView_labelTextSize = 5;
         /**
@@ -11280,7 +11291,7 @@ containing a value of this type.
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name android:popupLayout
+          @attr name com.springhack.editor:popupLayout
         */
         public static final int KeyboardView_popupLayout = 11;
         /**
@@ -11297,7 +11308,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:shadowColor
+          @attr name com.springhack.editor:shadowColor
         */
         public static final int KeyboardView_shadowColor = 0;
         /**
@@ -11313,7 +11324,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:shadowRadius
+          @attr name com.springhack.editor:shadowRadius
         */
         public static final int KeyboardView_shadowRadius = 1;
         /**
@@ -11331,7 +11342,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:verticalCorrection
+          @attr name com.springhack.editor:verticalCorrection
         */
         public static final int KeyboardView_verticalCorrection = 10;
         /** Attributes that can be used with a KeyboardViewPreviewState.
@@ -11362,7 +11373,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:state_long_pressable
+          @attr name com.springhack.editor:state_long_pressable
         */
         public static final int KeyboardViewPreviewState_state_long_pressable = 0;
         /** Attributes that can be used with a Keyboard_Key.
@@ -11416,7 +11427,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:codes
+          @attr name com.springhack.editor:codes
         */
         public static final int Keyboard_Key_codes = 1;
         /**
@@ -11428,7 +11439,7 @@ containing a value of this type.
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name android:iconPreview
+          @attr name com.springhack.editor:iconPreview
         */
         public static final int Keyboard_Key_iconPreview = 8;
         /**
@@ -11444,7 +11455,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:isModifier
+          @attr name com.springhack.editor:isModifier
         */
         public static final int Keyboard_Key_isModifier = 5;
         /**
@@ -11460,7 +11471,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:isRepeatable
+          @attr name com.springhack.editor:isRepeatable
         */
         public static final int Keyboard_Key_isRepeatable = 7;
         /**
@@ -11476,7 +11487,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:isSticky
+          @attr name com.springhack.editor:isSticky
         */
         public static final int Keyboard_Key_isSticky = 6;
         /**
@@ -11495,7 +11506,7 @@ containing a value of this type.
 <tr><td><code>right</code></td><td>2</td><td> Key is anchored to the right of the keyboard </td></tr>
 </table>
           <p>This is a private symbol.
-          @attr name android:keyEdgeFlags
+          @attr name com.springhack.editor:keyEdgeFlags
         */
         public static final int Keyboard_Key_keyEdgeFlags = 4;
         /**
@@ -11507,7 +11518,7 @@ containing a value of this type.
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name android:keyIcon
+          @attr name com.springhack.editor:keyIcon
         */
         public static final int Keyboard_Key_keyIcon = 11;
         /**
@@ -11523,7 +11534,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:keyLabel
+          @attr name com.springhack.editor:keyLabel
         */
         public static final int Keyboard_Key_keyLabel = 10;
         /**
@@ -11539,7 +11550,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:keyOutputText
+          @attr name com.springhack.editor:keyOutputText
         */
         public static final int Keyboard_Key_keyOutputText = 9;
         /**
@@ -11552,7 +11563,7 @@ containing a value of this type.
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name android:keyboardMode
+          @attr name com.springhack.editor:keyboardMode
         */
         public static final int Keyboard_Key_keyboardMode = 0;
         /**
@@ -11568,7 +11579,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:popupCharacters
+          @attr name com.springhack.editor:popupCharacters
         */
         public static final int Keyboard_Key_popupCharacters = 3;
         /**
@@ -11580,7 +11591,7 @@ containing a value of this type.
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name android:popupKeyboard
+          @attr name com.springhack.editor:popupKeyboard
         */
         public static final int Keyboard_Key_popupKeyboard = 2;
         /** Attributes that can be used with a Keyboard_Row.
@@ -11608,7 +11619,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name android:keyboardMode
+          @attr name com.springhack.editor:keyboardMode
         */
         public static final int Keyboard_Row_keyboardMode = 1;
         /**
@@ -11627,7 +11638,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>bottom</code></td><td>8</td><td> Row is anchored to the bottom of the keyboard </td></tr>
 </table>
           <p>This is a private symbol.
-          @attr name android:rowEdgeFlags
+          @attr name com.springhack.editor:rowEdgeFlags
         */
         public static final int Keyboard_Row_rowEdgeFlags = 0;
         /** Attributes that can be used with a LayerDrawableItem.
@@ -11669,7 +11680,7 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android:bottom
+          @attr name com.springhack.editor:bottom
         */
         public static final int LayerDrawableItem_bottom = 5;
         /**
@@ -11682,7 +11693,7 @@ containing a value of this type.
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name android:drawable
+          @attr name com.springhack.editor:drawable
         */
         public static final int LayerDrawableItem_drawable = 1;
         /**
@@ -11702,7 +11713,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name android:id
+          @attr name com.springhack.editor:id
         */
         public static final int LayerDrawableItem_id = 0;
         /**
@@ -11718,7 +11729,7 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android:left
+          @attr name com.springhack.editor:left
         */
         public static final int LayerDrawableItem_left = 2;
         /**
@@ -11734,7 +11745,7 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android:right
+          @attr name com.springhack.editor:right
         */
         public static final int LayerDrawableItem_right = 4;
         /**
@@ -11750,7 +11761,7 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android:top
+          @attr name com.springhack.editor:top
         */
         public static final int LayerDrawableItem_top = 3;
         /** Attributes that can be used with a LayoutAnimation.
@@ -11783,7 +11794,7 @@ containing a value of this type.
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name android:animation
+          @attr name com.springhack.editor:animation
         */
         public static final int LayoutAnimation_animation = 2;
         /**
@@ -11803,7 +11814,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>random</code></td><td>2</td><td> Animations are started randomly. </td></tr>
 </table>
           <p>This is a private symbol.
-          @attr name android:animationOrder
+          @attr name com.springhack.editor:animationOrder
         */
         public static final int LayoutAnimation_animationOrder = 3;
         /**
@@ -11823,7 +11834,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:delay
+          @attr name com.springhack.editor:delay
         */
         public static final int LayoutAnimation_delay = 1;
         /**
@@ -11836,7 +11847,7 @@ containing a value of this type.
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name android:interpolator
+          @attr name com.springhack.editor:interpolator
         */
         public static final int LayoutAnimation_interpolator = 0;
         /** Attributes that can be used with a LevelListDrawableItem.
@@ -11866,7 +11877,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name android:drawable
+          @attr name com.springhack.editor:drawable
         */
         public static final int LevelListDrawableItem_drawable = 0;
         /**
@@ -11882,7 +11893,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:maxLevel
+          @attr name com.springhack.editor:maxLevel
         */
         public static final int LevelListDrawableItem_maxLevel = 2;
         /**
@@ -11898,7 +11909,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:minLevel
+          @attr name com.springhack.editor:minLevel
         */
         public static final int LevelListDrawableItem_minLevel = 1;
         /** Attributes that can be used with a LinearLayout.
@@ -11943,7 +11954,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:baselineAligned
+          @attr name com.springhack.editor:baselineAligned
         */
         public static final int LinearLayout_baselineAligned = 2;
         /**
@@ -11961,7 +11972,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:baselineAlignedChildIndex
+          @attr name com.springhack.editor:baselineAlignedChildIndex
         */
         public static final int LinearLayout_baselineAlignedChildIndex = 3;
         /**
@@ -11997,7 +12008,7 @@ containing a value of this type.
              edge, a right gravity will clip the left edge, and neither will clip both edges. </td></tr>
 </table>
           <p>This is a private symbol.
-          @attr name android:gravity
+          @attr name com.springhack.editor:gravity
         */
         public static final int LinearLayout_gravity = 0;
         /**
@@ -12018,7 +12029,7 @@ containing a value of this type.
 <tr><td><code>vertical</code></td><td>1</td><td> Defines a vertical widget. </td></tr>
 </table>
           <p>This is a private symbol.
-          @attr name android:orientation
+          @attr name com.springhack.editor:orientation
         */
         public static final int LinearLayout_orientation = 1;
         /**
@@ -12038,7 +12049,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:weightSum
+          @attr name com.springhack.editor:weightSum
         */
         public static final int LinearLayout_weightSum = 4;
         /** Attributes that can be used with a LinearLayout_Layout.
@@ -12093,7 +12104,7 @@ containing a value of this type.
              edge, a right gravity will clip the left edge, and neither will clip both edges. </td></tr>
 </table>
           <p>This is a private symbol.
-          @attr name android:layout_gravity
+          @attr name com.springhack.editor:layout_gravity
         */
         public static final int LinearLayout_Layout_layout_gravity = 0;
         /**
@@ -12123,7 +12134,7 @@ containing a value of this type.
 <tr><td><code>wrap_content</code></td><td>-2</td><td> The view should be only big enough to enclose its content (plus padding). </td></tr>
 </table>
           <p>This is a private symbol.
-          @attr name android:layout_height
+          @attr name com.springhack.editor:layout_height
         */
         public static final int LinearLayout_Layout_layout_height = 2;
         /**
@@ -12137,7 +12148,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android:layout_weight
+          @attr name com.springhack.editor:layout_weight
         */
         public static final int LinearLayout_Layout_layout_weight = 3;
         /**
@@ -12167,7 +12178,7 @@ containing a value of this type.
 <tr><td><code>wrap_content</code></td><td>-2</td><td> The view should be only big enough to enclose its content (plus padding). </td></tr>
 </table>
           <p>This is a private symbol.
-          @attr name android:layout_width
+          @attr name com.springhack.editor:layout_width
         */
         public static final int LinearLayout_Layout_layout_width = 1;
         /**  Base attributes available to ListPreference. 
@@ -12196,7 +12207,7 @@ containing a value of this type.
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name android:entries
+          @attr name com.springhack.editor:entries
         */
         public static final int ListPreference_entries = 0;
         /**
@@ -12210,7 +12221,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name android:entryValues
+          @attr name com.springhack.editor:entryValues
         */
         public static final int ListPreference_entryValues = 1;
         /** Attributes that can be used with a ListView.
@@ -12257,7 +12268,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>multipleChoice</code></td><td>2</td><td> The list allows multiple choices </td></tr>
 </table>
           <p>This is a private symbol.
-          @attr name android:choiceMode
+          @attr name com.springhack.editor:choiceMode
         */
         public static final int ListView_choiceMode = 3;
         /**
@@ -12271,7 +12282,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
           <p>This is a private symbol.
-          @attr name android:divider
+          @attr name com.springhack.editor:divider
         */
         public static final int ListView_divider = 1;
         /**
@@ -12290,7 +12301,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:dividerHeight
+          @attr name com.springhack.editor:dividerHeight
         */
         public static final int ListView_dividerHeight = 2;
         /**
@@ -12303,7 +12314,7 @@ containing a value of this type.
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name android:entries
+          @attr name com.springhack.editor:entries
         */
         public static final int ListView_entries = 0;
         /**
@@ -12320,7 +12331,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:footerDividersEnabled
+          @attr name com.springhack.editor:footerDividersEnabled
         */
         public static final int ListView_footerDividersEnabled = 5;
         /**
@@ -12337,7 +12348,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:headerDividersEnabled
+          @attr name com.springhack.editor:headerDividersEnabled
         */
         public static final int ListView_headerDividersEnabled = 4;
         /**  The set of attributes for a MapView. 
@@ -12366,7 +12377,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:apiKey
+          @attr name com.springhack.editor:apiKey
         */
         public static final int MapView_apiKey = 0;
         /**  Base attributes that are available to all Menu objects. 
@@ -12416,7 +12427,7 @@ containing a value of this type.
                  this group. </td></tr>
 </table>
           <p>This is a private symbol.
-          @attr name android:checkableBehavior
+          @attr name com.springhack.editor:checkableBehavior
         */
         public static final int MenuGroup_checkableBehavior = 5;
         /**
@@ -12432,7 +12443,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:enabled
+          @attr name com.springhack.editor:enabled
         */
         public static final int MenuGroup_enabled = 1;
         /**
@@ -12444,7 +12455,7 @@ containing a value of this type.
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name android:id
+          @attr name com.springhack.editor:id
         */
         public static final int MenuGroup_id = 0;
         /**
@@ -12466,7 +12477,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>alternative</code></td><td>0x00040000</td><td> Items are alternative actions. </td></tr>
 </table>
           <p>This is a private symbol.
-          @attr name android:menuCategory
+          @attr name com.springhack.editor:menuCategory
         */
         public static final int MenuGroup_menuCategory = 3;
         /**
@@ -12483,7 +12494,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:orderInCategory
+          @attr name com.springhack.editor:orderInCategory
         */
         public static final int MenuGroup_orderInCategory = 4;
         /**
@@ -12499,7 +12510,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:visible
+          @attr name com.springhack.editor:visible
         */
         public static final int MenuGroup_visible = 2;
         /**  State array representing a menu item that is currently focused and checked. 
@@ -12534,7 +12545,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:state_checkable
+          @attr name com.springhack.editor:state_checkable
         */
         public static final int MenuItemCheckedFocusedState_state_checkable = 1;
         /**
@@ -12553,7 +12564,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:state_checked
+          @attr name com.springhack.editor:state_checked
         */
         public static final int MenuItemCheckedFocusedState_state_checked = 2;
         /**
@@ -12569,7 +12580,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:state_focused
+          @attr name com.springhack.editor:state_focused
         */
         public static final int MenuItemCheckedFocusedState_state_focused = 0;
         /**  State array representing a menu item that is currently checked. 
@@ -12602,7 +12613,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:state_checkable
+          @attr name com.springhack.editor:state_checkable
         */
         public static final int MenuItemCheckedState_state_checkable = 0;
         /**
@@ -12621,7 +12632,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:state_checked
+          @attr name com.springhack.editor:state_checked
         */
         public static final int MenuItemCheckedState_state_checked = 1;
         /**  State array representing a menu item that is focused and checkable but is not currently checked. 
@@ -12654,7 +12665,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:state_checkable
+          @attr name com.springhack.editor:state_checkable
         */
         public static final int MenuItemUncheckedFocusedState_state_checkable = 1;
         /**
@@ -12670,7 +12681,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:state_focused
+          @attr name com.springhack.editor:state_focused
         */
         public static final int MenuItemUncheckedFocusedState_state_focused = 0;
         /**  State array representing a menu item that is checkable but is not currently checked. 
@@ -12701,7 +12712,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:state_checkable
+          @attr name com.springhack.editor:state_checkable
         */
         public static final int MenuItemUncheckedState_state_checkable = 0;
         /** Attributes that can be used with a MenuView.
@@ -12741,7 +12752,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
           <p>This is a private symbol.
-          @attr name android:headerBackground
+          @attr name com.springhack.editor:headerBackground
         */
         public static final int MenuView_headerBackground = 4;
         /**
@@ -12753,7 +12764,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name android:horizontalDivider
+          @attr name com.springhack.editor:horizontalDivider
         */
         public static final int MenuView_horizontalDivider = 2;
         /**
@@ -12767,7 +12778,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
           <p>This is a private symbol.
-          @attr name android:itemBackground
+          @attr name com.springhack.editor:itemBackground
         */
         public static final int MenuView_itemBackground = 5;
         /**
@@ -12783,7 +12794,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:itemIconDisabledAlpha
+          @attr name com.springhack.editor:itemIconDisabledAlpha
         */
         public static final int MenuView_itemIconDisabledAlpha = 6;
         /**
@@ -12795,7 +12806,7 @@ containing a value of this type.
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name android:itemTextAppearance
+          @attr name com.springhack.editor:itemTextAppearance
         */
         public static final int MenuView_itemTextAppearance = 1;
         /**
@@ -12807,7 +12818,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name android:verticalDivider
+          @attr name com.springhack.editor:verticalDivider
         */
         public static final int MenuView_verticalDivider = 3;
         /**
@@ -12819,7 +12830,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name android:windowAnimationStyle
+          @attr name com.springhack.editor:windowAnimationStyle
         */
         public static final int MenuView_windowAnimationStyle = 0;
         /**  Drawable used to draw 9-patches. 
@@ -12854,7 +12865,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:dither
+          @attr name com.springhack.editor:dither
         */
         public static final int NinePatchDrawable_dither = 1;
         /**
@@ -12868,7 +12879,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
           <p>This is a private symbol.
-          @attr name android:src
+          @attr name com.springhack.editor:src
         */
         public static final int NinePatchDrawable_src = 0;
         /** Attributes that can be used with a OvershootInterpolator.
@@ -12897,7 +12908,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:tension
+          @attr name com.springhack.editor:tension
         */
         public static final int OvershootInterpolator_tension = 0;
         /** Attributes that can be used with a PopupWindow.
@@ -12922,7 +12933,7 @@ containing a value of this type.
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name android:popupBackground
+          @attr name com.springhack.editor:popupBackground
         */
         public static final int PopupWindow_popupBackground = 0;
         /** Attributes that can be used with a PopupWindowBackgroundState.
@@ -12951,7 +12962,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:state_above_anchor
+          @attr name com.springhack.editor:state_above_anchor
         */
         public static final int PopupWindowBackgroundState_state_above_anchor = 0;
         /**  Base attributes available to PreferenceGroup. 
@@ -12982,7 +12993,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:orderingFromXml
+          @attr name com.springhack.editor:orderingFromXml
         */
         public static final int PreferenceGroup_orderingFromXml = 0;
         /** Attributes that can be used with a ProgressBar.
@@ -13042,7 +13053,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:indeterminate
+          @attr name com.springhack.editor:indeterminate
         */
         public static final int ProgressBar_indeterminate = 5;
         /**
@@ -13062,7 +13073,7 @@ containing a value of this type.
 <tr><td><code>cycle</code></td><td>2</td><td> Progress keeps the current value and goes back to 0. </td></tr>
 </table>
           <p>This is a private symbol.
-          @attr name android:indeterminateBehavior
+          @attr name com.springhack.editor:indeterminateBehavior
         */
         public static final int ProgressBar_indeterminateBehavior = 10;
         /**
@@ -13074,7 +13085,7 @@ containing a value of this type.
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name android:indeterminateDrawable
+          @attr name com.springhack.editor:indeterminateDrawable
         */
         public static final int ProgressBar_indeterminateDrawable = 7;
         /**
@@ -13090,7 +13101,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:indeterminateDuration
+          @attr name com.springhack.editor:indeterminateDuration
         */
         public static final int ProgressBar_indeterminateDuration = 9;
         /**
@@ -13106,7 +13117,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:indeterminateOnly
+          @attr name com.springhack.editor:indeterminateOnly
         */
         public static final int ProgressBar_indeterminateOnly = 6;
         /**
@@ -13116,7 +13127,7 @@ containing a value of this type.
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name android:interpolator
+          @attr name com.springhack.editor:interpolator
         */
         public static final int ProgressBar_interpolator = 13;
         /**
@@ -13132,7 +13143,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:max
+          @attr name com.springhack.editor:max
         */
         public static final int ProgressBar_max = 2;
         /**
@@ -13151,7 +13162,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:maxHeight
+          @attr name com.springhack.editor:maxHeight
         */
         public static final int ProgressBar_maxHeight = 1;
         /**
@@ -13170,7 +13181,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:maxWidth
+          @attr name com.springhack.editor:maxWidth
         */
         public static final int ProgressBar_maxWidth = 0;
         /**
@@ -13186,7 +13197,7 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android:minHeight
+          @attr name com.springhack.editor:minHeight
         */
         public static final int ProgressBar_minHeight = 12;
         /**
@@ -13202,7 +13213,7 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android:minWidth
+          @attr name com.springhack.editor:minWidth
         */
         public static final int ProgressBar_minWidth = 11;
         /**
@@ -13218,7 +13229,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:progress
+          @attr name com.springhack.editor:progress
         */
         public static final int ProgressBar_progress = 3;
         /**
@@ -13230,7 +13241,7 @@ containing a value of this type.
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name android:progressDrawable
+          @attr name com.springhack.editor:progressDrawable
         */
         public static final int ProgressBar_progressDrawable = 8;
         /**
@@ -13248,7 +13259,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:secondaryProgress
+          @attr name com.springhack.editor:secondaryProgress
         */
         public static final int ProgressBar_secondaryProgress = 4;
         /** Attributes that can be used with a RadioGroup.
@@ -13282,7 +13293,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:checkedButton
+          @attr name com.springhack.editor:checkedButton
         */
         public static final int RadioGroup_checkedButton = 1;
         /**
@@ -13303,7 +13314,7 @@ containing a value of this type.
 <tr><td><code>vertical</code></td><td>1</td><td> Defines a vertical widget. </td></tr>
 </table>
           <p>This is a private symbol.
-          @attr name android:orientation
+          @attr name com.springhack.editor:orientation
         */
         public static final int RadioGroup_orientation = 0;
         /** Attributes that can be used with a RatingBar.
@@ -13338,7 +13349,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:isIndicator
+          @attr name com.springhack.editor:isIndicator
         */
         public static final int RatingBar_isIndicator = 3;
         /**
@@ -13354,7 +13365,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:numStars
+          @attr name com.springhack.editor:numStars
         */
         public static final int RatingBar_numStars = 0;
         /**
@@ -13370,7 +13381,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:rating
+          @attr name com.springhack.editor:rating
         */
         public static final int RatingBar_rating = 1;
         /**
@@ -13386,7 +13397,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:stepSize
+          @attr name com.springhack.editor:stepSize
         */
         public static final int RatingBar_stepSize = 2;
         /** Attributes that can be used with a RelativeLayout.
@@ -13438,7 +13449,7 @@ containing a value of this type.
              edge, a right gravity will clip the left edge, and neither will clip both edges. </td></tr>
 </table>
           <p>This is a private symbol.
-          @attr name android:gravity
+          @attr name com.springhack.editor:gravity
         */
         public static final int RelativeLayout_gravity = 0;
         /**
@@ -13450,7 +13461,7 @@ containing a value of this type.
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name android:ignoreGravity
+          @attr name com.springhack.editor:ignoreGravity
         */
         public static final int RelativeLayout_ignoreGravity = 1;
         /** Attributes that can be used with a RelativeLayout_Layout.
@@ -13513,7 +13524,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name android:layout_above
+          @attr name com.springhack.editor:layout_above
         */
         public static final int RelativeLayout_Layout_layout_above = 2;
         /**
@@ -13525,7 +13536,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name android:layout_alignBaseline
+          @attr name com.springhack.editor:layout_alignBaseline
         */
         public static final int RelativeLayout_Layout_layout_alignBaseline = 4;
         /**
@@ -13538,7 +13549,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name android:layout_alignBottom
+          @attr name com.springhack.editor:layout_alignBottom
         */
         public static final int RelativeLayout_Layout_layout_alignBottom = 8;
         /**
@@ -13551,7 +13562,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name android:layout_alignLeft
+          @attr name com.springhack.editor:layout_alignLeft
         */
         public static final int RelativeLayout_Layout_layout_alignLeft = 5;
         /**
@@ -13568,7 +13579,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:layout_alignParentBottom
+          @attr name com.springhack.editor:layout_alignParentBottom
         */
         public static final int RelativeLayout_Layout_layout_alignParentBottom = 12;
         /**
@@ -13585,7 +13596,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:layout_alignParentLeft
+          @attr name com.springhack.editor:layout_alignParentLeft
         */
         public static final int RelativeLayout_Layout_layout_alignParentLeft = 9;
         /**
@@ -13602,7 +13613,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:layout_alignParentRight
+          @attr name com.springhack.editor:layout_alignParentRight
         */
         public static final int RelativeLayout_Layout_layout_alignParentRight = 11;
         /**
@@ -13619,7 +13630,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:layout_alignParentTop
+          @attr name com.springhack.editor:layout_alignParentTop
         */
         public static final int RelativeLayout_Layout_layout_alignParentTop = 10;
         /**
@@ -13632,7 +13643,7 @@ containing a value of this type.
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name android:layout_alignRight
+          @attr name com.springhack.editor:layout_alignRight
         */
         public static final int RelativeLayout_Layout_layout_alignRight = 7;
         /**
@@ -13645,7 +13656,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name android:layout_alignTop
+          @attr name com.springhack.editor:layout_alignTop
         */
         public static final int RelativeLayout_Layout_layout_alignTop = 6;
         /**
@@ -13662,7 +13673,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:layout_alignWithParentIfMissing
+          @attr name com.springhack.editor:layout_alignWithParentIfMissing
         */
         public static final int RelativeLayout_Layout_layout_alignWithParentIfMissing = 16;
         /**
@@ -13675,7 +13686,7 @@ containing a value of this type.
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name android:layout_below
+          @attr name com.springhack.editor:layout_below
         */
         public static final int RelativeLayout_Layout_layout_below = 3;
         /**
@@ -13691,7 +13702,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:layout_centerHorizontal
+          @attr name com.springhack.editor:layout_centerHorizontal
         */
         public static final int RelativeLayout_Layout_layout_centerHorizontal = 14;
         /**
@@ -13707,7 +13718,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:layout_centerInParent
+          @attr name com.springhack.editor:layout_centerInParent
         */
         public static final int RelativeLayout_Layout_layout_centerInParent = 13;
         /**
@@ -13723,7 +13734,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:layout_centerVertical
+          @attr name com.springhack.editor:layout_centerVertical
         */
         public static final int RelativeLayout_Layout_layout_centerVertical = 15;
         /**
@@ -13736,7 +13747,7 @@ containing a value of this type.
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name android:layout_toLeftOf
+          @attr name com.springhack.editor:layout_toLeftOf
         */
         public static final int RelativeLayout_Layout_layout_toLeftOf = 0;
         /**
@@ -13749,7 +13760,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name android:layout_toRightOf
+          @attr name com.springhack.editor:layout_toRightOf
         */
         public static final int RelativeLayout_Layout_layout_toRightOf = 1;
         /**  Base attributes available to RingtonePreference. 
@@ -13787,7 +13798,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>all</code></td><td>7</td><td> All available ringtone sounds. </td></tr>
 </table>
           <p>This is a private symbol.
-          @attr name android:ringtoneType
+          @attr name com.springhack.editor:ringtoneType
         */
         public static final int RingtonePreference_ringtoneType = 0;
         /**
@@ -13803,7 +13814,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:showDefault
+          @attr name com.springhack.editor:showDefault
         */
         public static final int RingtonePreference_showDefault = 1;
         /**
@@ -13819,7 +13830,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:showSilent
+          @attr name com.springhack.editor:showSilent
         */
         public static final int RingtonePreference_showSilent = 2;
         /** Attributes that can be used with a RotateAnimation.
@@ -13852,7 +13863,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android:fromDegrees
+          @attr name com.springhack.editor:fromDegrees
         */
         public static final int RotateAnimation_fromDegrees = 0;
         /**
@@ -13869,7 +13880,7 @@ some parent container.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android:pivotX
+          @attr name com.springhack.editor:pivotX
         */
         public static final int RotateAnimation_pivotX = 2;
         /**
@@ -13886,7 +13897,7 @@ some parent container.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android:pivotY
+          @attr name com.springhack.editor:pivotY
         */
         public static final int RotateAnimation_pivotY = 3;
         /**
@@ -13900,7 +13911,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android:toDegrees
+          @attr name com.springhack.editor:toDegrees
         */
         public static final int RotateAnimation_toDegrees = 1;
         /** Attributes that can be used with a RotateDrawable.
@@ -13938,7 +13949,7 @@ containing a value of this type.
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name android:drawable
+          @attr name com.springhack.editor:drawable
         */
         public static final int RotateDrawable_drawable = 1;
         /**
@@ -13952,7 +13963,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android:fromDegrees
+          @attr name com.springhack.editor:fromDegrees
         */
         public static final int RotateDrawable_fromDegrees = 2;
         /**
@@ -13969,7 +13980,7 @@ some parent container.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android:pivotX
+          @attr name com.springhack.editor:pivotX
         */
         public static final int RotateDrawable_pivotX = 4;
         /**
@@ -13986,7 +13997,7 @@ some parent container.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android:pivotY
+          @attr name com.springhack.editor:pivotY
         */
         public static final int RotateDrawable_pivotY = 5;
         /**
@@ -14000,7 +14011,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android:toDegrees
+          @attr name com.springhack.editor:toDegrees
         */
         public static final int RotateDrawable_toDegrees = 3;
         /**
@@ -14018,7 +14029,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:visible
+          @attr name com.springhack.editor:visible
         */
         public static final int RotateDrawable_visible = 0;
         /** Attributes that can be used with a ScaleAnimation.
@@ -14056,7 +14067,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android:fromXScale
+          @attr name com.springhack.editor:fromXScale
         */
         public static final int ScaleAnimation_fromXScale = 2;
         /**
@@ -14070,7 +14081,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android:fromYScale
+          @attr name com.springhack.editor:fromYScale
         */
         public static final int ScaleAnimation_fromYScale = 4;
         /**
@@ -14087,7 +14098,7 @@ some parent container.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android:pivotX
+          @attr name com.springhack.editor:pivotX
         */
         public static final int ScaleAnimation_pivotX = 0;
         /**
@@ -14104,7 +14115,7 @@ some parent container.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android:pivotY
+          @attr name com.springhack.editor:pivotY
         */
         public static final int ScaleAnimation_pivotY = 1;
         /**
@@ -14118,7 +14129,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android:toXScale
+          @attr name com.springhack.editor:toXScale
         */
         public static final int ScaleAnimation_toXScale = 3;
         /**
@@ -14132,7 +14143,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android:toYScale
+          @attr name com.springhack.editor:toYScale
         */
         public static final int ScaleAnimation_toYScale = 5;
         /** Attributes that can be used with a ScaleDrawable.
@@ -14163,7 +14174,7 @@ containing a value of this type.
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name android:drawable
+          @attr name com.springhack.editor:drawable
         */
         public static final int ScaleDrawable_drawable = 0;
         /**
@@ -14199,7 +14210,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
                  edge, a right gravity will clip the left edge, and neither will clip both edges. </td></tr>
 </table>
           <p>This is a private symbol.
-          @attr name android:scaleGravity
+          @attr name com.springhack.editor:scaleGravity
         */
         public static final int ScaleDrawable_scaleGravity = 3;
         /**
@@ -14216,7 +14227,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:scaleHeight
+          @attr name com.springhack.editor:scaleHeight
         */
         public static final int ScaleDrawable_scaleHeight = 2;
         /**
@@ -14233,7 +14244,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:scaleWidth
+          @attr name com.springhack.editor:scaleWidth
         */
         public static final int ScaleDrawable_scaleWidth = 1;
         /** Attributes that can be used with a ScrollView.
@@ -14262,7 +14273,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:fillViewport
+          @attr name com.springhack.editor:fillViewport
         */
         public static final int ScrollView_fillViewport = 0;
         /**  Searchable activities and applications must provide search configuration information
@@ -14408,7 +14419,7 @@ containing a value of this type.
 <tr><td><code>KEYCODE_MUTE</code></td><td>91</td><td></td></tr>
 </table>
           <p>This is a private symbol.
-          @attr name android:keycode
+          @attr name com.springhack.editor:keycode
         */
         public static final int SearchableActionKey_keycode = 0;
         /**
@@ -14429,7 +14440,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:queryActionMsg
+          @attr name com.springhack.editor:queryActionMsg
         */
         public static final int SearchableActionKey_queryActionMsg = 1;
         /**
@@ -14452,7 +14463,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:suggestActionMsg
+          @attr name com.springhack.editor:suggestActionMsg
         */
         public static final int SearchableActionKey_suggestActionMsg = 2;
         /**
@@ -14481,7 +14492,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:suggestActionMsgColumn
+          @attr name com.springhack.editor:suggestActionMsgColumn
         */
         public static final int SearchableActionKey_suggestActionMsgColumn = 3;
         /** Attributes that can be used with a SeekBar.
@@ -14508,7 +14519,7 @@ containing a value of this type.
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name android:thumb
+          @attr name com.springhack.editor:thumb
         */
         public static final int SeekBar_thumb = 0;
         /**
@@ -14526,7 +14537,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:thumbOffset
+          @attr name com.springhack.editor:thumbOffset
         */
         public static final int SeekBar_thumbOffset = 1;
         /**  Drawable used to draw shapes. 
@@ -14560,7 +14571,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:color
+          @attr name com.springhack.editor:color
         */
         public static final int ShapeDrawable_color = 2;
         /**
@@ -14578,7 +14589,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:height
+          @attr name com.springhack.editor:height
         */
         public static final int ShapeDrawable_height = 0;
         /**
@@ -14596,7 +14607,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:width
+          @attr name com.springhack.editor:width
         */
         public static final int ShapeDrawable_width = 1;
         /**  Defines the padding of a ShapeDrawable. 
@@ -14633,7 +14644,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:bottom
+          @attr name com.springhack.editor:bottom
         */
         public static final int ShapeDrawablePadding_bottom = 3;
         /**
@@ -14651,7 +14662,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:left
+          @attr name com.springhack.editor:left
         */
         public static final int ShapeDrawablePadding_left = 0;
         /**
@@ -14669,7 +14680,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:right
+          @attr name com.springhack.editor:right
         */
         public static final int ShapeDrawablePadding_right = 2;
         /**
@@ -14687,7 +14698,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:top
+          @attr name com.springhack.editor:top
         */
         public static final int ShapeDrawablePadding_top = 1;
         /**  SlidingDrawer specific attributes. These attributes are used to configure
@@ -14734,7 +14745,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:allowSingleTap
+          @attr name com.springhack.editor:allowSingleTap
         */
         public static final int SlidingDrawer_allowSingleTap = 5;
         /**
@@ -14751,7 +14762,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:animateOnClick
+          @attr name com.springhack.editor:animateOnClick
         */
         public static final int SlidingDrawer_animateOnClick = 6;
         /**
@@ -14769,7 +14780,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:bottomOffset
+          @attr name com.springhack.editor:bottomOffset
         */
         public static final int SlidingDrawer_bottomOffset = 3;
         /**
@@ -14781,7 +14792,7 @@ containing a value of this type.
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name android:content
+          @attr name com.springhack.editor:content
         */
         public static final int SlidingDrawer_content = 2;
         /**
@@ -14793,7 +14804,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name android:handle
+          @attr name com.springhack.editor:handle
         */
         public static final int SlidingDrawer_handle = 1;
         /**
@@ -14812,7 +14823,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>vertical</code></td><td>1</td><td> Defines a vertical widget. </td></tr>
 </table>
           <p>This is a private symbol.
-          @attr name android:orientation
+          @attr name com.springhack.editor:orientation
         */
         public static final int SlidingDrawer_orientation = 0;
         /**
@@ -14830,7 +14841,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:topOffset
+          @attr name com.springhack.editor:topOffset
         */
         public static final int SlidingDrawer_topOffset = 4;
         /** Attributes that can be used with a Spinner.
@@ -14855,7 +14866,7 @@ containing a value of this type.
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name android:prompt
+          @attr name com.springhack.editor:prompt
         */
         public static final int Spinner_prompt = 0;
         /** Attributes that can be used with a StateListDrawable.
@@ -14895,7 +14906,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:constantSize
+          @attr name com.springhack.editor:constantSize
         */
         public static final int StateListDrawable_constantSize = 2;
         /**
@@ -14916,7 +14927,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:variablePadding
+          @attr name com.springhack.editor:variablePadding
         */
         public static final int StateListDrawable_variablePadding = 1;
         /**
@@ -14934,7 +14945,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:visible
+          @attr name com.springhack.editor:visible
         */
         public static final int StateListDrawable_visible = 0;
         /** Attributes that can be used with a TabWidget.
@@ -14974,7 +14985,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:collapseColumns
+          @attr name com.springhack.editor:collapseColumns
         */
         public static final int TableLayout_collapseColumns = 2;
         /**
@@ -14994,7 +15005,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:shrinkColumns
+          @attr name com.springhack.editor:shrinkColumns
         */
         public static final int TableLayout_shrinkColumns = 1;
         /**
@@ -15014,7 +15025,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:stretchColumns
+          @attr name com.springhack.editor:stretchColumns
         */
         public static final int TableLayout_stretchColumns = 0;
         /** Attributes that can be used with a TableRow.
@@ -15050,7 +15061,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:layout_column
+          @attr name com.springhack.editor:layout_column
         */
         public static final int TableRow_Cell_layout_column = 0;
         /**
@@ -15066,7 +15077,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:layout_span
+          @attr name com.springhack.editor:layout_span
         */
         public static final int TableRow_Cell_layout_span = 1;
         /** Attributes that can be used with a TextAppearance.
@@ -15106,7 +15117,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
           <p>This is a private symbol.
-          @attr name android:textColor
+          @attr name com.springhack.editor:textColor
         */
         public static final int TextAppearance_textColor = 3;
         /**
@@ -15120,7 +15131,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
           <p>This is a private symbol.
-          @attr name android:textColorHighlight
+          @attr name com.springhack.editor:textColorHighlight
         */
         public static final int TextAppearance_textColorHighlight = 4;
         /**
@@ -15134,7 +15145,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
           <p>This is a private symbol.
-          @attr name android:textColorHint
+          @attr name com.springhack.editor:textColorHint
         */
         public static final int TextAppearance_textColorHint = 5;
         /**
@@ -15148,7 +15159,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
           <p>This is a private symbol.
-          @attr name android:textColorLink
+          @attr name com.springhack.editor:textColorLink
         */
         public static final int TextAppearance_textColorLink = 6;
         /**
@@ -15166,7 +15177,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:textSize
+          @attr name com.springhack.editor:textSize
         */
         public static final int TextAppearance_textSize = 0;
         /**
@@ -15186,7 +15197,7 @@ containing a value of this type.
 <tr><td><code>italic</code></td><td>2</td><td></td></tr>
 </table>
           <p>This is a private symbol.
-          @attr name android:textStyle
+          @attr name com.springhack.editor:textStyle
         */
         public static final int TextAppearance_textStyle = 2;
         /**
@@ -15207,7 +15218,7 @@ containing a value of this type.
 <tr><td><code>monospace</code></td><td>3</td><td></td></tr>
 </table>
           <p>This is a private symbol.
-          @attr name android:typeface
+          @attr name com.springhack.editor:typeface
         */
         public static final int TextAppearance_typeface = 1;
         /** Attributes that can be used with a TextSwitcher.
@@ -15420,7 +15431,7 @@ containing a value of this type.
 <tr><td><code>all</code></td><td>0x0f</td><td> Match all patterns (equivalent to web|email|phone|map) </td></tr>
 </table>
           <p>This is a private symbol.
-          @attr name android:autoLink
+          @attr name com.springhack.editor:autoLink
         */
         public static final int TextView_autoLink = 12;
         /**
@@ -15439,7 +15450,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:autoText
+          @attr name com.springhack.editor:autoText
         */
         @Deprecated
         public static final int TextView_autoText = 47;
@@ -15464,7 +15475,7 @@ containing a value of this type.
 <tr><td><code>editable</code></td><td>2</td><td> Can only return Spannable and Editable. </td></tr>
 </table>
           <p>This is a private symbol.
-          @attr name android:bufferType
+          @attr name com.springhack.editor:bufferType
         */
         public static final int TextView_bufferType = 17;
         /**
@@ -15488,7 +15499,7 @@ containing a value of this type.
 <tr><td><code>characters</code></td><td>3</td><td> Capitalize every character. </td></tr>
 </table>
           <p>This is a private symbol.
-          @attr name android:capitalize
+          @attr name com.springhack.editor:capitalize
         */
         @Deprecated
         public static final int TextView_capitalize = 46;
@@ -15505,7 +15516,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:cursorVisible
+          @attr name com.springhack.editor:cursorVisible
         */
         public static final int TextView_cursorVisible = 21;
         /**
@@ -15525,7 +15536,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:digits
+          @attr name com.springhack.editor:digits
         */
         public static final int TextView_digits = 43;
         /**
@@ -15539,7 +15550,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
           <p>This is a private symbol.
-          @attr name android:drawableBottom
+          @attr name com.springhack.editor:drawableBottom
         */
         public static final int TextView_drawableBottom = 51;
         /**
@@ -15553,7 +15564,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
           <p>This is a private symbol.
-          @attr name android:drawableLeft
+          @attr name com.springhack.editor:drawableLeft
         */
         public static final int TextView_drawableLeft = 52;
         /**
@@ -15571,7 +15582,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:drawablePadding
+          @attr name com.springhack.editor:drawablePadding
         */
         public static final int TextView_drawablePadding = 54;
         /**
@@ -15585,7 +15596,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
           <p>This is a private symbol.
-          @attr name android:drawableRight
+          @attr name com.springhack.editor:drawableRight
         */
         public static final int TextView_drawableRight = 53;
         /**
@@ -15599,7 +15610,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
           <p>This is a private symbol.
-          @attr name android:drawableTop
+          @attr name com.springhack.editor:drawableTop
         */
         public static final int TextView_drawableTop = 50;
         /**
@@ -15619,7 +15630,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:editable
+          @attr name com.springhack.editor:editable
         */
         @Deprecated
         public static final int TextView_editable = 48;
@@ -15639,7 +15650,7 @@ containing a value of this type.
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name android:editorExtras
+          @attr name com.springhack.editor:editorExtras
         */
         public static final int TextView_editorExtras = 61;
         /**
@@ -15666,7 +15677,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>marquee</code></td><td>4</td><td></td></tr>
 </table>
           <p>This is a private symbol.
-          @attr name android:ellipsize
+          @attr name com.springhack.editor:ellipsize
         */
         public static final int TextView_ellipsize = 8;
         /**
@@ -15682,7 +15693,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:ems
+          @attr name com.springhack.editor:ems
         */
         public static final int TextView_ems = 27;
         /**
@@ -15698,7 +15709,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:enabled
+          @attr name com.springhack.editor:enabled
         */
         @Deprecated
         public static final int TextView_enabled = 33;
@@ -15719,7 +15730,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:freezesText
+          @attr name com.springhack.editor:freezesText
         */
         public static final int TextView_freezesText = 49;
         /**
@@ -15755,7 +15766,7 @@ containing a value of this type.
              edge, a right gravity will clip the left edge, and neither will clip both edges. </td></tr>
 </table>
           <p>This is a private symbol.
-          @attr name android:gravity
+          @attr name com.springhack.editor:gravity
         */
         public static final int TextView_gravity = 11;
         /**
@@ -15775,7 +15786,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:height
+          @attr name com.springhack.editor:height
         */
         public static final int TextView_height = 24;
         /**
@@ -15791,7 +15802,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:hint
+          @attr name com.springhack.editor:hint
         */
         public static final int TextView_hint = 19;
         /**
@@ -15809,7 +15820,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:imeActionId
+          @attr name com.springhack.editor:imeActionId
         */
         public static final int TextView_imeActionId = 60;
         /**
@@ -15827,7 +15838,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:imeActionLabel
+          @attr name com.springhack.editor:imeActionLabel
         */
         public static final int TextView_imeActionLabel = 59;
         /**
@@ -15907,7 +15918,7 @@ containing a value of this type.
              {@link android.view.inputmethod.EditorInfo#IME_FLAG_NO_ENTER_ACTION}. </td></tr>
 </table>
           <p>This is a private symbol.
-          @attr name android:imeOptions
+          @attr name com.springhack.editor:imeOptions
         */
         public static final int TextView_imeOptions = 10;
         /**
@@ -15924,7 +15935,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:includeFontPadding
+          @attr name com.springhack.editor:includeFontPadding
         */
         public static final int TextView_includeFontPadding = 35;
         /**
@@ -15942,7 +15953,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:inputMethod
+          @attr name com.springhack.editor:inputMethod
         */
         @Deprecated
         public static final int TextView_inputMethod = 45;
@@ -16052,7 +16063,7 @@ containing a value of this type.
              {@link android.text.InputType#TYPE_DATETIME_VARIATION_TIME}. </td></tr>
 </table>
           <p>This is a private symbol.
-          @attr name android:inputType
+          @attr name com.springhack.editor:inputType
         */
         public static final int TextView_inputType = 9;
         /**
@@ -16070,7 +16081,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:lineSpacingExtra
+          @attr name com.springhack.editor:lineSpacingExtra
         */
         public static final int TextView_lineSpacingExtra = 55;
         /**
@@ -16086,7 +16097,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:lineSpacingMultiplier
+          @attr name com.springhack.editor:lineSpacingMultiplier
         */
         public static final int TextView_lineSpacingMultiplier = 56;
         /**
@@ -16102,7 +16113,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:lines
+          @attr name com.springhack.editor:lines
         */
         public static final int TextView_lines = 23;
         /**
@@ -16120,7 +16131,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:linksClickable
+          @attr name com.springhack.editor:linksClickable
         */
         public static final int TextView_linksClickable = 41;
         /**
@@ -16145,7 +16156,7 @@ containing a value of this type.
 <tr><td><code>marquee_forever</code></td><td>-1</td><td> Indicates that marquee should repeat indefinitely  </td></tr>
 </table>
           <p>This is a private symbol.
-          @attr name android:marqueeRepeatLimit
+          @attr name com.springhack.editor:marqueeRepeatLimit
         */
         public static final int TextView_marqueeRepeatLimit = 57;
         /**
@@ -16161,7 +16172,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:maxEms
+          @attr name com.springhack.editor:maxEms
         */
         public static final int TextView_maxEms = 26;
         /**
@@ -16179,7 +16190,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:maxHeight
+          @attr name com.springhack.editor:maxHeight
         */
         public static final int TextView_maxHeight = 14;
         /**
@@ -16196,7 +16207,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:maxLength
+          @attr name com.springhack.editor:maxLength
         */
         public static final int TextView_maxLength = 36;
         /**
@@ -16212,7 +16223,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:maxLines
+          @attr name com.springhack.editor:maxLines
         */
         public static final int TextView_maxLines = 22;
         /**
@@ -16230,7 +16241,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:maxWidth
+          @attr name com.springhack.editor:maxWidth
         */
         public static final int TextView_maxWidth = 13;
         /**
@@ -16246,7 +16257,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:minEms
+          @attr name com.springhack.editor:minEms
         */
         public static final int TextView_minEms = 29;
         /**
@@ -16264,7 +16275,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:minHeight
+          @attr name com.springhack.editor:minHeight
         */
         public static final int TextView_minHeight = 16;
         /**
@@ -16280,7 +16291,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:minLines
+          @attr name com.springhack.editor:minLines
         */
         public static final int TextView_minLines = 25;
         /**
@@ -16298,7 +16309,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:minWidth
+          @attr name com.springhack.editor:minWidth
         */
         public static final int TextView_minWidth = 15;
         /**
@@ -16320,7 +16331,7 @@ containing a value of this type.
 <tr><td><code>decimal</code></td><td>0x05</td><td> Input is numeric, with decimals allowed. </td></tr>
 </table>
           <p>This is a private symbol.
-          @attr name android:numeric
+          @attr name com.springhack.editor:numeric
         */
         @Deprecated
         public static final int TextView_numeric = 42;
@@ -16339,7 +16350,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:password
+          @attr name com.springhack.editor:password
         */
         @Deprecated
         public static final int TextView_password = 31;
@@ -16358,7 +16369,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:phoneNumber
+          @attr name com.springhack.editor:phoneNumber
         */
         @Deprecated
         public static final int TextView_phoneNumber = 44;
@@ -16380,7 +16391,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:privateImeOptions
+          @attr name com.springhack.editor:privateImeOptions
         */
         public static final int TextView_privateImeOptions = 58;
         /**
@@ -16397,7 +16408,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:scrollHorizontally
+          @attr name com.springhack.editor:scrollHorizontally
         */
         public static final int TextView_scrollHorizontally = 30;
         /**
@@ -16414,7 +16425,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:selectAllOnFocus
+          @attr name com.springhack.editor:selectAllOnFocus
         */
         public static final int TextView_selectAllOnFocus = 34;
         /**
@@ -16431,7 +16442,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:shadowColor
+          @attr name com.springhack.editor:shadowColor
         */
         public static final int TextView_shadowColor = 37;
         /**
@@ -16447,7 +16458,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:shadowDx
+          @attr name com.springhack.editor:shadowDx
         */
         public static final int TextView_shadowDx = 38;
         /**
@@ -16463,7 +16474,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:shadowDy
+          @attr name com.springhack.editor:shadowDy
         */
         public static final int TextView_shadowDy = 39;
         /**
@@ -16479,7 +16490,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:shadowRadius
+          @attr name com.springhack.editor:shadowRadius
         */
         public static final int TextView_shadowRadius = 40;
         /**
@@ -16507,7 +16518,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:singleLine
+          @attr name com.springhack.editor:singleLine
         */
         @Deprecated
         public static final int TextView_singleLine = 32;
@@ -16524,7 +16535,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:text
+          @attr name com.springhack.editor:text
         */
         public static final int TextView_text = 18;
         /**
@@ -16536,7 +16547,7 @@ containing a value of this type.
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name android:textAppearance
+          @attr name com.springhack.editor:textAppearance
         */
         public static final int TextView_textAppearance = 0;
         /**
@@ -16550,7 +16561,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
           <p>This is a private symbol.
-          @attr name android:textColor
+          @attr name com.springhack.editor:textColor
         */
         public static final int TextView_textColor = 4;
         /**
@@ -16564,7 +16575,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
           <p>This is a private symbol.
-          @attr name android:textColorHighlight
+          @attr name com.springhack.editor:textColorHighlight
         */
         public static final int TextView_textColorHighlight = 5;
         /**
@@ -16578,7 +16589,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
           <p>This is a private symbol.
-          @attr name android:textColorHint
+          @attr name com.springhack.editor:textColorHint
         */
         public static final int TextView_textColorHint = 6;
         /**
@@ -16592,7 +16603,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
           <p>This is a private symbol.
-          @attr name android:textColorLink
+          @attr name com.springhack.editor:textColorLink
         */
         public static final int TextView_textColorLink = 7;
         /**
@@ -16608,7 +16619,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:textScaleX
+          @attr name com.springhack.editor:textScaleX
         */
         public static final int TextView_textScaleX = 20;
         /**
@@ -16626,7 +16637,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:textSize
+          @attr name com.springhack.editor:textSize
         */
         public static final int TextView_textSize = 1;
         /**
@@ -16646,7 +16657,7 @@ containing a value of this type.
 <tr><td><code>italic</code></td><td>2</td><td></td></tr>
 </table>
           <p>This is a private symbol.
-          @attr name android:textStyle
+          @attr name com.springhack.editor:textStyle
         */
         public static final int TextView_textStyle = 3;
         /**
@@ -16667,7 +16678,7 @@ containing a value of this type.
 <tr><td><code>monospace</code></td><td>3</td><td></td></tr>
 </table>
           <p>This is a private symbol.
-          @attr name android:typeface
+          @attr name com.springhack.editor:typeface
         */
         public static final int TextView_typeface = 2;
         /**
@@ -16687,7 +16698,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:width
+          @attr name com.springhack.editor:width
         */
         public static final int TextView_width = 28;
         /**  These are the standard attributes that make up a complete theme. 
@@ -16991,7 +17002,7 @@ containing a value of this type.
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name android:absListViewStyle
+          @attr name com.springhack.editor:absListViewStyle
         */
         public static final int Theme_absListViewStyle = 72;
         /**
@@ -17001,7 +17012,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name android:alertDialogStyle
+          @attr name com.springhack.editor:alertDialogStyle
         */
         public static final int Theme_alertDialogStyle = 66;
         /**
@@ -17013,7 +17024,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name android:autoCompleteTextViewStyle
+          @attr name com.springhack.editor:autoCompleteTextViewStyle
         */
         public static final int Theme_autoCompleteTextViewStyle = 73;
         /**
@@ -17029,7 +17040,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:backgroundDimAmount
+          @attr name com.springhack.editor:backgroundDimAmount
         */
         public static final int Theme_backgroundDimAmount = 4;
         /**
@@ -17047,7 +17058,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:backgroundDimEnabled
+          @attr name com.springhack.editor:backgroundDimEnabled
         */
         public static final int Theme_backgroundDimEnabled = 5;
         /**
@@ -17059,7 +17070,7 @@ containing a value of this type.
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name android:buttonStyle
+          @attr name com.springhack.editor:buttonStyle
         */
         public static final int Theme_buttonStyle = 37;
         /**
@@ -17071,7 +17082,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name android:buttonStyleInset
+          @attr name com.springhack.editor:buttonStyleInset
         */
         public static final int Theme_buttonStyleInset = 39;
         /**
@@ -17083,7 +17094,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name android:buttonStyleSmall
+          @attr name com.springhack.editor:buttonStyleSmall
         */
         public static final int Theme_buttonStyleSmall = 38;
         /**
@@ -17095,7 +17106,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name android:buttonStyleToggle
+          @attr name com.springhack.editor:buttonStyleToggle
         */
         public static final int Theme_buttonStyleToggle = 40;
         /**
@@ -17111,7 +17122,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
           <p>This is a private symbol.
-          @attr name android:candidatesTextStyleSpans
+          @attr name com.springhack.editor:candidatesTextStyleSpans
         */
         public static final int Theme_candidatesTextStyleSpans = 32;
         /**
@@ -17123,7 +17134,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name android:checkBoxPreferenceStyle
+          @attr name com.springhack.editor:checkBoxPreferenceStyle
         */
         public static final int Theme_checkBoxPreferenceStyle = 115;
         /**
@@ -17135,7 +17146,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name android:checkboxStyle
+          @attr name com.springhack.editor:checkboxStyle
         */
         public static final int Theme_checkboxStyle = 74;
         /**
@@ -17152,7 +17163,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:colorBackground
+          @attr name com.springhack.editor:colorBackground
         */
         public static final int Theme_colorBackground = 2;
         /**
@@ -17169,7 +17180,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:colorForeground
+          @attr name com.springhack.editor:colorForeground
         */
         public static final int Theme_colorForeground = 0;
         /**
@@ -17186,7 +17197,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:colorForegroundInverse
+          @attr name com.springhack.editor:colorForegroundInverse
         */
         public static final int Theme_colorForegroundInverse = 1;
         /**
@@ -17198,7 +17209,7 @@ containing a value of this type.
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name android:dialogPreferenceStyle
+          @attr name com.springhack.editor:dialogPreferenceStyle
         */
         public static final int Theme_dialogPreferenceStyle = 117;
         /**
@@ -17214,7 +17225,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:disabledAlpha
+          @attr name com.springhack.editor:disabledAlpha
         */
         public static final int Theme_disabledAlpha = 3;
         /**
@@ -17226,7 +17237,7 @@ containing a value of this type.
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name android:dropDownHintAppearance
+          @attr name com.springhack.editor:dropDownHintAppearance
         */
         public static final int Theme_dropDownHintAppearance = 108;
         /**
@@ -17238,7 +17249,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name android:dropDownItemStyle
+          @attr name com.springhack.editor:dropDownItemStyle
         */
         public static final int Theme_dropDownItemStyle = 106;
         /**
@@ -17250,7 +17261,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name android:dropDownListViewStyle
+          @attr name com.springhack.editor:dropDownListViewStyle
         */
         public static final int Theme_dropDownListViewStyle = 75;
         /**
@@ -17262,7 +17273,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name android:editTextPreferenceStyle
+          @attr name com.springhack.editor:editTextPreferenceStyle
         */
         public static final int Theme_editTextPreferenceStyle = 118;
         /**
@@ -17274,7 +17285,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name android:editTextStyle
+          @attr name com.springhack.editor:editTextStyle
         */
         public static final int Theme_editTextStyle = 76;
         /**
@@ -17292,7 +17303,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:expandableListPreferredChildIndicatorLeft
+          @attr name com.springhack.editor:expandableListPreferredChildIndicatorLeft
         */
         public static final int Theme_expandableListPreferredChildIndicatorLeft = 50;
         /**
@@ -17310,7 +17321,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:expandableListPreferredChildIndicatorRight
+          @attr name com.springhack.editor:expandableListPreferredChildIndicatorRight
         */
         public static final int Theme_expandableListPreferredChildIndicatorRight = 51;
         /**
@@ -17329,7 +17340,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:expandableListPreferredChildPaddingLeft
+          @attr name com.springhack.editor:expandableListPreferredChildPaddingLeft
         */
         public static final int Theme_expandableListPreferredChildPaddingLeft = 47;
         /**
@@ -17348,7 +17359,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:expandableListPreferredItemIndicatorLeft
+          @attr name com.springhack.editor:expandableListPreferredItemIndicatorLeft
         */
         public static final int Theme_expandableListPreferredItemIndicatorLeft = 48;
         /**
@@ -17367,7 +17378,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:expandableListPreferredItemIndicatorRight
+          @attr name com.springhack.editor:expandableListPreferredItemIndicatorRight
         */
         public static final int Theme_expandableListPreferredItemIndicatorRight = 49;
         /**
@@ -17387,7 +17398,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:expandableListPreferredItemPaddingLeft
+          @attr name com.springhack.editor:expandableListPreferredItemPaddingLeft
         */
         public static final int Theme_expandableListPreferredItemPaddingLeft = 46;
         /**
@@ -17399,7 +17410,7 @@ containing a value of this type.
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name android:expandableListViewStyle
+          @attr name com.springhack.editor:expandableListViewStyle
         */
         public static final int Theme_expandableListViewStyle = 77;
         /**
@@ -17412,7 +17423,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name android:galleryItemBackground
+          @attr name com.springhack.editor:galleryItemBackground
         */
         public static final int Theme_galleryItemBackground = 41;
         /**
@@ -17424,7 +17435,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name android:galleryStyle
+          @attr name com.springhack.editor:galleryStyle
         */
         public static final int Theme_galleryStyle = 78;
         /**
@@ -17436,7 +17447,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name android:gestureOverlayViewStyle
+          @attr name com.springhack.editor:gestureOverlayViewStyle
         */
         public static final int Theme_gestureOverlayViewStyle = 79;
         /**
@@ -17448,7 +17459,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name android:gridViewStyle
+          @attr name com.springhack.editor:gridViewStyle
         */
         public static final int Theme_gridViewStyle = 80;
         /**
@@ -17460,7 +17471,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name android:horizontalScrollViewStyle
+          @attr name com.springhack.editor:horizontalScrollViewStyle
         */
         public static final int Theme_horizontalScrollViewStyle = 100;
         /**
@@ -17472,7 +17483,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name android:imageButtonStyle
+          @attr name com.springhack.editor:imageButtonStyle
         */
         public static final int Theme_imageButtonStyle = 81;
         /**
@@ -17484,7 +17495,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name android:imageWellStyle
+          @attr name com.springhack.editor:imageWellStyle
         */
         public static final int Theme_imageWellStyle = 82;
         /**
@@ -17496,7 +17507,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name android:listChoiceIndicatorMultiple
+          @attr name com.springhack.editor:listChoiceIndicatorMultiple
         */
         public static final int Theme_listChoiceIndicatorMultiple = 35;
         /**
@@ -17508,7 +17519,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name android:listChoiceIndicatorSingle
+          @attr name com.springhack.editor:listChoiceIndicatorSingle
         */
         public static final int Theme_listChoiceIndicatorSingle = 36;
         /**
@@ -17518,7 +17529,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name android:listDivider
+          @attr name com.springhack.editor:listDivider
         */
         public static final int Theme_listDivider = 44;
         /**
@@ -17536,7 +17547,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:listPreferredItemHeight
+          @attr name com.springhack.editor:listPreferredItemHeight
         */
         public static final int Theme_listPreferredItemHeight = 42;
         /**
@@ -17548,7 +17559,7 @@ containing a value of this type.
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name android:listSeparatorTextViewStyle
+          @attr name com.springhack.editor:listSeparatorTextViewStyle
         */
         public static final int Theme_listSeparatorTextViewStyle = 45;
         /**
@@ -17560,7 +17571,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name android:listViewStyle
+          @attr name com.springhack.editor:listViewStyle
         */
         public static final int Theme_listViewStyle = 83;
         /**
@@ -17572,7 +17583,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name android:listViewWhiteStyle
+          @attr name com.springhack.editor:listViewWhiteStyle
         */
         public static final int Theme_listViewWhiteStyle = 84;
         /**
@@ -17584,7 +17595,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name android:mapViewStyle
+          @attr name com.springhack.editor:mapViewStyle
         */
         public static final int Theme_mapViewStyle = 110;
         /**
@@ -17598,7 +17609,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
           <p>This is a private symbol.
-          @attr name android:panelBackground
+          @attr name com.springhack.editor:panelBackground
         */
         public static final int Theme_panelBackground = 67;
         /**
@@ -17612,7 +17623,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
           <p>This is a private symbol.
-          @attr name android:panelColorBackground
+          @attr name com.springhack.editor:panelColorBackground
         */
         public static final int Theme_panelColorBackground = 70;
         /**
@@ -17626,7 +17637,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
           <p>This is a private symbol.
-          @attr name android:panelColorForeground
+          @attr name com.springhack.editor:panelColorForeground
         */
         public static final int Theme_panelColorForeground = 69;
         /**
@@ -17640,7 +17651,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
           <p>This is a private symbol.
-          @attr name android:panelFullBackground
+          @attr name com.springhack.editor:panelFullBackground
         */
         public static final int Theme_panelFullBackground = 68;
         /**
@@ -17652,7 +17663,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name android:panelTextAppearance
+          @attr name com.springhack.editor:panelTextAppearance
         */
         public static final int Theme_panelTextAppearance = 71;
         /**
@@ -17664,7 +17675,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name android:popupWindowStyle
+          @attr name com.springhack.editor:popupWindowStyle
         */
         public static final int Theme_popupWindowStyle = 85;
         /**
@@ -17676,7 +17687,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name android:preferenceCategoryStyle
+          @attr name com.springhack.editor:preferenceCategoryStyle
         */
         public static final int Theme_preferenceCategoryStyle = 112;
         /**
@@ -17688,7 +17699,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name android:preferenceInformationStyle
+          @attr name com.springhack.editor:preferenceInformationStyle
         */
         public static final int Theme_preferenceInformationStyle = 114;
         /**
@@ -17700,7 +17711,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name android:preferenceLayoutChild
+          @attr name com.springhack.editor:preferenceLayoutChild
         */
         public static final int Theme_preferenceLayoutChild = 120;
         /**
@@ -17712,7 +17723,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name android:preferenceScreenStyle
+          @attr name com.springhack.editor:preferenceScreenStyle
         */
         public static final int Theme_preferenceScreenStyle = 111;
         /**
@@ -17724,7 +17735,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name android:preferenceStyle
+          @attr name com.springhack.editor:preferenceStyle
         */
         public static final int Theme_preferenceStyle = 113;
         /**
@@ -17736,7 +17747,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name android:progressBarStyle
+          @attr name com.springhack.editor:progressBarStyle
         */
         public static final int Theme_progressBarStyle = 86;
         /**
@@ -17748,7 +17759,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name android:progressBarStyleHorizontal
+          @attr name com.springhack.editor:progressBarStyleHorizontal
         */
         public static final int Theme_progressBarStyleHorizontal = 87;
         /**
@@ -17760,7 +17771,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name android:progressBarStyleInverse
+          @attr name com.springhack.editor:progressBarStyleInverse
         */
         public static final int Theme_progressBarStyleInverse = 91;
         /**
@@ -17772,7 +17783,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name android:progressBarStyleLarge
+          @attr name com.springhack.editor:progressBarStyleLarge
         */
         public static final int Theme_progressBarStyleLarge = 90;
         /**
@@ -17784,7 +17795,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name android:progressBarStyleLargeInverse
+          @attr name com.springhack.editor:progressBarStyleLargeInverse
         */
         public static final int Theme_progressBarStyleLargeInverse = 93;
         /**
@@ -17796,7 +17807,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name android:progressBarStyleSmall
+          @attr name com.springhack.editor:progressBarStyleSmall
         */
         public static final int Theme_progressBarStyleSmall = 88;
         /**
@@ -17808,7 +17819,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name android:progressBarStyleSmallInverse
+          @attr name com.springhack.editor:progressBarStyleSmallInverse
         */
         public static final int Theme_progressBarStyleSmallInverse = 92;
         /**
@@ -17820,7 +17831,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name android:progressBarStyleSmallTitle
+          @attr name com.springhack.editor:progressBarStyleSmallTitle
         */
         public static final int Theme_progressBarStyleSmallTitle = 89;
         /**
@@ -17832,7 +17843,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name android:radioButtonStyle
+          @attr name com.springhack.editor:radioButtonStyle
         */
         public static final int Theme_radioButtonStyle = 98;
         /**
@@ -17844,7 +17855,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name android:ratingBarStyle
+          @attr name com.springhack.editor:ratingBarStyle
         */
         public static final int Theme_ratingBarStyle = 95;
         /**
@@ -17856,7 +17867,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name android:ratingBarStyleIndicator
+          @attr name com.springhack.editor:ratingBarStyleIndicator
         */
         public static final int Theme_ratingBarStyleIndicator = 96;
         /**
@@ -17868,7 +17879,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name android:ratingBarStyleSmall
+          @attr name com.springhack.editor:ratingBarStyleSmall
         */
         public static final int Theme_ratingBarStyleSmall = 97;
         /**
@@ -17880,7 +17891,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name android:ringtonePreferenceStyle
+          @attr name com.springhack.editor:ringtonePreferenceStyle
         */
         public static final int Theme_ringtonePreferenceStyle = 119;
         /**
@@ -17892,7 +17903,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name android:scrollViewStyle
+          @attr name com.springhack.editor:scrollViewStyle
         */
         public static final int Theme_scrollViewStyle = 99;
         /**
@@ -17911,7 +17922,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:searchResultListItemHeight
+          @attr name com.springhack.editor:searchResultListItemHeight
         */
         public static final int Theme_searchResultListItemHeight = 43;
         /**
@@ -17925,7 +17936,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
           <p>This is a private symbol.
-          @attr name android:searchWidgetCorpusItemBackground
+          @attr name com.springhack.editor:searchWidgetCorpusItemBackground
         */
         public static final int Theme_searchWidgetCorpusItemBackground = 22;
         /**
@@ -17937,7 +17948,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name android:seekBarStyle
+          @attr name com.springhack.editor:seekBarStyle
         */
         public static final int Theme_seekBarStyle = 94;
         /**
@@ -17949,7 +17960,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name android:spinnerDropDownItemStyle
+          @attr name com.springhack.editor:spinnerDropDownItemStyle
         */
         public static final int Theme_spinnerDropDownItemStyle = 107;
         /**
@@ -17961,7 +17972,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name android:spinnerItemStyle
+          @attr name com.springhack.editor:spinnerItemStyle
         */
         public static final int Theme_spinnerItemStyle = 109;
         /**
@@ -17973,7 +17984,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name android:spinnerStyle
+          @attr name com.springhack.editor:spinnerStyle
         */
         public static final int Theme_spinnerStyle = 101;
         /**
@@ -17985,7 +17996,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name android:starStyle
+          @attr name com.springhack.editor:starStyle
         */
         public static final int Theme_starStyle = 102;
         /**
@@ -17997,7 +18008,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name android:tabWidgetStyle
+          @attr name com.springhack.editor:tabWidgetStyle
         */
         public static final int Theme_tabWidgetStyle = 103;
         /**
@@ -18009,7 +18020,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name android:textAppearance
+          @attr name com.springhack.editor:textAppearance
         */
         public static final int Theme_textAppearance = 6;
         /**
@@ -18021,7 +18032,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name android:textAppearanceButton
+          @attr name com.springhack.editor:textAppearanceButton
         */
         public static final int Theme_textAppearanceButton = 31;
         /**
@@ -18034,7 +18045,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name android:textAppearanceInverse
+          @attr name com.springhack.editor:textAppearanceInverse
         */
         public static final int Theme_textAppearanceInverse = 7;
         /**
@@ -18046,7 +18057,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name android:textAppearanceLarge
+          @attr name com.springhack.editor:textAppearanceLarge
         */
         public static final int Theme_textAppearanceLarge = 23;
         /**
@@ -18058,7 +18069,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name android:textAppearanceLargeInverse
+          @attr name com.springhack.editor:textAppearanceLargeInverse
         */
         public static final int Theme_textAppearanceLargeInverse = 26;
         /**
@@ -18070,7 +18081,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name android:textAppearanceMedium
+          @attr name com.springhack.editor:textAppearanceMedium
         */
         public static final int Theme_textAppearanceMedium = 24;
         /**
@@ -18082,7 +18093,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name android:textAppearanceMediumInverse
+          @attr name com.springhack.editor:textAppearanceMediumInverse
         */
         public static final int Theme_textAppearanceMediumInverse = 27;
         /**
@@ -18094,7 +18105,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name android:textAppearanceSearchResultSubtitle
+          @attr name com.springhack.editor:textAppearanceSearchResultSubtitle
         */
         public static final int Theme_textAppearanceSearchResultSubtitle = 30;
         /**
@@ -18106,7 +18117,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name android:textAppearanceSearchResultTitle
+          @attr name com.springhack.editor:textAppearanceSearchResultTitle
         */
         public static final int Theme_textAppearanceSearchResultTitle = 29;
         /**
@@ -18118,7 +18129,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name android:textAppearanceSmall
+          @attr name com.springhack.editor:textAppearanceSmall
         */
         public static final int Theme_textAppearanceSmall = 25;
         /**
@@ -18130,7 +18141,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name android:textAppearanceSmallInverse
+          @attr name com.springhack.editor:textAppearanceSmallInverse
         */
         public static final int Theme_textAppearanceSmallInverse = 28;
         /**
@@ -18142,7 +18153,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name android:textCheckMark
+          @attr name com.springhack.editor:textCheckMark
         */
         public static final int Theme_textCheckMark = 33;
         /**
@@ -18152,7 +18163,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name android:textCheckMarkInverse
+          @attr name com.springhack.editor:textCheckMarkInverse
         */
         public static final int Theme_textCheckMarkInverse = 34;
         /**
@@ -18166,7 +18177,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
           <p>This is a private symbol.
-          @attr name android:textColorHintInverse
+          @attr name com.springhack.editor:textColorHintInverse
         */
         public static final int Theme_textColorHintInverse = 14;
         /**
@@ -18180,7 +18191,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
           <p>This is a private symbol.
-          @attr name android:textColorPrimary
+          @attr name com.springhack.editor:textColorPrimary
         */
         public static final int Theme_textColorPrimary = 8;
         /**
@@ -18194,7 +18205,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
           <p>This is a private symbol.
-          @attr name android:textColorPrimaryDisableOnly
+          @attr name com.springhack.editor:textColorPrimaryDisableOnly
         */
         public static final int Theme_textColorPrimaryDisableOnly = 15;
         /**
@@ -18208,7 +18219,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
           <p>This is a private symbol.
-          @attr name android:textColorPrimaryInverse
+          @attr name com.springhack.editor:textColorPrimaryInverse
         */
         public static final int Theme_textColorPrimaryInverse = 11;
         /**
@@ -18222,7 +18233,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
           <p>This is a private symbol.
-          @attr name android:textColorPrimaryInverseDisableOnly
+          @attr name com.springhack.editor:textColorPrimaryInverseDisableOnly
         */
         public static final int Theme_textColorPrimaryInverseDisableOnly = 16;
         /**
@@ -18236,7 +18247,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
           <p>This is a private symbol.
-          @attr name android:textColorPrimaryInverseNoDisable
+          @attr name com.springhack.editor:textColorPrimaryInverseNoDisable
         */
         public static final int Theme_textColorPrimaryInverseNoDisable = 19;
         /**
@@ -18252,7 +18263,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
           <p>This is a private symbol.
-          @attr name android:textColorPrimaryNoDisable
+          @attr name com.springhack.editor:textColorPrimaryNoDisable
         */
         public static final int Theme_textColorPrimaryNoDisable = 17;
         /**
@@ -18266,7 +18277,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
           <p>This is a private symbol.
-          @attr name android:textColorSearchUrl
+          @attr name com.springhack.editor:textColorSearchUrl
         */
         public static final int Theme_textColorSearchUrl = 21;
         /**
@@ -18280,7 +18291,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
           <p>This is a private symbol.
-          @attr name android:textColorSecondary
+          @attr name com.springhack.editor:textColorSecondary
         */
         public static final int Theme_textColorSecondary = 9;
         /**
@@ -18294,7 +18305,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
           <p>This is a private symbol.
-          @attr name android:textColorSecondaryInverse
+          @attr name com.springhack.editor:textColorSecondaryInverse
         */
         public static final int Theme_textColorSecondaryInverse = 12;
         /**
@@ -18308,7 +18319,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
           <p>This is a private symbol.
-          @attr name android:textColorSecondaryInverseNoDisable
+          @attr name com.springhack.editor:textColorSecondaryInverseNoDisable
         */
         public static final int Theme_textColorSecondaryInverseNoDisable = 20;
         /**
@@ -18322,7 +18333,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
           <p>This is a private symbol.
-          @attr name android:textColorSecondaryNoDisable
+          @attr name com.springhack.editor:textColorSecondaryNoDisable
         */
         public static final int Theme_textColorSecondaryNoDisable = 18;
         /**
@@ -18336,7 +18347,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
           <p>This is a private symbol.
-          @attr name android:textColorTertiary
+          @attr name com.springhack.editor:textColorTertiary
         */
         public static final int Theme_textColorTertiary = 10;
         /**
@@ -18350,7 +18361,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
           <p>This is a private symbol.
-          @attr name android:textColorTertiaryInverse
+          @attr name com.springhack.editor:textColorTertiaryInverse
         */
         public static final int Theme_textColorTertiaryInverse = 13;
         /**
@@ -18362,7 +18373,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name android:textViewStyle
+          @attr name com.springhack.editor:textViewStyle
         */
         public static final int Theme_textViewStyle = 104;
         /**
@@ -18374,7 +18385,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name android:webViewStyle
+          @attr name com.springhack.editor:webViewStyle
         */
         public static final int Theme_webViewStyle = 105;
         /**
@@ -18389,7 +18400,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name android:windowAnimationStyle
+          @attr name com.springhack.editor:windowAnimationStyle
         */
         public static final int Theme_windowAnimationStyle = 62;
         /**
@@ -18415,7 +18426,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name android:windowBackground
+          @attr name com.springhack.editor:windowBackground
         */
         public static final int Theme_windowBackground = 52;
         /**
@@ -18428,7 +18439,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name android:windowContentOverlay
+          @attr name com.springhack.editor:windowContentOverlay
         */
         public static final int Theme_windowContentOverlay = 58;
         /**
@@ -18447,7 +18458,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:windowDisablePreview
+          @attr name com.springhack.editor:windowDisablePreview
         */
         public static final int Theme_windowDisablePreview = 64;
         /**
@@ -18459,7 +18470,7 @@ containing a value of this type.
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name android:windowFrame
+          @attr name com.springhack.editor:windowFrame
         */
         public static final int Theme_windowFrame = 53;
         /**
@@ -18475,7 +18486,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:windowFullscreen
+          @attr name com.springhack.editor:windowFullscreen
         */
         public static final int Theme_windowFullscreen = 55;
         /**
@@ -18491,7 +18502,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:windowIsFloating
+          @attr name com.springhack.editor:windowIsFloating
         */
         public static final int Theme_windowIsFloating = 56;
         /**
@@ -18507,7 +18518,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:windowIsTranslucent
+          @attr name com.springhack.editor:windowIsTranslucent
         */
         public static final int Theme_windowIsTranslucent = 57;
         /**
@@ -18528,7 +18539,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:windowNoDisplay
+          @attr name com.springhack.editor:windowNoDisplay
         */
         public static final int Theme_windowNoDisplay = 65;
         /**
@@ -18544,7 +18555,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:windowNoTitle
+          @attr name com.springhack.editor:windowNoTitle
         */
         public static final int Theme_windowNoTitle = 54;
         /**
@@ -18590,7 +18601,7 @@ containing a value of this type.
                  parts of the window. </td></tr>
 </table>
           <p>This is a private symbol.
-          @attr name android:windowSoftInputMode
+          @attr name com.springhack.editor:windowSoftInputMode
         */
         public static final int Theme_windowSoftInputMode = 63;
         /**
@@ -18602,7 +18613,7 @@ containing a value of this type.
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name android:windowTitleBackgroundStyle
+          @attr name com.springhack.editor:windowTitleBackgroundStyle
         */
         public static final int Theme_windowTitleBackgroundStyle = 61;
         /**
@@ -18620,7 +18631,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:windowTitleSize
+          @attr name com.springhack.editor:windowTitleSize
         */
         public static final int Theme_windowTitleSize = 59;
         /**
@@ -18632,7 +18643,7 @@ containing a value of this type.
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name android:windowTitleStyle
+          @attr name com.springhack.editor:windowTitleStyle
         */
         public static final int Theme_windowTitleStyle = 60;
         /**
@@ -18644,7 +18655,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name android:yesNoPreferenceStyle
+          @attr name com.springhack.editor:yesNoPreferenceStyle
         */
         public static final int Theme_yesNoPreferenceStyle = 116;
         /** Attributes that can be used with a ToggleButton.
@@ -18677,7 +18688,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:disabledAlpha
+          @attr name com.springhack.editor:disabledAlpha
         */
         public static final int ToggleButton_disabledAlpha = 0;
         /**
@@ -18693,7 +18704,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:textOff
+          @attr name com.springhack.editor:textOff
         */
         public static final int ToggleButton_textOff = 2;
         /**
@@ -18709,7 +18720,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:textOn
+          @attr name com.springhack.editor:textOn
         */
         public static final int ToggleButton_textOn = 1;
         /** Attributes that can be used with a TranslateAnimation.
@@ -18745,7 +18756,7 @@ some parent container.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android:fromXDelta
+          @attr name com.springhack.editor:fromXDelta
         */
         public static final int TranslateAnimation_fromXDelta = 0;
         /**
@@ -18762,7 +18773,7 @@ some parent container.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android:fromYDelta
+          @attr name com.springhack.editor:fromYDelta
         */
         public static final int TranslateAnimation_fromYDelta = 2;
         /**
@@ -18779,7 +18790,7 @@ some parent container.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android:toXDelta
+          @attr name com.springhack.editor:toXDelta
         */
         public static final int TranslateAnimation_toXDelta = 1;
         /**
@@ -18796,7 +18807,7 @@ some parent container.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android:toYDelta
+          @attr name com.springhack.editor:toYDelta
         */
         public static final int TranslateAnimation_toYDelta = 3;
         /** Attributes that can be used with a TwoLineListItem.
@@ -18828,7 +18839,7 @@ containing a value of this type.
                  This is the default mode</td></tr>
 <tr><td><code>twoLine</code></td><td>3</td><td> Always show both lines. </td></tr>
 </table>
-          @attr name android:mode
+          @attr name com.springhack.editor:mode
         */
         public static final int TwoLineListItem_mode = 0;
         /** Attributes that can be used with a VerticalSlider_Layout.
@@ -18855,7 +18866,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android:layout_scale
+          @attr name com.springhack.editor:layout_scale
         */
         public static final int VerticalSlider_Layout_layout_scale = 0;
         /**  Attributes that can be used with {@link android.view.View} or
@@ -19009,7 +19020,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
           <p>This is a private symbol.
-          @attr name android:background
+          @attr name com.springhack.editor:background
         */
         public static final int View_background = 4;
         /**
@@ -19025,7 +19036,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:clickable
+          @attr name com.springhack.editor:clickable
         */
         public static final int View_clickable = 30;
         /**
@@ -19043,7 +19054,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:contentDescription
+          @attr name com.springhack.editor:contentDescription
         */
         public static final int View_contentDescription = 38;
         /**
@@ -19067,7 +19078,7 @@ containing a value of this type.
                  color depth but uses more memory. </td></tr>
 </table>
           <p>This is a private symbol.
-          @attr name android:drawingCacheQuality
+          @attr name com.springhack.editor:drawingCacheQuality
         */
         public static final int View_drawingCacheQuality = 33;
         /**
@@ -19084,7 +19095,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:duplicateParentState
+          @attr name com.springhack.editor:duplicateParentState
         */
         public static final int View_duplicateParentState = 35;
         /**
@@ -19104,7 +19115,7 @@ containing a value of this type.
 <tr><td><code>vertical</code></td><td>0x00002000</td><td> Fades vertical edges only. </td></tr>
 </table>
           <p>This is a private symbol.
-          @attr name android:fadingEdge
+          @attr name com.springhack.editor:fadingEdge
         */
         public static final int View_fadingEdge = 24;
         /**
@@ -19122,7 +19133,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:fadingEdgeLength
+          @attr name com.springhack.editor:fadingEdgeLength
         */
         public static final int View_fadingEdgeLength = 25;
         /**
@@ -19141,7 +19152,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:fitsSystemWindows
+          @attr name com.springhack.editor:fitsSystemWindows
         */
         public static final int View_fitsSystemWindows = 13;
         /**
@@ -19162,7 +19173,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:focusable
+          @attr name com.springhack.editor:focusable
         */
         public static final int View_focusable = 10;
         /**
@@ -19180,7 +19191,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:focusableInTouchMode
+          @attr name com.springhack.editor:focusableInTouchMode
         */
         public static final int View_focusableInTouchMode = 11;
         /**
@@ -19197,7 +19208,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:hapticFeedbackEnabled
+          @attr name com.springhack.editor:hapticFeedbackEnabled
         */
         public static final int View_hapticFeedbackEnabled = 37;
         /**
@@ -19217,7 +19228,7 @@ containing a value of this type.
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name android:id
+          @attr name com.springhack.editor:id
         */
         public static final int View_id = 0;
         /**
@@ -19237,7 +19248,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:isScrollContainer
+          @attr name com.springhack.editor:isScrollContainer
         */
         public static final int View_isScrollContainer = 16;
         /**
@@ -19254,7 +19265,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:keepScreenOn
+          @attr name com.springhack.editor:keepScreenOn
         */
         public static final int View_keepScreenOn = 34;
         /**
@@ -19270,7 +19281,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:longClickable
+          @attr name com.springhack.editor:longClickable
         */
         public static final int View_longClickable = 31;
         /**
@@ -19290,7 +19301,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:minHeight
+          @attr name com.springhack.editor:minHeight
         */
         public static final int View_minHeight = 41;
         /**
@@ -19310,7 +19321,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:minWidth
+          @attr name com.springhack.editor:minWidth
         */
         public static final int View_minWidth = 40;
         /**
@@ -19327,7 +19338,7 @@ containing a value of this type.
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name android:nextFocusDown
+          @attr name com.springhack.editor:nextFocusDown
         */
         public static final int View_nextFocusDown = 29;
         /**
@@ -19344,7 +19355,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name android:nextFocusLeft
+          @attr name com.springhack.editor:nextFocusLeft
         */
         public static final int View_nextFocusLeft = 26;
         /**
@@ -19361,7 +19372,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name android:nextFocusRight
+          @attr name com.springhack.editor:nextFocusRight
         */
         public static final int View_nextFocusRight = 27;
         /**
@@ -19378,7 +19389,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name android:nextFocusUp
+          @attr name com.springhack.editor:nextFocusUp
         */
         public static final int View_nextFocusUp = 28;
         /**
@@ -19399,7 +19410,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:onClick
+          @attr name com.springhack.editor:onClick
         */
         public static final int View_onClick = 39;
         /**
@@ -19422,7 +19433,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:padding
+          @attr name com.springhack.editor:padding
         */
         public static final int View_padding = 5;
         /**
@@ -19440,7 +19451,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:paddingBottom
+          @attr name com.springhack.editor:paddingBottom
         */
         public static final int View_paddingBottom = 9;
         /**
@@ -19458,7 +19469,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:paddingLeft
+          @attr name com.springhack.editor:paddingLeft
         */
         public static final int View_paddingLeft = 6;
         /**
@@ -19476,7 +19487,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:paddingRight
+          @attr name com.springhack.editor:paddingRight
         */
         public static final int View_paddingRight = 8;
         /**
@@ -19494,7 +19505,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:paddingTop
+          @attr name com.springhack.editor:paddingTop
         */
         public static final int View_paddingTop = 7;
         /**
@@ -19515,7 +19526,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:saveEnabled
+          @attr name com.springhack.editor:saveEnabled
         */
         public static final int View_saveEnabled = 32;
         /**
@@ -19533,7 +19544,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:scrollX
+          @attr name com.springhack.editor:scrollX
         */
         public static final int View_scrollX = 2;
         /**
@@ -19551,7 +19562,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:scrollY
+          @attr name com.springhack.editor:scrollY
         */
         public static final int View_scrollY = 3;
         /**
@@ -19567,7 +19578,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:scrollbarAlwaysDrawHorizontalTrack
+          @attr name com.springhack.editor:scrollbarAlwaysDrawHorizontalTrack
         */
         public static final int View_scrollbarAlwaysDrawHorizontalTrack = 22;
         /**
@@ -19583,7 +19594,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:scrollbarAlwaysDrawVerticalTrack
+          @attr name com.springhack.editor:scrollbarAlwaysDrawVerticalTrack
         */
         public static final int View_scrollbarAlwaysDrawVerticalTrack = 23;
         /**
@@ -19601,7 +19612,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:scrollbarSize
+          @attr name com.springhack.editor:scrollbarSize
         */
         public static final int View_scrollbarSize = 17;
         /**
@@ -19629,7 +19640,7 @@ containing a value of this type.
 <tr><td><code>outsideInset</code></td><td>0x03000000</td><td> Edge of the view and inset </td></tr>
 </table>
           <p>This is a private symbol.
-          @attr name android:scrollbarStyle
+          @attr name com.springhack.editor:scrollbarStyle
         */
         public static final int View_scrollbarStyle = 15;
         /**
@@ -19641,7 +19652,7 @@ containing a value of this type.
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name android:scrollbarThumbHorizontal
+          @attr name com.springhack.editor:scrollbarThumbHorizontal
         */
         public static final int View_scrollbarThumbHorizontal = 18;
         /**
@@ -19653,7 +19664,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name android:scrollbarThumbVertical
+          @attr name com.springhack.editor:scrollbarThumbVertical
         */
         public static final int View_scrollbarThumbVertical = 19;
         /**
@@ -19665,7 +19676,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name android:scrollbarTrackHorizontal
+          @attr name com.springhack.editor:scrollbarTrackHorizontal
         */
         public static final int View_scrollbarTrackHorizontal = 20;
         /**
@@ -19677,7 +19688,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name android:scrollbarTrackVertical
+          @attr name com.springhack.editor:scrollbarTrackVertical
         */
         public static final int View_scrollbarTrackVertical = 21;
         /**
@@ -19697,7 +19708,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>vertical</code></td><td>0x00000200</td><td> Displays vertical scrollbar only. </td></tr>
 </table>
           <p>This is a private symbol.
-          @attr name android:scrollbars
+          @attr name com.springhack.editor:scrollbars
         */
         public static final int View_scrollbars = 14;
         /**
@@ -19714,7 +19725,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:soundEffectsEnabled
+          @attr name com.springhack.editor:soundEffectsEnabled
         */
         public static final int View_soundEffectsEnabled = 36;
         /**
@@ -19735,7 +19746,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:tag
+          @attr name com.springhack.editor:tag
         */
         public static final int View_tag = 1;
         /**
@@ -19755,7 +19766,7 @@ containing a value of this type.
 <tr><td><code>gone</code></td><td>2</td><td> Completely hidden, as if the view had not been added. </td></tr>
 </table>
           <p>This is a private symbol.
-          @attr name android:visibility
+          @attr name com.springhack.editor:visibility
         */
         public static final int View_visibility = 12;
         /** Attributes that can be used with a ViewAnimator.
@@ -19780,7 +19791,7 @@ containing a value of this type.
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name android:inAnimation
+          @attr name com.springhack.editor:inAnimation
         */
         public static final int ViewAnimator_inAnimation = 0;
         /**
@@ -19790,7 +19801,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name android:outAnimation
+          @attr name com.springhack.editor:outAnimation
         */
         public static final int ViewAnimator_outAnimation = 1;
         /** Attributes that can be used with a ViewDrawableStates.
@@ -19828,7 +19839,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:state_enabled
+          @attr name com.springhack.editor:state_enabled
         */
         public static final int ViewDrawableStates_state_enabled = 2;
         /**
@@ -19844,7 +19855,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:state_focused
+          @attr name com.springhack.editor:state_focused
         */
         public static final int ViewDrawableStates_state_focused = 0;
         /**
@@ -19860,7 +19871,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:state_pressed
+          @attr name com.springhack.editor:state_pressed
         */
         public static final int ViewDrawableStates_state_pressed = 4;
         /**
@@ -19876,7 +19887,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:state_selected
+          @attr name com.springhack.editor:state_selected
         */
         public static final int ViewDrawableStates_state_selected = 3;
         /**
@@ -19892,7 +19903,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:state_window_focused
+          @attr name com.springhack.editor:state_window_focused
         */
         public static final int ViewDrawableStates_state_window_focused = 1;
         /** Attributes that can be used with a ViewFlipper.
@@ -19919,7 +19930,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android:flipInterval
+          @attr name com.springhack.editor:flipInterval
         */
         public static final int ViewFlipper_flipInterval = 0;
         /**  Attributes that can be used with a {@link android.view.ViewGroup} or any
@@ -19973,7 +19984,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:addStatesFromChildren
+          @attr name com.springhack.editor:addStatesFromChildren
         */
         public static final int ViewGroup_addStatesFromChildren = 6;
         /**
@@ -19990,7 +20001,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:alwaysDrawnWithCache
+          @attr name com.springhack.editor:alwaysDrawnWithCache
         */
         public static final int ViewGroup_alwaysDrawnWithCache = 5;
         /**
@@ -20009,7 +20020,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:animationCache
+          @attr name com.springhack.editor:animationCache
         */
         public static final int ViewGroup_animationCache = 3;
         /**
@@ -20029,7 +20040,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:clipChildren
+          @attr name com.springhack.editor:clipChildren
         */
         public static final int ViewGroup_clipChildren = 0;
         /**
@@ -20046,7 +20057,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:clipToPadding
+          @attr name com.springhack.editor:clipToPadding
         */
         public static final int ViewGroup_clipToPadding = 1;
         /**
@@ -20067,7 +20078,7 @@ containing a value of this type.
 <tr><td><code>blocksDescendants</code></td><td>2</td><td> The ViewGroup will block its descendants from receiving focus. </td></tr>
 </table>
           <p>This is a private symbol.
-          @attr name android:descendantFocusability
+          @attr name com.springhack.editor:descendantFocusability
         */
         public static final int ViewGroup_descendantFocusability = 7;
         /**
@@ -20080,7 +20091,7 @@ containing a value of this type.
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name android:layoutAnimation
+          @attr name com.springhack.editor:layoutAnimation
         */
         public static final int ViewGroup_layoutAnimation = 2;
         /**
@@ -20106,7 +20117,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>all</code></td><td>0x3</td><td> The drawing cache is always persisted. </td></tr>
 </table>
           <p>This is a private symbol.
-          @attr name android:persistentDrawingCache
+          @attr name com.springhack.editor:persistentDrawingCache
         */
         public static final int ViewGroup_persistentDrawingCache = 4;
         /**  This is the basic set of layout attributes that are common to all
@@ -20156,7 +20167,7 @@ containing a value of this type.
 <tr><td><code>wrap_content</code></td><td>-2</td><td> The view should be only big enough to enclose its content (plus padding). </td></tr>
 </table>
           <p>This is a private symbol.
-          @attr name android:layout_height
+          @attr name com.springhack.editor:layout_height
         */
         public static final int ViewGroup_Layout_layout_height = 1;
         /**
@@ -20186,7 +20197,7 @@ containing a value of this type.
 <tr><td><code>wrap_content</code></td><td>-2</td><td> The view should be only big enough to enclose its content (plus padding). </td></tr>
 </table>
           <p>This is a private symbol.
-          @attr name android:layout_width
+          @attr name com.springhack.editor:layout_width
         */
         public static final int ViewGroup_Layout_layout_width = 0;
         /**  This is the basic set of layout attributes for layout managers that
@@ -20249,7 +20260,7 @@ containing a value of this type.
 <tr><td><code>wrap_content</code></td><td>-2</td><td> The view should be only big enough to enclose its content (plus padding). </td></tr>
 </table>
           <p>This is a private symbol.
-          @attr name android:layout_height
+          @attr name com.springhack.editor:layout_height
         */
         public static final int ViewGroup_MarginLayout_layout_height = 1;
         /**
@@ -20268,7 +20279,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:layout_margin
+          @attr name com.springhack.editor:layout_margin
         */
         public static final int ViewGroup_MarginLayout_layout_margin = 2;
         /**
@@ -20287,7 +20298,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:layout_marginBottom
+          @attr name com.springhack.editor:layout_marginBottom
         */
         public static final int ViewGroup_MarginLayout_layout_marginBottom = 6;
         /**
@@ -20306,7 +20317,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:layout_marginLeft
+          @attr name com.springhack.editor:layout_marginLeft
         */
         public static final int ViewGroup_MarginLayout_layout_marginLeft = 3;
         /**
@@ -20325,7 +20336,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:layout_marginRight
+          @attr name com.springhack.editor:layout_marginRight
         */
         public static final int ViewGroup_MarginLayout_layout_marginRight = 5;
         /**
@@ -20344,7 +20355,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:layout_marginTop
+          @attr name com.springhack.editor:layout_marginTop
         */
         public static final int ViewGroup_MarginLayout_layout_marginTop = 4;
         /**
@@ -20374,7 +20385,7 @@ containing a value of this type.
 <tr><td><code>wrap_content</code></td><td>-2</td><td> The view should be only big enough to enclose its content (plus padding). </td></tr>
 </table>
           <p>This is a private symbol.
-          @attr name android:layout_width
+          @attr name com.springhack.editor:layout_width
         */
         public static final int ViewGroup_MarginLayout_layout_width = 0;
         /**  A {@link android.view.ViewStub} lets you lazily include other XML layouts
@@ -20403,7 +20414,7 @@ containing a value of this type.
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name android:inflatedId
+          @attr name com.springhack.editor:inflatedId
         */
         public static final int ViewStub_inflatedId = 1;
         /**
@@ -20417,7 +20428,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name android:layout
+          @attr name com.springhack.editor:layout
         */
         public static final int ViewStub_layout = 0;
         /** Attributes that can be used with a ViewSwitcher.
@@ -20457,7 +20468,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>alarm</code></td><td>4</td><td></td></tr>
 </table>
           <p>This is a private symbol.
-          @attr name android:streamType
+          @attr name com.springhack.editor:streamType
         */
         public static final int VolumePreference_streamType = 0;
         /**  The set of attributes that describe a Windows's theme. 
@@ -20520,7 +20531,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:backgroundDimAmount
+          @attr name com.springhack.editor:backgroundDimAmount
         */
         public static final int Window_backgroundDimAmount = 0;
         /**
@@ -20538,7 +20549,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:backgroundDimEnabled
+          @attr name com.springhack.editor:backgroundDimEnabled
         */
         public static final int Window_backgroundDimEnabled = 1;
         /**
@@ -20552,7 +20563,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
           <p>This is a private symbol.
-          @attr name android:textColor
+          @attr name com.springhack.editor:textColor
         */
         public static final int Window_textColor = 13;
         /**
@@ -20567,7 +20578,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name android:windowAnimationStyle
+          @attr name com.springhack.editor:windowAnimationStyle
         */
         public static final int Window_windowAnimationStyle = 9;
         /**
@@ -20593,7 +20604,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name android:windowBackground
+          @attr name com.springhack.editor:windowBackground
         */
         public static final int Window_windowBackground = 2;
         /**
@@ -20606,7 +20617,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name android:windowContentOverlay
+          @attr name com.springhack.editor:windowContentOverlay
         */
         public static final int Window_windowContentOverlay = 8;
         /**
@@ -20625,7 +20636,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:windowDisablePreview
+          @attr name com.springhack.editor:windowDisablePreview
         */
         public static final int Window_windowDisablePreview = 11;
         /**
@@ -20637,7 +20648,7 @@ containing a value of this type.
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name android:windowFrame
+          @attr name com.springhack.editor:windowFrame
         */
         public static final int Window_windowFrame = 3;
         /**
@@ -20653,7 +20664,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:windowFullscreen
+          @attr name com.springhack.editor:windowFullscreen
         */
         public static final int Window_windowFullscreen = 5;
         /**
@@ -20669,7 +20680,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:windowIsFloating
+          @attr name com.springhack.editor:windowIsFloating
         */
         public static final int Window_windowIsFloating = 6;
         /**
@@ -20685,7 +20696,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:windowIsTranslucent
+          @attr name com.springhack.editor:windowIsTranslucent
         */
         public static final int Window_windowIsTranslucent = 7;
         /**
@@ -20706,7 +20717,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:windowNoDisplay
+          @attr name com.springhack.editor:windowNoDisplay
         */
         public static final int Window_windowNoDisplay = 12;
         /**
@@ -20722,7 +20733,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:windowNoTitle
+          @attr name com.springhack.editor:windowNoTitle
         */
         public static final int Window_windowNoTitle = 4;
         /**
@@ -20768,7 +20779,7 @@ containing a value of this type.
                  parts of the window. </td></tr>
 </table>
           <p>This is a private symbol.
-          @attr name android:windowSoftInputMode
+          @attr name com.springhack.editor:windowSoftInputMode
         */
         public static final int Window_windowSoftInputMode = 10;
         /**  Window animation class attributes. 
@@ -20824,7 +20835,7 @@ containing a value of this type.
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name android:activityCloseEnterAnimation
+          @attr name com.springhack.editor:activityCloseEnterAnimation
         */
         public static final int WindowAnimation_activityCloseEnterAnimation = 6;
         /**
@@ -20834,7 +20845,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name android:activityCloseExitAnimation
+          @attr name com.springhack.editor:activityCloseExitAnimation
         */
         public static final int WindowAnimation_activityCloseExitAnimation = 7;
         /**
@@ -20844,7 +20855,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name android:activityOpenEnterAnimation
+          @attr name com.springhack.editor:activityOpenEnterAnimation
         */
         public static final int WindowAnimation_activityOpenEnterAnimation = 4;
         /**
@@ -20854,7 +20865,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name android:activityOpenExitAnimation
+          @attr name com.springhack.editor:activityOpenExitAnimation
         */
         public static final int WindowAnimation_activityOpenExitAnimation = 5;
         /**
@@ -20864,7 +20875,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name android:taskCloseEnterAnimation
+          @attr name com.springhack.editor:taskCloseEnterAnimation
         */
         public static final int WindowAnimation_taskCloseEnterAnimation = 10;
         /**
@@ -20874,7 +20885,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name android:taskCloseExitAnimation
+          @attr name com.springhack.editor:taskCloseExitAnimation
         */
         public static final int WindowAnimation_taskCloseExitAnimation = 11;
         /**
@@ -20884,7 +20895,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name android:taskOpenEnterAnimation
+          @attr name com.springhack.editor:taskOpenEnterAnimation
         */
         public static final int WindowAnimation_taskOpenEnterAnimation = 8;
         /**
@@ -20894,7 +20905,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name android:taskOpenExitAnimation
+          @attr name com.springhack.editor:taskOpenExitAnimation
         */
         public static final int WindowAnimation_taskOpenExitAnimation = 9;
         /**
@@ -20904,7 +20915,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name android:taskToBackEnterAnimation
+          @attr name com.springhack.editor:taskToBackEnterAnimation
         */
         public static final int WindowAnimation_taskToBackEnterAnimation = 14;
         /**
@@ -20914,7 +20925,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name android:taskToBackExitAnimation
+          @attr name com.springhack.editor:taskToBackExitAnimation
         */
         public static final int WindowAnimation_taskToBackExitAnimation = 15;
         /**
@@ -20924,7 +20935,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name android:taskToFrontEnterAnimation
+          @attr name com.springhack.editor:taskToFrontEnterAnimation
         */
         public static final int WindowAnimation_taskToFrontEnterAnimation = 12;
         /**
@@ -20934,7 +20945,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name android:taskToFrontExitAnimation
+          @attr name com.springhack.editor:taskToFrontExitAnimation
         */
         public static final int WindowAnimation_taskToFrontExitAnimation = 13;
         /**
@@ -20946,7 +20957,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name android:windowEnterAnimation
+          @attr name com.springhack.editor:windowEnterAnimation
         */
         public static final int WindowAnimation_windowEnterAnimation = 0;
         /**
@@ -20958,7 +20969,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name android:windowExitAnimation
+          @attr name com.springhack.editor:windowExitAnimation
         */
         public static final int WindowAnimation_windowExitAnimation = 1;
         /**
@@ -20970,7 +20981,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name android:windowHideAnimation
+          @attr name com.springhack.editor:windowHideAnimation
         */
         public static final int WindowAnimation_windowHideAnimation = 3;
         /**
@@ -20982,7 +20993,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name android:windowShowAnimation
+          @attr name com.springhack.editor:windowShowAnimation
         */
         public static final int WindowAnimation_windowShowAnimation = 2;
     };

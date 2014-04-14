@@ -14,13 +14,13 @@
     <string name="save_changes">保存改动?</string>
     <string name="save">保存</string>
     <string name="filename_is_empty">文件名不能为空!</string>
-    <string name="new_filename">新标签</string>
+    <string name="new_filename">新源码</string>
     <string name="highlight">高亮与色彩方案</string>
     <string name="search_replace">查找/替换</string>
     <string name="options">选项</string>
     <string name="preferences">参数设置</string>
     <string name="saveas">另存为</string>
-    <string name="reopen">重新打开</string>
+    <string name="reopen">最近的源码</string>
     <string name="history">最近打开的文件...</string>
     <string name="file_not_exists">文件不存在!</string>
     <string name="replace">替换</string>

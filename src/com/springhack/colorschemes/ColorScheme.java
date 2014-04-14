@@ -27,28 +27,28 @@ import android.content.SharedPreferences;
 
 public class ColorScheme
 {
-    private final static String FONT_COLOR = "#000000";
+    private final static String FONT_COLOR = "#008800";
     public static String color_font = FONT_COLOR; //文字颜色
     
-    private final static String BACKGROUP_COLOR = "#ffffff";
+    private final static String BACKGROUP_COLOR = "#000000";
     public static String color_backgroup = BACKGROUP_COLOR; //背景颜色
     
-    private final static String STRING_COLOR = "#008800";
+    private final static String STRING_COLOR = "#FF0000";
     public static String color_string = STRING_COLOR; //string content
     
-    private final static String KEYWORD_COLOR = "#000088";
+    private final static String KEYWORD_COLOR = "#00FF00";
     public static String color_keyword = KEYWORD_COLOR; //keyword
     
-    private final static String COMMENT_COLOR = "#3F7F5F";
+    private final static String COMMENT_COLOR = "#888888";
     public static String color_comment = COMMENT_COLOR; //comment
     
-    private final static String TAG_COLOR = "#800080";
+    private final static String TAG_COLOR = "#FF00FF";
     public static String color_tag = TAG_COLOR; //a markup tag name
     
-    private final static String ATTR_NAME_COLOR = "#FF0000";
+    private final static String ATTR_NAME_COLOR = "#0000FF";
     public static String color_attr_name = ATTR_NAME_COLOR; //attribute name
     
-    private final static String FUNCTION_COLOR = "#000080";
+    private final static String FUNCTION_COLOR = "#0000FF";
     public static String color_function = FUNCTION_COLOR; //html or xml tag color
     
     private static ArrayList<SchemeTable> schemeTables = new ArrayList<SchemeTable>();

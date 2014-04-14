@@ -2,14 +2,11 @@
 cd $1
 busybox mkdir home >> /dev/zero
 busybox clear
-for tar in /sdcard/*.tar.gz
-do
-busybox tar -C $OI/.. -xvf $tar
-rm $tar
-done
+busybox chmod 777 $OI/../init
+$OI/../init
 busybox clear
-#Write your init code here!
-busybox echo "Android OIDE 2.3.2"
+#Write your initial code in file 'init'!
+busybox echo "Android OIDE 2.6.0"
 busybox echo "Make by SpringHack"
 
 

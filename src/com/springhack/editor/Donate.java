@@ -24,7 +24,7 @@ import android.webkit.WebView;
 public class Donate extends Activity
 {
     //private String html_url = "file:///android_asset/donate.html";
-    private String html_url = "http://www.sksks.tk/";
+    private String html_url = "http://sks.at.vc/";
     
     @Override
     protected void onCreate(Bundle savedInstanceState)
@@ -37,7 +37,7 @@ public class Donate extends Activity
     
     public static Intent getWebIntent()
     {
-        Uri uri = Uri.parse("http://www.sksks.tk/");
+        Uri uri = Uri.parse("http://sks.at.vc/");
         Intent intent = new Intent(Intent.ACTION_VIEW, uri);
         //startActivity(intent);
         return intent;
